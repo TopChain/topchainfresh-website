@@ -1,0 +1,27 @@
+name: Refresh Real Family published data
+on:
+  schedule:
+    - cron: '42 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: real-family-published-data
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get verified data from independent repository
+        run: |
+          curl --fail --location --retry 3 https://raw.githubusercontent.com/TopChain/RealFamily/main/data/latest.json --output /tmp/real-family.json
+          python3 -c "import json; d=json.load(open('/tmp/real-family.json')); assert len(d.get('countries', {})) == 10 and len(d.get('ai', [])) == 10"
+          cp /tmp/real-family.json real-family/data/latest.json
+      - name: Publish source update
+        run: |
+          git config user.name 'Real Family updater'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add real-family/data/latest.json
+          git diff --cached --quiet || git commit -m 'Refresh Real Family news, markets and research'
+          git push
