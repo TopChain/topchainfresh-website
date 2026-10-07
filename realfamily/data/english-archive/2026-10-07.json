@@ -11,7 +11,8 @@
       "notes": "Adjective. Common pattern: ambivalent about something. It means mixed feelings, rather than simply having no opinion.",
       "conversation": "A: Are you going to take the new role?\nB: I am still ambivalent. It is a great opportunity, but I would miss working with this team.",
       "exercise": "Describe a decision you feel both positive and negative about. Explain each side.",
-      "id": "2026-10-07-1"
+      "id": "2026-10-07-1",
+      "illustration": "assets/english/2026-10-07/1.png"
     },
     {
       "image": "vocabulary",
@@ -21,7 +22,8 @@
       "notes": "Adjective. Common combinations: a discerning reader, customer or eye. Usually complimentary; it does not mean difficult to please for no reason.",
       "conversation": "A: How do you choose which reviews to trust?\nB: I try to be discerning. I look for specific examples rather than just a star rating.",
       "exercise": "Describe how a discerning shopper would compare two similar products.",
-      "id": "2026-10-07-2"
+      "id": "2026-10-07-2",
+      "illustration": "assets/english/2026-10-07/2.png"
     },
     {
       "image": "phrasal",
@@ -31,7 +33,8 @@
       "notes": "Separable: iron out the details / iron the details out. With a pronoun, say iron them out. Often used for practical issues, rather than fundamental conflicts.",
       "conversation": "A: Is the agreement ready to sign?\nB: Almost. We need to iron out the delivery dates first.",
       "exercise": "Name two practical details that a team might need to iron out before an event.",
-      "id": "2026-10-07-3"
+      "id": "2026-10-07-3",
+      "illustration": "assets/english/2026-10-07/3.png"
     },
     {
       "image": "phrasal",
@@ -41,7 +44,8 @@
       "notes": "Separable: flesh out the plan / flesh the plan out / flesh it out. Do not confuse it with flush out, which means force something hidden into the open.",
       "conversation": "A: What do you think of my first draft?\nB: The central idea is strong. I would flesh out the section on how we will measure success.",
       "exercise": "Ask a colleague to add two specific kinds of detail to an outline.",
-      "id": "2026-10-07-4"
+      "id": "2026-10-07-4",
+      "illustration": "assets/english/2026-10-07/4.png"
     },
     {
       "image": "idiom",
@@ -51,7 +55,8 @@
       "notes": "Informal. Often used as advice or criticism: Read the room. That direct command can sound sharp; soften it when giving feedback.",
       "conversation": "A: Why did you change the subject?\nB: Everyone looked uncomfortable. I was trying to read the room.",
       "exercise": "Describe a situation where noticing the mood would change how you start a conversation.",
-      "id": "2026-10-07-5"
+      "id": "2026-10-07-5",
+      "illustration": "assets/english/2026-10-07/5.png"
     },
     {
       "image": "idiom",
@@ -61,7 +66,8 @@
       "notes": "Informal, common in business. Usually followed by context about what improves. It can sound vague unless you name the outcome you care about.",
       "conversation": "A: Which improvement should we prioritize?\nB: Reducing wait times. That is most likely to move the needle on customer satisfaction.",
       "exercise": "Use the expression while naming a concrete result, such as completion rate or customer satisfaction.",
-      "id": "2026-10-07-6"
+      "id": "2026-10-07-6",
+      "illustration": "assets/english/2026-10-07/6.png"
     },
     {
       "image": "life",
@@ -71,7 +77,8 @@
       "notes": "Could use expresses a current need or wish; a hand means help. Add a specific task so the other person knows what to do.",
       "conversation": "A: You look busy. Everything okay?\nB: Yes, but I could use a hand setting up the chairs.\nA: Of course. Where would you like them?",
       "exercise": "Make a friendly request for help, adding a specific task and an easy way to respond.",
-      "id": "2026-10-07-7"
+      "id": "2026-10-07-7",
+      "illustration": "assets/english/2026-10-07/7.png"
     },
     {
       "image": "grammar",
@@ -81,7 +88,8 @@
       "notes": "Might + base verb signals possibility. Seems + adjective or seems to + verb reports an impression. Tends to + verb describes a usual pattern, not an absolute rule. Do not hedge a verified fact so much that it becomes unclear.",
       "conversation": "A: Will the new schedule solve the problem?\nB: It might help. Our busiest periods tend to fall just before lunch, so we should test it then.",
       "exercise": "Rewrite “This always works” as a careful statement that explains when it may work and what still needs testing.",
-      "id": "2026-10-07-8"
+      "id": "2026-10-07-8",
+      "illustration": "assets/english/2026-10-07/8.png"
     },
     {
       "image": "quote",
@@ -91,7 +99,8 @@
       "notes": "Original Real Family reflection. Open a door is a metaphor for creating an opportunity. This is not attributed to a historical author.",
       "conversation": "A: Did you tell her what she should do?\nB: I asked what outcome she wanted first. That helped us see a different option.",
       "exercise": "Paraphrase the reflection in everyday language, then give a real example.",
-      "id": "2026-10-07-9"
+      "id": "2026-10-07-9",
+      "illustration": "assets/english/2026-10-07/9.png"
     },
     {
       "image": "small-talk",
@@ -101,9 +110,17 @@
       "notes": "Settling in focuses on becoming comfortable, rather than just arriving. Follow up on what the person chooses to share; avoid pressing for private details.",
       "conversation": "A: How are you settling in?\nB: Pretty well, thanks. I am still learning my way around.\nA: That takes a little time. Have you found a favorite coffee spot yet?\nB: Not yet. Any recommendations?",
       "exercise": "Practice a warm opening and one follow-up question that fits the answer, without turning the conversation into an interview.",
-      "id": "2026-10-07-10"
+      "id": "2026-10-07-10",
+      "illustration": "assets/english/2026-10-07/10.png"
     }
   ],
   "version": 4,
-  "published": "2026-10-07T07:03:47.714708+00:00"
+  "published": "2026-10-07T07:28:55.761806+00:00",
+  "revision": 2,
+  "cardSize": {
+    "width": 1320,
+    "height": 2868
+  },
+  "illustrationStyle": "Simple flat comic",
+  "firstPublished": "2026-10-07T07:03:47.714708+00:00"
 }

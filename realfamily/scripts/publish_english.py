@@ -1,5 +1,5 @@
 """Validate a newly authored edition against permanent history, then publish it."""
-import sys,json,pathlib,collections,datetime,zoneinfo,unicodedata
+import sys,json,pathlib,collections,datetime,zoneinfo,unicodedata,hashlib
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def norm(s):return ''.join(c for c in unicodedata.normalize('NFKC',s).casefold() if c.isalnum())
 def publish(date):
@@ -7,14 +7,22 @@ def publish(date):
  expected={'vocabulary':2,'phrasal':2,'idiom':2,'life':1,'grammar':1,'quote':1,'small-talk':1}
  assert collections.Counter(l['image'] for l in e['lessons'])==expected,'Wrong daily category counts'
  assert len({l['id'] for l in e['lessons']})==10,'Duplicate IDs'
- seen=set()
+ seen=set();past_images=set()
  for old in (p/'english-archive').glob('*.json'):
   if old==file:continue
-  for l in json.loads(old.read_text())['lessons']:seen.add(norm(l['title']))
+  for l in json.loads(old.read_text())['lessons']:
+   seen.add(norm(l['title']))
+   asset=ROOT/l.get('illustration','')
+   if asset.is_file():past_images.add(hashlib.sha256(asset.read_bytes()).hexdigest())
  for l in e['lessons']:
   for field in ['title','meaning','example','notes','conversation','exercise']:assert l.get(field),'Missing '+field
   key=norm(l['title']);assert key not in seen,'Repeated topic: '+l['title'];seen.add(key)
- e['version']=4;e['published']=e.get('published',datetime.datetime.now(datetime.timezone.utc).isoformat());file.write_text(json.dumps(e,ensure_ascii=False,indent=2)+'\n')
+ assert len({l.get('illustration') for l in e['lessons']})==10,'Each lesson needs a distinct illustration'
+ current_images=set()
+ for l in e['lessons']:
+  asset=ROOT/l.get('illustration','');assert asset.is_file() and 'assets/english/' in l['illustration'],'Missing topic illustration: '+l['title']
+  digest=hashlib.sha256(asset.read_bytes()).hexdigest();assert digest not in current_images|past_images,'Reused illustration: '+l['title'];current_images.add(digest)
+ e['cardSize']={'width':1320,'height':2868};e['version']=4;e['published']=e.get('published',datetime.datetime.now(datetime.timezone.utc).isoformat());file.write_text(json.dumps(e,ensure_ascii=False,indent=2)+'\n')
  history={'editions':[]}
  for old in sorted((p/'english-archive').glob('*.json')):
   edition=json.loads(old.read_text());history['editions'].append({'date':edition['date'],'topics':[{'image':l['image'],'title':l['title']} for l in edition['lessons']]})

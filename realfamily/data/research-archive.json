@@ -57,7 +57,9 @@
     "type": "research-article, Journal Article",
     "population": "Population and study limitations require full-text review",
     "discoveredDate": "2026-10-06",
-    "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
+    "discoveredAt": "2026-10-07T06:30:25.614894+00:00",
+    "visible": false,
+    "reviewNote": "Archived search result outside the everyday nutrition, activity and sleep scope."
   },
   {
     "title": "Precision-cut tumor slices: a biomimetic tool for accelerating oncological development from basic research to clinical translation",
@@ -67,7 +69,9 @@
     "type": "review-article, Review",
     "population": "Population and study limitations require full-text review",
     "discoveredDate": "2026-10-06",
-    "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
+    "discoveredAt": "2026-10-07T06:30:25.614894+00:00",
+    "visible": false,
+    "reviewNote": "Archived search result outside the everyday nutrition, activity and sleep scope."
   },
   {
     "title": "Does getting online help low-income adults eat better? Digital access and BMI-based nutritional imbalance in China",

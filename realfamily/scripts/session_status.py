@@ -16,3 +16,21 @@ def classify(now, regular, timezone):
         return 'Trading now'
     if timestamp<start:return 'Not yet open'
     return 'Closed'
+
+def analysis_gate(now, regular, timezone, bar_session):
+    """Release only at the first local hourly refresh strictly after session close."""
+    end=regular.get('end')
+    if not isinstance(end,(int,float)):
+        return {'analysisReady':False,'analysisStatus':'Exchange close time could not be verified.'}
+    local_close=dt.datetime.fromtimestamp(end,zoneinfo.ZoneInfo(timezone))
+    first_hour=local_close.replace(minute=0,second=0,microsecond=0)+dt.timedelta(hours=1)
+    gate={'analysisReady':False,'analysisEligibleAt':first_hour.astimezone(dt.timezone.utc).isoformat(),'sessionClosedAt':local_close.isoformat()}
+    if classify(now,regular,timezone)!='Closed':
+        gate['analysisStatus']='This market has not closed yet.'
+    elif bar_session!=local_close.date().isoformat():
+        gate['analysisStatus']='Awaiting the latest closed-session price data.'
+    elif now<first_hour:
+        gate['analysisStatus']='Market closed. Analysis is scheduled for the next hourly update.'
+    else:
+        gate.update(analysisReady=True,analysisStatus='Closed-session technical observation available.')
+    return gate

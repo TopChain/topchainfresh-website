@@ -1,6 +1,6 @@
 """Public-source refresh. No secrets, fabricated prices, or paid data access."""
 import concurrent.futures, datetime as dt, json, pathlib, urllib.request, urllib.parse, xml.etree.ElementTree as ET, zoneinfo, re
-from session_status import classify
+from session_status import classify, analysis_gate
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 DEST=ROOT/'data/latest.json'
@@ -62,8 +62,10 @@ def market_task(symbol,tz,close_time):
     provisional=local.date()==local_now.date() and market_status in ['Trading now','Lunch break','Not yet open']
     change=(close/previous-1)*100;ma20=sum(c for _,c in bars[-20:])/min(20,len(bars))
     direction='above' if close>ma20 else 'below'
+    gate=analysis_gate(NOW,regular,tz,local.date().isoformat())
     analysis=f'Rule-based observation (not AI): the latest daily bar changed {change:+.2f}% and sits {direction} its 20-session average ({ma20:,.2f}). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.'
-    return symbol,{'close':close,'change':change,'session':local.strftime('%Y-%m-%d'),'state':'Provisional daily bar' if provisional else 'Historical daily bar; finality unverified','updated':STAMP,'timezone':tz,'marketStatus':market_status,'regularSession':regular,'analysis':analysis,'source':url}
+    if not gate['analysisReady']:analysis=None
+    return symbol,{**gate,'close':close,'change':change,'session':local.strftime('%Y-%m-%d'),'state':'Provisional daily bar' if provisional else 'Historical daily bar; finality unverified','updated':STAMP,'timezone':tz,'marketStatus':market_status,'regularSession':regular,'analysis':analysis,'source':url}
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
     futures={pool.submit(market_task,s,t,c):s for t,c,symbols in markets for s in symbols}
     for future in concurrent.futures.as_completed(futures):
@@ -94,9 +96,9 @@ if data.get('daily',{}).get('date')!=DAILY_DATE:
 archive=ROOT/'data/english-archive'/f'{DAILY_DATE}.json'
 if archive.exists():
     current=json.loads(archive.read_text())
-    if data.get('english',{}).get('date')!=current['date'] or data.get('english',{}).get('version')!=4:
+    if data.get('english',{}).get('date')!=current['date'] or data.get('english',{}).get('version')!=4 or data.get('english',{}).get('revision')!=current.get('revision'):
         data['english']=current
-        data['daily']['englishUpdated']=current.get('published',STAMP)
+    data['daily']['englishUpdated']=current.get('published',STAMP)
 else:
     data['daily']['englishUpdated']=data.get('english',{}).get('published',data.get('daily',{}).get('englishUpdated'))
     data['status']['english']={'ok':False,'checked':STAMP,'error':'New daily edition awaiting authoring; previous edition retained with its original date.'}
