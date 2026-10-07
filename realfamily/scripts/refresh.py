@@ -16,56 +16,27 @@ def load_old():
     except Exception:return {'countries':{},'ai':[],'markets':{},'research':[],'status':{}}
 data=load_old()
 countries=[('US','United States'),('TW','Taiwan'),('GB','United Kingdom'),('JP','Japan'),('CN','China'),('IN','India'),('DE','Germany'),('FR','France'),('KR','South Korea'),('CA','Canada')]
-def news_task(item):
-    code,name=item
-    domains=['reuters.com','apnews.com','bbc.com','cnn.com','theguardian.com','nytimes.com','ft.com','aljazeera.com']
-    regional={'TW':['focustaiwan.tw','taipeitimes.com'],'JP':['japantimes.co.jp','english.kyodonews.net'],'IN':['thehindu.com','indianexpress.com'],'KR':['koreaherald.com','koreatimes.co.kr'],'CA':['cbc.ca','ctvnews.ca'],'DE':['dw.com'],'FR':['france24.com','lemonde.fr'],'CN':['scmp.com'],'US':['nbcnews.com','cbsnews.com'],'GB':['bbc.co.uk']}
-    domains+=regional.get(code,[])
-    if code=='AI':domains+=['theverge.com','techcrunch.com','arstechnica.com','wired.com','technologyreview.com']
-    query=('artificial intelligence' if code=='AI' else name)+' ('+' OR '.join('site:'+d for d in domains)+') when:1d'
-    url='https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':query,'hl':'en-US','gl':'US','ceid':'US:en'})
-    tree=ET.fromstring(get(url));rows=[];seen=set()
-    for node in tree.findall('.//item'):
-        title=node.findtext('title','');source=node.findtext('source','Unknown publisher');clean=title.rsplit(' - '+source,1)[0]
-        if clean.lower() in seen:continue
-        seen.add(clean.lower())
-        from email.utils import parsedate_to_datetime
-        published=parsedate_to_datetime(node.findtext('pubDate')).isoformat()
-        rows.append({'title':clean,'url':node.findtext('link'),'source':source,'published':published})
-        if len(rows)==(10 if code=='AI' else 3):break
-    if not rows:raise ValueError('Empty feed')
-    return code,rows
-with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-    futures={pool.submit(news_task,c):c[0] for c in countries+[('AI','AI')]}
-    successes=0
-    for future in concurrent.futures.as_completed(futures):
-        code=futures[future]
-        try:
-            key,rows=future.result()
-            if key=='AI':data['ai']=rows
-            else:data['countries'][key]=rows
-            data['status'][code]={'ok':True,'updated':STAMP};successes+=1
-        except Exception as e:data['status'][code]={'ok':False,'checked':STAMP,'error':str(e)[:160]}
-    if successes==11:data['newsUpdated']=STAMP
-    elif successes:data['newsPartialUpdated']=STAMP
+from news_sources import refresh as refresh_news
+from google_finance import quote as google_quote
+try:
+    news_rows=refresh_news(get,NOW)
+    for code,rows in news_rows.items():
+        if code=='AI':data['ai']=rows
+        else:data['countries'][code]=rows
+        data['status'][code]={'ok':bool(rows),'checked':STAMP,'count':len(rows)}
+    data['newsUpdated']=STAMP
+except Exception as e:
+    from news_sources import recent
+    for code in data['countries']:data['countries'][code]=[r for r in data['countries'][code] if r.get('freeAccessVerified') and recent(r.get('published'),NOW)]
+    data['ai']=[r for r in data['ai'] if r.get('freeAccessVerified') and recent(r.get('published'),NOW)]
+    data['status']['news']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
 
 # Latest daily bars can be incomplete; do not label them final before exchange close.
 markets=[('America/New_York','16:00',['^DJI','^IXIC','^GSPC','^SOX','^RUT']),('Asia/Shanghai','15:00',['000001.SS','399001.SZ','000300.SS','000688.SS','399006.SZ']),('Asia/Tokyo','15:30',['^N225','^TOPX']),('Asia/Kolkata','15:30',['^NSEI','^BSESN','^NSEBANK']),('Asia/Hong_Kong','16:00',['^HSI','^HSCE','HSTECH.HK']),('America/Toronto','16:00',['^GSPTSE','TX60.TS']),('Europe/London','16:30',['^FTSE','^FTMC','^FTAS']),('Europe/Paris','17:30',['^FCHI','^SBF120']),('Europe/Berlin','17:30',['^GDAXI','^MDAXI','^SDAXI','^TECDAX']),('Asia/Taipei','13:30',['^TWII','^TWOII']),('Asia/Seoul','15:30',['^KS11','^KQ11']),('Australia/Sydney','16:00',['^AXJO','^AORD']),('Asia/Riyadh','15:00',['^TASI.SR']),('Europe/Zurich','17:30',['^SSMI','^SPI'])]
 def market_task(symbol,tz,close_time):
-    url='https://query1.finance.yahoo.com/v8/finance/chart/'+urllib.parse.quote(symbol,safe='')+'?range=3mo&interval=1d'
-    chart=json.loads(get(url))['chart']['result'][0];quotes=chart['indicators']['quote'][0];times=chart['timestamp']
-    bars=[(t,c) for t,c in zip(times,quotes['close']) if c is not None]
-    if len(bars)<2:raise ValueError('Insufficient history')
-    timestamp,close=bars[-1];previous=bars[-2][1];local=dt.datetime.fromtimestamp(timestamp,zoneinfo.ZoneInfo(tz));local_now=NOW.astimezone(zoneinfo.ZoneInfo(tz))
-    regular=chart.get('meta',{}).get('currentTradingPeriod',{}).get('regular',{})
-    market_status=classify(NOW,regular,tz)
-    provisional=local.date()==local_now.date() and market_status in ['Trading now','Lunch break','Not yet open']
-    change=(close/previous-1)*100;ma20=sum(c for _,c in bars[-20:])/min(20,len(bars))
-    direction='above' if close>ma20 else 'below'
-    gate=analysis_gate(NOW,regular,tz,local.date().isoformat())
-    analysis=f'Rule-based observation (not AI): the latest daily bar changed {change:+.2f}% and sits {direction} its 20-session average ({ma20:,.2f}). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.'
-    if not gate['analysisReady']:analysis=None
-    return symbol,{**gate,'close':close,'change':change,'session':local.strftime('%Y-%m-%d'),'state':'Provisional daily bar' if provisional else 'Historical daily bar; finality unverified','updated':STAMP,'timezone':tz,'marketStatus':market_status,'regularSession':regular,'analysis':analysis,'source':url}
+    return symbol,google_quote(symbol,tz,get,NOW)
+# Never relabel retained Yahoo quotes as Google Finance data.
+data['markets']={k:v for k,v in data['markets'].items() if v.get('provider')=='Google Finance'}
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
     futures={pool.submit(market_task,s,t,c):s for t,c,symbols in markets for s in symbols}
     for future in concurrent.futures.as_completed(futures):
