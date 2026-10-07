@@ -1,0 +1,1198 @@
+const FAMILY_RECIPES=[
+  {
+    "cuisine": "American",
+    "meal": "Main",
+    "title": "Lemon herb chicken",
+    "serves": 6,
+    "prep": 15,
+    "cook": 40,
+    "ingredients": [
+      {
+        "name": "Boneless chicken thighs",
+        "amount": "1.2 kg"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "60 mL"
+      },
+      {
+        "name": "Olive oil",
+        "amount": "45 mL"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "6 cloves (18 g)"
+      },
+      {
+        "name": "Dried oregano",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black pepper",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Broccoli florets",
+        "amount": "900 g"
+      },
+      {
+        "name": "Potatoes, 2 cm cubes",
+        "amount": "900 g"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 425°F / 220°C. Line two large baking trays; six portions need room to roast rather than steam.",
+      "Mix lemon juice, oil, garlic, oregano, salt and pepper. Pat chicken dry and coat it with half the mixture; do not wash raw chicken.",
+      "Toss potatoes and broccoli with the remaining mixture. Roast potatoes for 10 minutes first, then add chicken and broccoli in a single layer on the trays.",
+      "Roast another 20–30 minutes, turning vegetables halfway. Check the thickest chicken pieces with a thermometer: they must reach 165°F / 74°C.",
+      "Rest chicken for 5 minutes. Divide chicken and vegetables among six plates and spoon over the cooked pan juices."
+    ],
+    "allergens": "Soy-free and dairy-free as written",
+    "note": "Use separate utensils for raw chicken and ready-to-eat food. Timing depends on the thickness of the chicken.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Lemon%20herb%20chicken%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Roasted_chicken_leg_piece-MB20.jpg/960px-Roasted_chicken_leg_piece-MB20.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Roasted_chicken_leg_piece-MB20.jpg",
+      "author": "Rajeeb Dutta",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "Roasted chicken leg piece-MB20 (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=ee0E4uOPxlw"
+  },
+  {
+    "cuisine": "American",
+    "meal": "Snack",
+    "title": "Peanut butter apple bites",
+    "serves": 6,
+    "prep": 15,
+    "cook": 0,
+    "ingredients": [
+      {
+        "name": "Apples",
+        "amount": "3 large (600 g)"
+      },
+      {
+        "name": "Smooth peanut butter",
+        "amount": "120 g"
+      },
+      {
+        "name": "Rolled oats",
+        "amount": "45 g"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "15 mL"
+      },
+      {
+        "name": "Water",
+        "amount": "150 mL"
+      },
+      {
+        "name": "Ground cinnamon",
+        "amount": "½ tsp"
+      }
+    ],
+    "steps": [
+      "Wash apples, remove cores and slice each into eight wedges, making 24 pieces.",
+      "Mix lemon juice and water in a bowl. Dip apple wedges briefly, then drain and pat dry to slow browning.",
+      "Stir peanut butter to loosen it. Spread about 5 g on each wedge; avoid thick spoonfuls for young children.",
+      "Sprinkle evenly with oats and cinnamon. Put four wedges on each of six plates.",
+      "Serve promptly for the best texture, or cover and refrigerate until serving."
+    ],
+    "allergens": "Peanuts; oats may contain gluten",
+    "note": "For small children, use thin apple slices or softened apple and an age-appropriate thin spread.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Peanut%20butter%20apple%20bites%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Sliced_apples%28GN01158%29.jpg/960px-Sliced_apples%28GN01158%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sliced_apples(GN01158).jpg",
+      "author": "\nState Government Photographer",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "alt": "Sliced apples(GN01158) (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=YcXv_jGtJwo"
+  },
+  {
+    "cuisine": "European",
+    "meal": "Main",
+    "title": "Tomato basil pasta",
+    "serves": 6,
+    "prep": 15,
+    "cook": 25,
+    "ingredients": [
+      {
+        "name": "Dried pasta",
+        "amount": "600 g"
+      },
+      {
+        "name": "Crushed tomatoes",
+        "amount": "1.2 kg"
+      },
+      {
+        "name": "Olive oil",
+        "amount": "45 mL"
+      },
+      {
+        "name": "Garlic, thinly sliced",
+        "amount": "6 cloves (18 g)"
+      },
+      {
+        "name": "Fresh basil",
+        "amount": "30 g"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp, plus pasta water as needed"
+      },
+      {
+        "name": "Black pepper",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Parmesan, optional",
+        "amount": "90 g"
+      }
+    ],
+    "steps": [
+      "Bring a large pot of water to a boil. Prepare the garlic and tear the basil; reserve a few leaves for serving.",
+      "Heat oil in a wide pan over medium-low heat. Cook garlic for 1–2 minutes until fragrant, without browning.",
+      "Add tomatoes, salt and pepper. Simmer gently, uncovered, for 15–20 minutes, stirring occasionally until slightly thickened.",
+      "Cook pasta according to the package until al dente. Reserve 250 mL cooking water before draining.",
+      "Toss pasta with sauce over low heat for 1–2 minutes. Add reserved water a little at a time until the sauce coats the pasta.",
+      "Fold in basil off the heat. Divide into six bowls; add Parmesan if desired."
+    ],
+    "allergens": "Wheat; milk if using Parmesan",
+    "note": "Use gluten-free pasta if needed. The pasta-water quantity is a reserve, not an amount you must add.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Tomato%20basil%20pasta%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Bottega_Louie_-_February_2024_-_Sarah_Stierch_03.jpg/960px-Bottega_Louie_-_February_2024_-_Sarah_Stierch_03.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bottega_Louie_-_February_2024_-_Sarah_Stierch_03.jpg",
+      "author": "Missvain",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "alt": "Bottega Louie - February 2024 - Sarah Stierch 03 (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=_CqVZzQClNM"
+  },
+  {
+    "cuisine": "European",
+    "meal": "Snack",
+    "title": "Berry yogurt parfait",
+    "serves": 6,
+    "prep": 15,
+    "cook": 0,
+    "ingredients": [
+      {
+        "name": "Plain Greek yogurt",
+        "amount": "900 g"
+      },
+      {
+        "name": "Mixed berries",
+        "amount": "600 g"
+      },
+      {
+        "name": "Granola",
+        "amount": "180 g"
+      },
+      {
+        "name": "Honey, optional",
+        "amount": "30 mL"
+      },
+      {
+        "name": "Lemon zest",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Rinse berries, drain well and cut large strawberries into bite-size pieces.",
+      "Stir yogurt with lemon zest. Add honey only if needed; omit honey for children under one year.",
+      "Set out six glasses or small bowls. Add 75 g yogurt, 50 g berries and 15 g granola to each.",
+      "Repeat those layers once, using all the ingredients evenly.",
+      "Serve immediately to keep granola crisp, or refrigerate the yogurt and fruit layers and add granola just before serving."
+    ],
+    "allergens": "Milk; granola may contain wheat, nuts or sesame",
+    "note": "Each serving has 150 g yogurt, 100 g fruit and 30 g granola.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Berry%20yogurt%20parfait%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Parfait_desert.JPG/960px-Parfait_desert.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Parfait_desert.JPG",
+      "author": "User:Mattes",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Parfait_desert.JPG",
+      "alt": "Parfait desert (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=CaSFGMKSy6I"
+  },
+  {
+    "cuisine": "Japanese",
+    "meal": "Main",
+    "title": "Ginger salmon rice bowl",
+    "serves": 6,
+    "prep": 20,
+    "cook": 25,
+    "ingredients": [
+      {
+        "name": "Salmon fillets",
+        "amount": "6 × 150 g"
+      },
+      {
+        "name": "Uncooked short-grain rice",
+        "amount": "450 g"
+      },
+      {
+        "name": "Water for rice",
+        "amount": "according to rice package"
+      },
+      {
+        "name": "Broccoli florets",
+        "amount": "600 g"
+      },
+      {
+        "name": "Carrots, thinly sliced",
+        "amount": "300 g"
+      },
+      {
+        "name": "Reduced-sodium soy sauce",
+        "amount": "60 mL"
+      },
+      {
+        "name": "Fresh ginger, grated",
+        "amount": "20 g"
+      },
+      {
+        "name": "Rice vinegar",
+        "amount": "30 mL"
+      },
+      {
+        "name": "Neutral oil",
+        "amount": "30 mL"
+      }
+    ],
+    "steps": [
+      "Rinse rice and cook with the package-specified water in a rice cooker or covered pot.",
+      "Heat the oven to 400°F / 200°C. Mix soy sauce, ginger, vinegar and oil; brush onto salmon in a lined baking dish.",
+      "Bake salmon for about 12–18 minutes, depending on thickness, until the center reaches 145°F / 63°C.",
+      "Meanwhile, steam broccoli and carrots for 5–8 minutes until tender but still colorful.",
+      "Fluff rice and divide it among six bowls. Add vegetables and one salmon portion per bowl.",
+      "Serve immediately. Any marinade that touched raw fish must be discarded or brought to a full boil before use."
+    ],
+    "allergens": "Fish; soy; wheat in some soy sauces",
+    "note": "Use tamari certified gluten-free if needed. Do not use raw-fish marinade as a cold dressing.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Ginger%20salmon%20rice%20bowl%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Rice%2C_beans_and_Salmon_Fish.jpg/960px-Rice%2C_beans_and_Salmon_Fish.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rice,_beans_and_Salmon_Fish.jpg",
+      "author": "BlessNathan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "Rice, beans and Salmon Fish (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=kdDUkCzUWLc"
+  },
+  {
+    "cuisine": "Japanese",
+    "meal": "Snack",
+    "title": "Sesame edamame",
+    "serves": 6,
+    "prep": 5,
+    "cook": 10,
+    "ingredients": [
+      {
+        "name": "Frozen edamame in pods",
+        "amount": "900 g"
+      },
+      {
+        "name": "Toasted sesame oil",
+        "amount": "15 mL"
+      },
+      {
+        "name": "Sesame seeds",
+        "amount": "15 g"
+      },
+      {
+        "name": "Salt",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Water",
+        "amount": "enough to cover pods"
+      }
+    ],
+    "steps": [
+      "Bring a large pot of water to a boil. Add frozen edamame and cook for the time specified on its package, typically 4–6 minutes.",
+      "Check that beans are hot and tender; drain thoroughly.",
+      "Toss warm pods with sesame oil and salt in a large bowl.",
+      "Sprinkle with sesame seeds and divide into six small bowls.",
+      "Squeeze beans out of the pods to eat. Discard pods; they are not edible."
+    ],
+    "allergens": "Soy; sesame",
+    "note": "The 900 g quantity includes pods; the edible bean weight is lower.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Sesame%20edamame%20recipe%20tutorial",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Edamame_on_a_bamboo_bowl_by_yomi955.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Edamame_on_a_bamboo_bowl_by_yomi955.jpg",
+      "author": "yomi955",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "alt": "Edamame on a bamboo bowl by yomi955 (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=RgjZ8jgfMQ8"
+  },
+  {
+    "cuisine": "Mediterranean",
+    "meal": "Main",
+    "title": "Chickpea vegetable bowl",
+    "serves": 6,
+    "prep": 25,
+    "cook": 0,
+    "ingredients": [
+      {
+        "name": "Canned chickpeas, drained weight",
+        "amount": "1.2 kg"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "600 g"
+      },
+      {
+        "name": "Tomatoes",
+        "amount": "600 g"
+      },
+      {
+        "name": "Whole-wheat pita bread",
+        "amount": "6 × 60 g"
+      },
+      {
+        "name": "Olive oil",
+        "amount": "60 mL"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "60 mL"
+      },
+      {
+        "name": "Fresh parsley",
+        "amount": "30 g"
+      },
+      {
+        "name": "Salt",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Black pepper",
+        "amount": "½ tsp"
+      }
+    ],
+    "steps": [
+      "Drain and rinse chickpeas. Measure the drained weight, rather than the weight printed for a full can including liquid.",
+      "Wash cucumber and tomatoes; cut into 1 cm pieces. Finely chop parsley.",
+      "Whisk oil, lemon juice, salt and pepper in a large serving bowl.",
+      "Add chickpeas, vegetables and parsley. Toss gently until coated and let stand for 10 minutes.",
+      "Divide the salad among six bowls. Serve each with one pita, warmed if desired."
+    ],
+    "allergens": "Wheat in pita",
+    "note": "For a gluten-free meal, replace pita with cooked rice or certified gluten-free bread.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Chickpea%20vegetable%20bowl%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Chick_pea_salad_%285045986717%29.jpg/960px-Chick_pea_salad_%285045986717%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chick_pea_salad_(5045986717).jpg",
+      "author": "Geoff Peters from Vancouver, BC, Canada",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "alt": "Chick pea salad (5045986717) (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=KNQhC6PpUlA"
+  },
+  {
+    "cuisine": "Mediterranean",
+    "meal": "Snack",
+    "title": "Lemony hummus",
+    "serves": 6,
+    "prep": 15,
+    "cook": 0,
+    "ingredients": [
+      {
+        "name": "Canned chickpeas, drained weight",
+        "amount": "720 g"
+      },
+      {
+        "name": "Tahini",
+        "amount": "90 g"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "60 mL"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves (6 g)"
+      },
+      {
+        "name": "Cold water",
+        "amount": "90–150 mL"
+      },
+      {
+        "name": "Olive oil",
+        "amount": "30 mL"
+      },
+      {
+        "name": "Salt",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Carrot and cucumber sticks",
+        "amount": "600 g"
+      }
+    ],
+    "steps": [
+      "Drain and rinse chickpeas. Wash vegetables and cut into sticks for dipping.",
+      "Blend tahini and lemon juice for 30 seconds. Add garlic, chickpeas and salt; blend until mostly smooth.",
+      "With the machine running, add 90 mL cold water gradually. Scrape down the sides, then add more water only as needed for a soft dip.",
+      "Blend in 15 mL oil. Taste and adjust lemon or salt if desired.",
+      "Divide hummus among six dishes, drizzle with the remaining oil and serve with vegetable sticks."
+    ],
+    "allergens": "Sesame",
+    "note": "Makes roughly 1 kg hummus: a generous shared snack for six, with possible leftovers.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Lemony%20hummus%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Homemade_hummus_and_pita_03.jpg/960px-Homemade_hummus_and_pita_03.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Homemade_hummus_and_pita_03.jpg",
+      "author": "Satdeep Gill",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "Homemade hummus and pita 03 (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=vj1xPYh1gJ4"
+  },
+  {
+    "cuisine": "Chinese",
+    "meal": "Main",
+    "title": "Tofu and vegetable stir-fry",
+    "serves": 6,
+    "prep": 20,
+    "cook": 20,
+    "ingredients": [
+      {
+        "name": "Firm tofu, drained",
+        "amount": "1.2 kg"
+      },
+      {
+        "name": "Broccoli",
+        "amount": "600 g"
+      },
+      {
+        "name": "Bell peppers",
+        "amount": "450 g"
+      },
+      {
+        "name": "Carrots",
+        "amount": "300 g"
+      },
+      {
+        "name": "Neutral oil",
+        "amount": "45 mL"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "60 mL"
+      },
+      {
+        "name": "Fresh ginger, minced",
+        "amount": "20 g"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "3 cloves (9 g)"
+      },
+      {
+        "name": "Cornstarch",
+        "amount": "15 g"
+      },
+      {
+        "name": "Water",
+        "amount": "120 mL"
+      },
+      {
+        "name": "Cooked rice",
+        "amount": "1.2 kg"
+      }
+    ],
+    "steps": [
+      "Drain tofu, pat dry and cut into 2 cm cubes. Slice vegetables into similar-size pieces.",
+      "Mix soy sauce, cornstarch and water until no lumps remain.",
+      "Heat half the oil in a large skillet over medium-high heat. Brown tofu in two batches, about 3–4 minutes per side; remove to a plate.",
+      "Add remaining oil, ginger and garlic. Stir for 30 seconds, then add carrots and broccoli; stir-fry for 4 minutes. Add peppers and cook another 2–3 minutes.",
+      "Return tofu to the pan. Stir the sauce again, pour it in and simmer for 1–2 minutes until it thickens and coats everything.",
+      "Divide cooked rice among six bowls and top with the stir-fry. Cook in batches if the pan is crowded."
+    ],
+    "allergens": "Soy; wheat in some soy sauces",
+    "note": "Cook rice fresh or reheat previously chilled rice thoroughly; do not leave cooked rice at room temperature.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Tofu%20and%20vegetable%20stir-fry%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Billyfoodmabodofu3.jpg/960px-Billyfoodmabodofu3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Billyfoodmabodofu3.jpg",
+      "author": "Archon6812",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "alt": "Billyfoodmabodofu3 (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=U67i1TAIr2U"
+  },
+  {
+    "cuisine": "Chinese",
+    "meal": "Snack",
+    "title": "Steamed sweet potato",
+    "serves": 6,
+    "prep": 10,
+    "cook": 25,
+    "ingredients": [
+      {
+        "name": "Sweet potatoes",
+        "amount": "1.2 kg"
+      },
+      {
+        "name": "Water for steamer",
+        "amount": "enough for 25 minutes of steaming"
+      }
+    ],
+    "steps": [
+      "Scrub sweet potatoes under running water. Trim ends and cut into uniform 3 cm rounds.",
+      "Fill the steamer base with water below the basket and bring it to a boil.",
+      "Arrange pieces in the basket with small gaps; use two tiers if needed. Cover tightly.",
+      "Steam for 20–25 minutes. A knife should slide through the thickest piece easily; add more time for larger pieces.",
+      "Remove carefully, let cool for 3–5 minutes and divide into six portions of about 200 g raw-weight equivalent."
+    ],
+    "allergens": "No major allergens in listed ingredients",
+    "note": "Check the water level during cooking; add hot water if needed without letting the pot boil dry.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Steamed%20sweet%20potato%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Cooked_sweet_potatoes.jpg/960px-Cooked_sweet_potatoes.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cooked_sweet_potatoes.jpg",
+      "author": "Shark2025",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "Cooked sweet potatoes (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=23FFT9wNpWM"
+  },
+  {
+    "cuisine": "Taiwanese",
+    "meal": "Main",
+    "title": "Three-cup mushroom chicken",
+    "serves": 6,
+    "prep": 20,
+    "cook": 30,
+    "ingredients": [
+      {
+        "name": "Boneless chicken thighs",
+        "amount": "1.2 kg"
+      },
+      {
+        "name": "Mushrooms",
+        "amount": "600 g"
+      },
+      {
+        "name": "Fresh ginger, sliced",
+        "amount": "40 g"
+      },
+      {
+        "name": "Garlic, peeled",
+        "amount": "12 cloves (36 g)"
+      },
+      {
+        "name": "Toasted sesame oil",
+        "amount": "45 mL"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "60 mL"
+      },
+      {
+        "name": "Rice wine",
+        "amount": "90 mL"
+      },
+      {
+        "name": "Water",
+        "amount": "120 mL"
+      },
+      {
+        "name": "Fresh basil",
+        "amount": "40 g"
+      },
+      {
+        "name": "Cooked rice",
+        "amount": "1.2 kg"
+      }
+    ],
+    "steps": [
+      "Cut chicken into 3 cm pieces; halve mushrooms. Prepare ginger, garlic and basil before heating the pan.",
+      "Heat sesame oil over medium heat. Add ginger and garlic and cook for 2 minutes until fragrant, avoiding scorching.",
+      "Add chicken in batches and brown for 3–4 minutes per batch. Return all chicken to the pan and add mushrooms.",
+      "Pour in soy sauce, rice wine and water. Bring to a simmer, cover and cook for 15–20 minutes, stirring occasionally.",
+      "Check that chicken reaches 165°F / 74°C. Uncover and simmer another 3–5 minutes to reduce the sauce.",
+      "Turn off heat and fold in basil until wilted. Serve with rice in six portions."
+    ],
+    "allergens": "Soy; sesame; wheat in some soy sauces",
+    "note": "This home version uses less oil than traditional versions. For an alcohol-free version, replace wine with water; simmering does not guarantee all alcohol is removed.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Three-cup%20mushroom%20chicken%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Three_Cup_Chicken_in_Clay_Pot.jpg/960px-Three_Cup_Chicken_in_Clay_Pot.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Three_Cup_Chicken_in_Clay_Pot.jpg",
+      "author": "Ceeseven",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "Three Cup Chicken in Clay Pot (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=k-0l5g_Fhpo"
+  },
+  {
+    "cuisine": "Taiwanese",
+    "meal": "Snack",
+    "title": "Scallion egg pancake",
+    "serves": 6,
+    "prep": 10,
+    "cook": 20,
+    "ingredients": [
+      {
+        "name": "Ready-made scallion pancakes",
+        "amount": "6 × about 100 g"
+      },
+      {
+        "name": "Eggs",
+        "amount": "6 large"
+      },
+      {
+        "name": "Scallions, finely chopped",
+        "amount": "60 g"
+      },
+      {
+        "name": "Neutral oil",
+        "amount": "30 mL"
+      },
+      {
+        "name": "Soy sauce, optional",
+        "amount": "15 mL"
+      }
+    ],
+    "steps": [
+      "Check the pancake package for its cooking time and any thawing instructions.",
+      "Beat eggs with scallions. Divide the mixture mentally into six equal portions.",
+      "Heat 5 mL oil in a nonstick pan over medium heat. Cook one pancake according to its package until golden on both sides.",
+      "Lift the pancake out. Pour in one-sixth of the egg mixture, then place the pancake over the wet egg.",
+      "Cook until the egg is fully set. Flip briefly if needed, then roll or cut into wedges.",
+      "Repeat for the remaining five pancakes. Serve one per person, with optional soy sauce."
+    ],
+    "allergens": "Wheat; egg; soy if using sauce",
+    "note": "Use two pans to shorten cooking time. Keep finished pancakes warm rather than letting raw egg sit out.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Scallion%20egg%20pancake%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Plate_of_scallion_pancakes.jpg/960px-Plate_of_scallion_pancakes.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Plate_of_scallion_pancakes.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "alt": "Plate of scallion pancakes (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=I-2OwtPMsP4"
+  },
+  {
+    "cuisine": "Hong Kong",
+    "meal": "Main",
+    "title": "Tomato egg rice",
+    "serves": 6,
+    "prep": 15,
+    "cook": 20,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "9 large"
+      },
+      {
+        "name": "Ripe tomatoes",
+        "amount": "1.2 kg"
+      },
+      {
+        "name": "Scallions",
+        "amount": "45 g"
+      },
+      {
+        "name": "Neutral oil",
+        "amount": "30 mL"
+      },
+      {
+        "name": "Water",
+        "amount": "120 mL"
+      },
+      {
+        "name": "Salt",
+        "amount": "¾ tsp"
+      },
+      {
+        "name": "Sugar, optional",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Cooked rice",
+        "amount": "1.2 kg"
+      }
+    ],
+    "steps": [
+      "Wash tomatoes and cut into wedges. Slice scallions and beat eggs with half the salt.",
+      "Heat half the oil in a large pan over medium heat. Add eggs, gently fold into soft curds and cook until set; transfer to a plate.",
+      "Add remaining oil and tomatoes. Cook for 3–4 minutes, stirring, until they release juice.",
+      "Add water, remaining salt and optional sugar. Cover and simmer 5–7 minutes until tomatoes soften.",
+      "Return eggs to the pan, fold gently and heat through for 1–2 minutes. Scatter over scallions.",
+      "Serve in six bowls over hot cooked rice."
+    ],
+    "allergens": "Egg",
+    "note": "Avoid high heat after adding eggs back; it can make the curds rubbery.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Tomato%20egg%20rice%20recipe%20tutorial",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Stir_Fried_Tomatoes_with_Scrambled_Eggs.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Stir_Fried_Tomatoes_with_Scrambled_Eggs.jpg",
+      "author": "NNU-10-24100123",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "alt": "Stir Fried Tomatoes with Scrambled Eggs (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=W-VmqpiXhDU"
+  },
+  {
+    "cuisine": "Hong Kong",
+    "meal": "Snack",
+    "title": "Mango coconut cups",
+    "serves": 6,
+    "prep": 15,
+    "cook": 0,
+    "ingredients": [
+      {
+        "name": "Ripe mango flesh",
+        "amount": "900 g"
+      },
+      {
+        "name": "Plain coconut yogurt",
+        "amount": "600 g"
+      },
+      {
+        "name": "Unsweetened shredded coconut",
+        "amount": "30 g"
+      },
+      {
+        "name": "Lime juice",
+        "amount": "15 mL"
+      }
+    ],
+    "steps": [
+      "Peel mangoes, cut away the stones and weigh 900 g edible flesh. Dice most of it; mash 150 g with lime juice.",
+      "Stir the mashed mango into coconut yogurt until evenly combined.",
+      "Place 75 g diced mango into each of six glasses. Add 125 g mango yogurt to each.",
+      "Top with the remaining diced mango, divided equally, and 5 g shredded coconut per cup.",
+      "Cover and refrigerate for 20 minutes if you prefer a chilled dessert; serve within the product storage guidance."
+    ],
+    "allergens": "Coconut; check yogurt for milk, soy or other allergens",
+    "note": "No gelatin is used; this is a layered fruit dessert rather than a set pudding. Chilling time is optional and additional.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Mango%20coconut%20cups%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Mango_Pudding_with_Strawberry_Sauce.JPG/960px-Mango_Pudding_with_Strawberry_Sauce.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Mango_Pudding_with_Strawberry_Sauce.JPG",
+      "author": "Ceeseven",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "Mango Pudding with Strawberry Sauce (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=xe5h_Mfe5qQ"
+  },
+  {
+    "cuisine": "Korean",
+    "meal": "Main",
+    "title": "Vegetable bibimbap",
+    "serves": 6,
+    "prep": 25,
+    "cook": 25,
+    "ingredients": [
+      {
+        "name": "Uncooked rice",
+        "amount": "450 g"
+      },
+      {
+        "name": "Water for rice",
+        "amount": "according to package"
+      },
+      {
+        "name": "Carrots, julienned",
+        "amount": "300 g"
+      },
+      {
+        "name": "Spinach",
+        "amount": "450 g"
+      },
+      {
+        "name": "Mushrooms, sliced",
+        "amount": "450 g"
+      },
+      {
+        "name": "Zucchini, julienned",
+        "amount": "300 g"
+      },
+      {
+        "name": "Eggs",
+        "amount": "6 large"
+      },
+      {
+        "name": "Neutral oil",
+        "amount": "45 mL"
+      },
+      {
+        "name": "Toasted sesame oil",
+        "amount": "15 mL"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "45 g"
+      },
+      {
+        "name": "Water for sauce",
+        "amount": "30 mL"
+      },
+      {
+        "name": "Sesame seeds",
+        "amount": "15 g"
+      }
+    ],
+    "steps": [
+      "Cook rice according to its package. Prepare each vegetable separately so their colors and textures remain distinct.",
+      "Heat a little neutral oil over medium heat. Sauté carrots and zucchini separately for 3–4 minutes each until tender; set aside.",
+      "Sauté mushrooms for 5–6 minutes until softened. Wilt spinach for 1–2 minutes and squeeze out excess liquid when cool enough to handle.",
+      "Mix gochujang, water and sesame oil into a spoonable sauce.",
+      "Cook six eggs in the remaining oil until whites and yolks are firm.",
+      "Divide rice among six bowls. Arrange vegetables and an egg on each, add sauce to taste and sprinkle with sesame seeds.",
+      "Mix everything together at the table before eating."
+    ],
+    "allergens": "Egg; sesame; soy and wheat may be in gochujang",
+    "note": "For a milder bowl, serve gochujang on the side. Package sauces vary in salt and heat.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Vegetable%20bibimbap%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Vegan_hot_stone_pot_bibimbap_%28Dolsot-bibimbap%29_-_Kogi_2023-10-16.jpg/960px-Vegan_hot_stone_pot_bibimbap_%28Dolsot-bibimbap%29_-_Kogi_2023-10-16.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vegan_hot_stone_pot_bibimbap_(Dolsot-bibimbap)_-_Kogi_2023-10-16.jpg",
+      "author": "Andy Li",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "alt": "Vegan hot stone pot bibimbap (Dolsot-bibimbap) - Kogi 2023-10-16 (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=0w0pIP6Y0cQ"
+  },
+  {
+    "cuisine": "Korean",
+    "meal": "Snack",
+    "title": "Mini vegetable pancakes",
+    "serves": 6,
+    "prep": 20,
+    "cook": 20,
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "amount": "180 g"
+      },
+      {
+        "name": "Water",
+        "amount": "240 mL"
+      },
+      {
+        "name": "Carrots, shredded",
+        "amount": "150 g"
+      },
+      {
+        "name": "Zucchini, shredded",
+        "amount": "150 g"
+      },
+      {
+        "name": "Scallions, sliced",
+        "amount": "90 g"
+      },
+      {
+        "name": "Salt",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Neutral oil",
+        "amount": "45 mL"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "30 mL"
+      },
+      {
+        "name": "Rice vinegar",
+        "amount": "15 mL"
+      }
+    ],
+    "steps": [
+      "Wash and shred vegetables finely. Gently squeeze zucchini to remove excess water.",
+      "Whisk flour, water and salt into a smooth batter; fold in carrots, zucchini and scallions.",
+      "Heat a thin layer of oil in a wide pan over medium heat. Spoon in small portions and flatten to about 8 cm wide.",
+      "Cook 3–4 minutes per side until golden and the center is set, without wet flour. Work in batches and replenish oil as needed.",
+      "Drain briefly on a rack. Mix soy sauce and vinegar for dipping.",
+      "Make about 18 small pancakes and serve three per person with sauce on the side."
+    ],
+    "allergens": "Wheat; soy",
+    "note": "Small, thin pancakes cook more evenly than thick ones. Keep batter stirred between batches.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Mini%20vegetable%20pancakes%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Plate_of_scallion_pancakes.jpg/960px-Plate_of_scallion_pancakes.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Plate_of_scallion_pancakes.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "alt": "Plate of scallion pancakes (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=zkAfor2oLaU"
+  },
+  {
+    "cuisine": "Indian",
+    "meal": "Main",
+    "title": "Red lentil dal",
+    "serves": 6,
+    "prep": 15,
+    "cook": 30,
+    "ingredients": [
+      {
+        "name": "Dry red lentils",
+        "amount": "450 g"
+      },
+      {
+        "name": "Water",
+        "amount": "1.5 L, plus extra as needed"
+      },
+      {
+        "name": "Tomatoes, diced",
+        "amount": "600 g"
+      },
+      {
+        "name": "Onion, finely chopped",
+        "amount": "250 g"
+      },
+      {
+        "name": "Neutral oil",
+        "amount": "30 mL"
+      },
+      {
+        "name": "Ground turmeric",
+        "amount": "1½ tsp"
+      },
+      {
+        "name": "Cumin seeds",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Fresh ginger, grated",
+        "amount": "15 g"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "3 cloves (9 g)"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Cooked rice",
+        "amount": "1.2 kg"
+      }
+    ],
+    "steps": [
+      "Rinse lentils until the water runs mostly clear. Put them in a large saucepan with water and turmeric.",
+      "Bring to a boil, skim foam if needed, then reduce to a gentle simmer. Cook partly covered for 20–25 minutes, stirring so the bottom does not stick.",
+      "In another pan, heat oil over medium heat. Add cumin seeds for 30 seconds, then onion and cook for 5–7 minutes.",
+      "Add ginger and garlic for 1 minute, then tomatoes. Cook for 6–8 minutes until softened.",
+      "Stir the tomato mixture and salt into the lentils. Simmer 5 minutes, adding hot water if too thick.",
+      "The finished dal should be soft and spoonable. Divide among six bowls and serve with rice."
+    ],
+    "allergens": "No major allergens in listed ingredients",
+    "note": "Lentils absorb different amounts of water; adjust gradually. This is a mild family version.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Red%20lentil%20dal%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Dal_soup_%28Indian_lentil_dish%29.jpg/960px-Dal_soup_%28Indian_lentil_dish%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dal_soup_(Indian_lentil_dish).jpg",
+      "author": "Pelican",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "alt": "Dal soup (Indian lentil dish) (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=F_7LzW_aU4I"
+  },
+  {
+    "cuisine": "Indian",
+    "meal": "Snack",
+    "title": "Cucumber raita",
+    "serves": 6,
+    "prep": 15,
+    "cook": 0,
+    "ingredients": [
+      {
+        "name": "Plain yogurt",
+        "amount": "900 g"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "450 g"
+      },
+      {
+        "name": "Ground cumin",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Fresh mint, chopped",
+        "amount": "15 g"
+      },
+      {
+        "name": "Salt",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Black pepper",
+        "amount": "¼ tsp"
+      }
+    ],
+    "steps": [
+      "Wash cucumber, halve lengthwise and remove watery seeds if large. Coarsely grate the flesh.",
+      "Squeeze the grated cucumber gently in a clean towel so the dip does not become watery.",
+      "Whisk yogurt until smooth, then stir in cucumber, cumin, mint, salt and pepper.",
+      "Taste and adjust seasoning. Cover and chill for at least 15 minutes if time allows.",
+      "Divide among six bowls, about 200 g each, and serve as a cooling snack or side."
+    ],
+    "allergens": "Milk",
+    "note": "Keep refrigerated. Chilling time is additional; use unsweetened plant yogurt if avoiding dairy.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Cucumber%20raita%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Kafta_Raita.JPG/960px-Kafta_Raita.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Kafta_Raita.JPG",
+      "author": "Miansari66",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kafta_Raita.JPG",
+      "alt": "Kafta Raita (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=xcDVrAVKq44"
+  },
+  {
+    "cuisine": "Seasonal",
+    "meal": "Main",
+    "title": "Autumn squash tray bake",
+    "serves": 6,
+    "prep": 20,
+    "cook": 40,
+    "ingredients": [
+      {
+        "name": "Butternut squash, peeled and seeded weight",
+        "amount": "1.5 kg"
+      },
+      {
+        "name": "Canned chickpeas, drained weight",
+        "amount": "900 g"
+      },
+      {
+        "name": "Red onions",
+        "amount": "450 g"
+      },
+      {
+        "name": "Olive oil",
+        "amount": "60 mL"
+      },
+      {
+        "name": "Fresh rosemary, chopped",
+        "amount": "10 g"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black pepper",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Whole-grain bread",
+        "amount": "6 × 60 g"
+      }
+    ],
+    "steps": [
+      "Heat oven to 425°F / 220°C. Line two large trays so vegetables can spread out.",
+      "Peel and seed squash carefully, then cut into 2 cm cubes. Cut onions into wedges; drain and rinse chickpeas.",
+      "Toss squash and onion with oil, rosemary, salt and pepper. Spread evenly across the trays.",
+      "Roast for 20 minutes, then stir and add chickpeas. Roast another 15–20 minutes until squash is fork-tender and browned at the edges.",
+      "Switch tray positions halfway through if one browns faster. Divide among six plates.",
+      "Serve each portion with a slice of whole-grain bread."
+    ],
+    "allergens": "Wheat in bread",
+    "note": "Weigh squash after peeling and seeding. A crowded tray gives softer, less browned vegetables.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Autumn%20squash%20tray%20bake%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Roasted_honeynut_squash.jpg/960px-Roasted_honeynut_squash.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Roasted_honeynut_squash.jpg",
+      "author": "Valereee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "Roasted honeynut squash (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=n-KHB5zI7jc"
+  },
+  {
+    "cuisine": "Seasonal",
+    "meal": "Snack",
+    "title": "Warm cinnamon pears",
+    "serves": 6,
+    "prep": 15,
+    "cook": 20,
+    "ingredients": [
+      {
+        "name": "Firm ripe pears",
+        "amount": "6 medium (about 1.2 kg)"
+      },
+      {
+        "name": "Water",
+        "amount": "180 mL"
+      },
+      {
+        "name": "Ground cinnamon",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "15 mL"
+      },
+      {
+        "name": "Plain yogurt",
+        "amount": "450 g"
+      },
+      {
+        "name": "Honey, optional",
+        "amount": "15 mL"
+      }
+    ],
+    "steps": [
+      "Wash pears, halve and remove cores. Slice each half into three thick wedges.",
+      "Put water, cinnamon and lemon juice in a wide pan. Add pears in a single layer where possible.",
+      "Bring to a gentle simmer over medium heat. Cover and cook 8–12 minutes until a knife enters easily; firmer pears may need longer.",
+      "Uncover and simmer 2–3 minutes to reduce the liquid slightly. Stir gently to avoid breaking the wedges.",
+      "Divide pears among six bowls with a little warm cooking liquid. Add 75 g yogurt per portion.",
+      "Drizzle with optional honey only for diners older than one year and serve warm."
+    ],
+    "allergens": "Milk if using dairy yogurt",
+    "note": "This gently poached version keeps the fruit soft; it is not a caramelized or baked pear recipe.",
+    "videoSearch": "https://www.youtube.com/results?search_query=Warm%20cinnamon%20pears%20recipe%20tutorial",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Poached_Pears_in_bowl.jpg/960px-Poached_Pears_in_bowl.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Poached_Pears_in_bowl.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "alt": "Poached Pears in bowl (illustrative photo)"
+    },
+    "video": "https://www.youtube.com/watch?v=ksASf9QKAxU"
+  }
+];

@@ -1,0 +1,94 @@
+{
+  "editions": [
+    {
+      "date": "2026-10-06",
+      "topics": [
+        {
+          "image": "vocabulary",
+          "title": "subtle"
+        },
+        {
+          "image": "vocabulary",
+          "title": "discrepancy"
+        },
+        {
+          "image": "phrasal",
+          "title": "phase out"
+        },
+        {
+          "image": "phrasal",
+          "title": "fall through"
+        },
+        {
+          "image": "idiom",
+          "title": "up in the air"
+        },
+        {
+          "image": "idiom",
+          "title": "a learning curve"
+        },
+        {
+          "image": "life",
+          "title": "I do not want to overstep."
+        },
+        {
+          "image": "grammar",
+          "title": "Wish about the past"
+        },
+        {
+          "image": "small-talk",
+          "title": "What is keeping you busy these days?"
+        },
+        {
+          "image": "quote",
+          "title": "Confidence grows when practice becomes a habit."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "topics": [
+        {
+          "image": "vocabulary",
+          "title": "ambivalent"
+        },
+        {
+          "image": "vocabulary",
+          "title": "discerning"
+        },
+        {
+          "image": "phrasal",
+          "title": "iron out"
+        },
+        {
+          "image": "phrasal",
+          "title": "flesh out"
+        },
+        {
+          "image": "idiom",
+          "title": "read the room"
+        },
+        {
+          "image": "idiom",
+          "title": "move the needle"
+        },
+        {
+          "image": "life",
+          "title": "I could use a hand with this."
+        },
+        {
+          "image": "grammar",
+          "title": "Hedging with might, seems and tends to"
+        },
+        {
+          "image": "quote",
+          "title": "A thoughtful question can open a door that a quick answer leaves closed."
+        },
+        {
+          "image": "small-talk",
+          "title": "How are you settling in?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-06",
+  "level": "B2–C1",
+  "lessons": [
+    {
+      "id": "vocabulary-10",
+      "image": "vocabulary",
+      "title": "subtle",
+      "meaning": "Not obvious; requiring attention to notice.",
+      "example": "There is a subtle difference in tone between those replies.",
+      "notes": "Use this pattern when the meaning fits the situation. Practice both a neutral tone and a warmer, conversational tone.",
+      "conversation": "A: Could you give me an example of how you would say that?\nB: There is a subtle difference in tone between those replies.",
+      "exercise": "Make this your own: write one example from your life, then say it aloud without reading. Notice stress, tone, and how the phrase fits the context."
+    },
+    {
+      "id": "vocabulary-11",
+      "image": "vocabulary",
+      "title": "discrepancy",
+      "meaning": "A difference between things that should match.",
+      "example": "We found a discrepancy between the invoice and the payment.",
+      "notes": "Use this pattern when the meaning fits the situation. Practice both a neutral tone and a warmer, conversational tone.",
+      "conversation": "A: Could you give me an example of how you would say that?\nB: We found a discrepancy between the invoice and the payment.",
+      "exercise": "Make this your own: write one example from your life, then say it aloud without reading. Notice stress, tone, and how the phrase fits the context."
+    },
+    {
+      "id": "phrasal-10",
+      "image": "phrasal",
+      "title": "phase out",
+      "meaning": "Stop using something gradually.",
+      "example": "The company is phasing out the old system.",
+      "notes": "Use this pattern when the meaning fits the situation. Practice both a neutral tone and a warmer, conversational tone.",
+      "conversation": "A: Could you give me an example of how you would say that?\nB: The company is phasing out the old system.",
+      "exercise": "Make this your own: write one example from your life, then say it aloud without reading. Notice stress, tone, and how the phrase fits the context."
+    },
+    {
+      "id": "phrasal-11",
+      "image": "phrasal",
+      "title": "fall through",
+      "meaning": "Fail to happen as planned.",
+      "example": "Our travel plans fell through at the last minute.",
+      "notes": "Use this pattern when the meaning fits the situation. Practice both a neutral tone and a warmer, conversational tone.",
+      "conversation": "A: Could you give me an example of how you would say that?\nB: Our travel plans fell through at the last minute.",
+      "exercise": "Make this your own: write one example from your life, then say it aloud without reading. Notice stress, tone, and how the phrase fits the context."
+    },
+    {
+      "id": "idiom-10",
+      "image": "idiom",
+      "title": "up in the air",
+      "meaning": "Undecided or uncertain.",
+      "example": "Our weekend plans are still up in the air.",
+      "notes": "Use this pattern when the meaning fits the situation. Practice both a neutral tone and a warmer, conversational tone.",
+      "conversation": "A: Could you give me an example of how you would say that?\nB: Our weekend plans are still up in the air.",
+      "exercise": "Make this your own: write one example from your life, then say it aloud without reading. Notice stress, tone, and how the phrase fits the context."
+    },
+    {
+      "id": "idiom-11",
+      "image": "idiom",
+      "title": "a learning curve",
+      "meaning": "The process or difficulty of gaining new skills.",
+      "example": "The new software has a steep learning curve.",
+      "notes": "Use this pattern when the meaning fits the situation. Practice both a neutral tone and a warmer, conversational tone.",
+      "conversation": "A: Could you give me an example of how you would say that?\nB: The new software has a steep learning curve.",
+      "exercise": "Make this your own: write one example from your life, then say it aloud without reading. Notice stress, tone, and how the phrase fits the context."
+    },
+    {
+      "id": "life-5",
+      "image": "life",
+      "title": "I do not want to overstep.",
+      "meaning": "Show awareness of another person’s boundaries or authority.",
+      "example": "I do not want to overstep, but may I offer a suggestion?",
+      "notes": "Use this pattern when the meaning fits the situation. Practice both a neutral tone and a warmer, conversational tone.",
+      "conversation": "A: Could you give me an example of how you would say that?\nB: I do not want to overstep, but may I offer a suggestion?",
+      "exercise": "Make this your own: write one example from your life, then say it aloud without reading. Notice stress, tone, and how the phrase fits the context."
+    },
+    {
+      "id": "grammar-5",
+      "image": "grammar",
+      "title": "Wish about the past",
+      "meaning": "Use wish + past perfect to express regret about the past.",
+      "example": "I wish I had asked more questions.",
+      "notes": "Use this pattern when the meaning fits the situation. Practice both a neutral tone and a warmer, conversational tone.",
+      "conversation": "A: Could you give me an example of how you would say that?\nB: I wish I had asked more questions.",
+      "exercise": "Make this your own: write one example from your life, then say it aloud without reading. Notice stress, tone, and how the phrase fits the context."
+    },
+    {
+      "id": "small-talk-5",
+      "image": "small-talk",
+      "title": "What is keeping you busy these days?",
+      "meaning": "Invite a broad answer about work, hobbies, or family.",
+      "example": "What is keeping you busy these days?",
+      "notes": "Use this pattern when the meaning fits the situation. Practice both a neutral tone and a warmer, conversational tone.",
+      "conversation": "A: Could you give me an example of how you would say that?\nB: What is keeping you busy these days?",
+      "exercise": "Make this your own: write one example from your life, then say it aloud without reading. Notice stress, tone, and how the phrase fits the context."
+    },
+    {
+      "id": "quote-5",
+      "image": "quote",
+      "title": "Confidence grows when practice becomes a habit.",
+      "meaning": "Regular repetition builds ease over time.",
+      "example": "I kept this reflection in mind while deciding how to respond.",
+      "notes": "Original Real Family reflection. Explain the idea in your own words.",
+      "conversation": "A: What idea are you reflecting on today?\nB: Confidence grows when practice becomes a habit.",
+      "exercise": "Make this your own: write one example from your life, then say it aloud without reading. Notice stress, tone, and how the phrase fits the context."
+    }
+  ],
+  "version": 4,
+  "mode": "New daily lessons with permanent archive",
+  "published": "2026-10-07T06:59:48.834242+00:00"
+}

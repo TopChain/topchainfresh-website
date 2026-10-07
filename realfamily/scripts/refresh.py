@@ -72,20 +72,42 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         except Exception as e:data['status'][symbol]={'ok':False,'checked':STAMP,'error':str(e)[:160]}
 if any(v.get('updated')==STAMP for v in data['markets'].values()):data['marketUpdated']=STAMP
 # Refresh research at most daily. Indexing date and publication date are separate.
-research_date=dt.datetime.fromisoformat(data['researchUpdated']).astimezone(PACIFIC).date().isoformat() if data.get('researchUpdated') else None
+research_date=dt.datetime.fromisoformat(data.get('researchChecked',data.get('researchUpdated'))).astimezone(PACIFIC).date().isoformat() if data.get('researchChecked') or data.get('researchUpdated') else None
 if research_date!=DAILY_DATE:
     try:
-        query='(nutrition OR exercise OR dietary supplements) AND (infant OR adolescent OR adult OR elderly) AND FIRST_PDATE:['+(NOW-dt.timedelta(days=60)).strftime('%Y-%m-%d')+' TO '+NOW.strftime('%Y-%m-%d')+']'
+        query='(TITLE_ABS:nutrition OR TITLE_ABS:exercise OR TITLE_ABS:"physical activity" OR TITLE_ABS:"dietary supplements" OR TITLE_ABS:sleep) AND (TITLE_ABS:infant OR TITLE_ABS:children OR TITLE_ABS:adolescent OR TITLE_ABS:adult OR TITLE_ABS:elderly OR TITLE_ABS:"older adults") AND FIRST_PDATE:['+(NOW-dt.timedelta(days=60)).strftime('%Y-%m-%d')+' TO '+NOW.strftime('%Y-%m-%d')+']'
         url='https://www.ebi.ac.uk/europepmc/webservices/rest/search?'+urllib.parse.urlencode({'query':query,'format':'json','pageSize':8,'sort':'FIRST_PDATE_D desc','resultType':'core'})
         results=json.loads(get(url))['resultList']['result'];rows=[]
         for r in results:
             pubtypes=r.get('pubTypeList',{}).get('pubType',[])
-            rows.append({'title':r['title'],'url':'https://europepmc.org/article/'+r['source']+'/'+r['id'],'journal':r.get('journalInfo',{}).get('journal',{}).get('title','Journal'),'date':r.get('firstPublicationDate',r.get('pubYear','Unknown')),'type':', '.join(pubtypes[:2]) or 'Publication','population':'Population and study limitations require full-text review'})
-        if rows:data['research']=rows;data['researchUpdated']=STAMP;data['status']['research']={'ok':True,'updated':STAMP}
+            rows.append({'title':r['title'],'url':'https://europepmc.org/article/'+r['source']+'/'+r['id'],'journal':r.get('journalInfo',{}).get('journal',{}).get('title','Journal'),'date':r.get('firstPublicationDate',r.get('pubYear','Unknown')),'type':', '.join(pubtypes[:2]) or 'Publication','population':'Population and study limitations require full-text review','abstractExcerpt':' '.join(re.sub('<[^>]*>',' ',r.get('abstractText','')).split()[:25])+(' …' if r.get('abstractText') else '')})
+        known={r['url'] for r in data.get('research',[])}
+        fresh=[dict(r,discoveredDate=DAILY_DATE,discoveredAt=STAMP) for r in rows if r['url'] not in known]
+        if fresh:data['research']=fresh+data.get('research',[]);data['researchUpdated']=STAMP
+        data['researchChecked']=STAMP;data['status']['research']={'ok':True,'checked':STAMP,'newCount':len(fresh)}
+        (ROOT/'data/research-archive.json').write_text(json.dumps(data['research'],ensure_ascii=False,indent=2)+'\n')
     except Exception as e:data['status']['research']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
 if data.get('daily',{}).get('date')!=DAILY_DATE:
     offset=NOW.astimezone(PACIFIC).date().toordinal()
     data['daily']={'date':DAILY_DATE,'timezone':'America/Los_Angeles','kitchenUpdated':STAMP,'englishUpdated':STAMP,'recipeIndices':[(offset%10)*2,(offset%10)*2+1],'practiceEdition':offset%3,'mode':'Curated daily selection and practice rotation'}
+# Publish only an actually authored edition. Never rotate old lessons or relabel their date.
+archive=ROOT/'data/english-archive'/f'{DAILY_DATE}.json'
+if archive.exists():
+    current=json.loads(archive.read_text())
+    if data.get('english',{}).get('date')!=current['date'] or data.get('english',{}).get('version')!=4:
+        data['english']=current
+        data['daily']['englishUpdated']=current.get('published',STAMP)
+else:
+    data['daily']['englishUpdated']=data.get('english',{}).get('published',data.get('daily',{}).get('englishUpdated'))
+    data['status']['english']={'ok':False,'checked':STAMP,'error':'New daily edition awaiting authoring; previous edition retained with its original date.'}
+if not data.get('marketCaps',{}).get('checked','').startswith(STAMP[:7]):
+    try:
+        cap_url='https://api.worldbank.org/v2/country/USA;CHN;JPN;IND;HKG;CAN;GBR;FRA;DEU;KOR;AUS;SAU;CHE/indicator/CM.MKT.LCAP.CD?format=json&date=2025&per_page=100'
+        cap_result=json.loads(get(cap_url))
+        aliases={'Hong Kong SAR, China':'Hong Kong','Korea, Rep.':'South Korea'}
+        caps={aliases.get(r['country']['value'],r['country']['value']):r['value'] for r in cap_result[1] if r['value'] is not None}
+        if len(caps)>=10:data['marketCaps']={'year':2025,'source':cap_url,'checked':STAMP,'values':caps,'datasetUpdated':cap_result[0]['lastupdated']}
+    except Exception as e:data['status']['marketCaps']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
 data['checked']=STAMP
 DEST.parent.mkdir(exist_ok=True);DEST.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'news_countries':len(data['countries']),'ai_stories':len(data['ai']),'market_benchmarks':len(data['markets']),'research_papers':len(data['research']),'failed_sources':[k for k,v in data['status'].items() if not v['ok']]}))

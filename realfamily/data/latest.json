@@ -71,7 +71,7 @@
         "title": "In Race With U.S., China Struggles to Recruit Foreign A.I. Researchers",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMndMQmVXUHJBaDRXSDkzYTN6QVZVQWhCUVRINHA1R0tFSlFnaDNYc241WkVjV3dGSWZ6Z3U4ODdmT3h4LXV2X2YyM0FYZDlScTY2RDJTQjVDXzB1Wlp0UVJ2bk5NM1BqaVFKVDg3c2hqY2dBTDBhbVB1cGViVEllOERzaw?oc=5",
         "source": "The New York Times",
-        "published": "2026-10-06T17:00:14+00:00"
+        "published": "2026-10-06T09:03:19+00:00"
       },
       {
         "title": "EXCLUSIVE: China plans late entry into WHO leadership race, sources say",
@@ -131,7 +131,7 @@
         "title": "German Officials Arrest Former Spy Chief on Espionage Charges",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3U0LWpva0R6OFFmTDlodm9WdnhQM1A4Sm5xcjItM1R1Zi1wYlNEZnlXZ25MNGJwYlNZTWRvanFQZ3FjeW9venBoaWZRcGF4T2J6djZlbmtfa3ZTVVB4aHhnbDlWbE4yc3I2dktrMVFScGxHTlNsOEFoN2hSUDZBcFJ0ZjRITnlvamlQYUdzVnRMeHBtb3psaHdjTkNiQQ?oc=5",
         "source": "The New York Times",
-        "published": "2026-10-06T12:49:35+00:00"
+        "published": "2026-10-06T09:35:39+00:00"
       },
       {
         "title": "Germany news: Far-right AfD gets first house speaker in a German state parliament",
@@ -251,16 +251,16 @@
       "published": "2026-10-04T17:18:00+00:00"
     },
     {
-      "title": "A New Open-Weight Challenger to Anthropic, Reflection, Emerges",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPek92bW43WU9RZ1dyajlJYWMzYkZvZzRPRW92d3NRaEhBMEQ2OUdQMlh2bUR4MW1EMzUxMUNxMHJHdjZFX05KcTRCb0E4Tk9yWjJwa2JSSUlsSFY4UE03NlpsUVRZTTNLVnN6eUdpSHNTQUpRNUxLZ1JFMjB6NlNJTkpIbXJtcHUtXzlQZXFJY28zd2xweWo2UA?oc=5",
-      "source": "The New York Times",
-      "published": "2026-10-06T12:04:55+00:00"
-    },
-    {
       "title": "What is AI, how do apps like ChatGPT work and why are there concerns?",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiVlVDbllHd2t2NVB2YjJQYkQwOEF6ZzhqRVhyNmNQRGlzSTkzbkVrYUtLV20wMzFrWDktM0VFQXUzZEtseC0ybTRYX0xjUjI0QkZNX0M2Z3oyZw?oc=5",
       "source": "BBC",
       "published": "2026-09-14T07:00:00+00:00"
+    },
+    {
+      "title": "France's Mistral launches AI model it says outperforms some Chinese rivals",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-06T15:44:15+00:00"
     }
   ],
   "markets": {
@@ -269,13 +269,13 @@
       "change": 0.5785987733221143,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "America/New_York",
       "marketStatus": "Not yet open",
       "regularSession": {
         "timezone": "EDT",
-        "start": 1791379800,
         "end": 1791403200,
+        "start": 1791379800,
         "gmtoffset": -14400
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed +0.58% and sits above its 20-session average (7,680.09). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -286,7 +286,7 @@
       "change": 0.34222247856494636,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "America/New_York",
       "marketStatus": "Not yet open",
       "regularSession": {
@@ -303,13 +303,13 @@
       "change": 0.44574419107015206,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "America/New_York",
       "marketStatus": "Not yet open",
       "regularSession": {
         "timezone": "EDT",
-        "end": 1791403200,
         "start": 1791379800,
+        "end": 1791403200,
         "gmtoffset": -14400
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed +0.45% and sits above its 20-session average (26,734.22). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -320,7 +320,7 @@
       "change": 0.49423288299772494,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "America/New_York",
       "marketStatus": "Not yet open",
       "regularSession": {
@@ -337,13 +337,13 @@
       "change": -0.5914652734099191,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "America/New_York",
       "marketStatus": "Not yet open",
       "regularSession": {
         "timezone": "EDT",
-        "end": 1791403200,
         "start": 1791379800,
+        "end": 1791403200,
         "gmtoffset": -14400
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.59% and sits below its 20-session average (2,854.46). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -354,7 +354,7 @@
       "change": 0.30659942775839166,
       "session": "2026-09-30",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Shanghai",
       "marketStatus": "Closed",
       "regularSession": {
@@ -371,24 +371,24 @@
       "change": -0.11106908574337604,
       "session": "2026-09-30",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Shanghai",
       "marketStatus": "Closed",
       "regularSession": {
         "timezone": "CST",
-        "start": 1790731800,
         "end": 1790751600,
+        "start": 1790731800,
         "gmtoffset": 28800
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.11% and sits below its 20-session average (13,463.86). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/399001.SZ?range=3mo&interval=1d"
     },
     "^N225": {
-      "close": 70163.2734375,
-      "change": -0.736663598063958,
+      "close": 70035.7109375,
+      "change": -0.9171323636931961,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Tokyo",
       "marketStatus": "Closed",
       "regularSession": {
@@ -397,49 +397,49 @@
         "end": 1791354600,
         "gmtoffset": 32400
       },
-      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.74% and sits above its 20-session average (66,210.03). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
+      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.92% and sits above its 20-session average (66,203.65). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EN225?range=3mo&interval=1d"
     },
     "^BSESN": {
-      "close": 72918.609375,
-      "change": -0.20419815496734994,
+      "close": 72874.421875,
+      "change": -0.26467279966811974,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Kolkata",
       "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "IST",
-        "end": 1791367200,
         "start": 1791344700,
+        "end": 1791367200,
         "gmtoffset": 19800
       },
-      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.20% and sits below its 20-session average (73,836.41). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
+      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.26% and sits below its 20-session average (73,834.20). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?range=3mo&interval=1d"
     },
     "^NSEI": {
-      "close": 22672.44921875,
-      "change": -0.4550840240544751,
+      "close": 22658.19921875,
+      "change": -0.5176496092266447,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Kolkata",
       "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "IST",
-        "start": 1791344700,
         "end": 1791367200,
+        "start": 1791344700,
         "gmtoffset": 19800
       },
-      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.46% and sits below its 20-session average (23,091.63). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
+      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.52% and sits below its 20-session average (23,090.91). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=3mo&interval=1d"
     },
     "^NSEBANK": {
-      "close": 55135.8984375,
-      "change": 0.013604603457695319,
+      "close": 55070.5,
+      "change": -0.1050247044010133,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Kolkata",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -448,41 +448,41 @@
         "start": 1791344700,
         "gmtoffset": 19800
       },
-      "analysis": "Rule-based observation (not AI): the latest daily bar changed +0.01% and sits below its 20-session average (55,685.05). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
+      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.11% and sits below its 20-session average (55,681.78). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEBANK?range=3mo&interval=1d"
     },
     "^HSI": {
-      "close": 24149.580078125,
-      "change": -0.5394458192064189,
+      "close": 24143.58984375,
+      "change": -0.5641167256438373,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Hong_Kong",
       "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "HKT",
-        "end": 1791360600,
         "start": 1791336600,
+        "end": 1791360600,
         "gmtoffset": 28800
       },
-      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.54% and sits below its 20-session average (24,657.33). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
+      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.56% and sits below its 20-session average (24,657.03). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EHSI?range=3mo&interval=1d"
     },
     "^HSCE": {
-      "close": 8080.8798828125,
-      "change": -0.5915919330524266,
+      "close": 8077.6298828125,
+      "change": -0.6315723969255171,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Hong_Kong",
       "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "HKT",
-        "start": 1791336600,
         "end": 1791360600,
+        "start": 1791336600,
         "gmtoffset": 28800
       },
-      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.59% and sits below its 20-session average (8,215.12). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
+      "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.63% and sits below its 20-session average (8,214.96). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EHSCE?range=3mo&interval=1d"
     },
     "^GSPTSE": {
@@ -490,7 +490,7 @@
       "change": 0.3685348852196846,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "America/Toronto",
       "marketStatus": "Not yet open",
       "regularSession": {
@@ -507,13 +507,13 @@
       "change": 0.4172244263873415,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Europe/London",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "BST",
-        "end": 1791387000,
         "start": 1791356400,
+        "end": 1791387000,
         "gmtoffset": 3600
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed +0.42% and sits below its 20-session average (10,641.71). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -524,9 +524,9 @@
       "change": 0.3792934655268754,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Europe/London",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "BST",
         "end": 1791387000,
@@ -541,9 +541,9 @@
       "change": 0.4128302715425747,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Europe/London",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "BST",
         "start": 1791356400,
@@ -558,13 +558,13 @@
       "change": 0.3953195156616074,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Europe/Paris",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "CEST",
-        "start": 1791356400,
         "end": 1791387000,
+        "start": 1791356400,
         "gmtoffset": 7200
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed +0.40% and sits below its 20-session average (8,057.04). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -575,9 +575,9 @@
       "change": 0.7092784771541849,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Europe/Berlin",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "CEST",
         "end": 1791387000,
@@ -592,13 +592,13 @@
       "change": 0.772063384231414,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Europe/Berlin",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "CEST",
-        "start": 1791356400,
         "end": 1791387000,
+        "start": 1791356400,
         "gmtoffset": 7200
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed +0.77% and sits above its 20-session average (25,399.71). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -609,13 +609,13 @@
       "change": 1.2344920870483334,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Europe/Berlin",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "CEST",
-        "end": 1791387000,
         "start": 1791356400,
+        "end": 1791387000,
         "gmtoffset": 7200
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed +1.23% and sits above its 20-session average (18,263.77). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -626,33 +626,33 @@
       "change": 0.38219061079503014,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Europe/Berlin",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "CEST",
-        "end": 1791387000,
         "start": 1791356400,
+        "end": 1791387000,
         "gmtoffset": 7200
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed +0.38% and sits below its 20-session average (31,071.75). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMDAXI?range=3mo&interval=1d"
     },
     "^KS11": {
-      "close": 6816.33984375,
-      "change": -1.801516562327421,
+      "close": 6803.89990234375,
+      "change": -1.9807305405253106,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Seoul",
       "marketStatus": "Closed",
       "regularSession": {
         "timezone": "KST",
-        "end": 1791352800,
         "start": 1791331200,
+        "end": 1791352800,
         "gmtoffset": 32400
       },
-      "analysis": "Rule-based observation (not AI): the latest daily bar changed -1.80% and sits below its 20-session average (6,901.13). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
+      "analysis": "Rule-based observation (not AI): the latest daily bar changed -1.98% and sits below its 20-session average (6,900.51). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?range=3mo&interval=1d"
     },
     "^TWII": {
@@ -660,7 +660,7 @@
       "change": -0.03247462694360159,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Taipei",
       "marketStatus": "Closed",
       "regularSession": {
@@ -673,11 +673,11 @@
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETWII?range=3mo&interval=1d"
     },
     "^KQ11": {
-      "close": 899.3599853515625,
-      "change": -2.234976730644811,
+      "close": 898.4299926757812,
+      "change": -2.3360716837992457,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Asia/Seoul",
       "marketStatus": "Closed",
       "regularSession": {
@@ -686,7 +686,7 @@
         "start": 1791331200,
         "gmtoffset": 32400
       },
-      "analysis": "Rule-based observation (not AI): the latest daily bar changed -2.23% and sits above its 20-session average (844.04). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
+      "analysis": "Rule-based observation (not AI): the latest daily bar changed -2.34% and sits above its 20-session average (843.99). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKQ11?range=3mo&interval=1d"
     },
     "^AXJO": {
@@ -694,7 +694,7 @@
       "change": -0.09157823438460388,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Australia/Sydney",
       "marketStatus": "Closed",
       "regularSession": {
@@ -711,7 +711,7 @@
       "change": -0.09996507693603718,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Australia/Sydney",
       "marketStatus": "Closed",
       "regularSession": {
@@ -728,13 +728,13 @@
       "change": 0.6231928003839649,
       "session": "2026-10-06",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T06:44:26.336711+00:00",
+      "updated": "2026-10-07T07:08:18.553048+00:00",
       "timezone": "Europe/Zurich",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "CEST",
-        "end": 1791387000,
         "start": 1791356400,
+        "end": 1791387000,
         "gmtoffset": 7200
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed +0.62% and sits below its 20-session average (13,837.75). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -748,7 +748,9 @@
       "journal": "Frontiers in psychology",
       "date": "2026-10-06",
       "type": "research-article, Journal Article",
-      "population": "Population and study limitations require full-text review"
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
     },
     {
       "title": "Evaluating sports nutrition advice provided by general-purpose large language models for recreational female marathon runners: a multidimensional descriptive audit",
@@ -756,7 +758,9 @@
       "journal": "Frontiers in nutrition",
       "date": "2026-10-06",
       "type": "research-article, Journal Article",
-      "population": "Population and study limitations require full-text review"
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
     },
     {
       "title": "Fisetin as a nutritional senotherapeutic: mechanisms, translational promise, and lessons from chronic kidney disease",
@@ -764,7 +768,9 @@
       "journal": "Frontiers in nutrition",
       "date": "2026-10-06",
       "type": "review-article, Review",
-      "population": "Population and study limitations require full-text review"
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
     },
     {
       "title": "The impact of digital and E-health literacy on college students’ mental health: the chain mediation effect of internet addiction and sleep quality",
@@ -772,7 +778,9 @@
       "journal": "Frontiers in public health",
       "date": "2026-10-06",
       "type": "research-article, Journal Article",
-      "population": "Population and study limitations require full-text review"
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
     },
     {
       "title": "Platform-specific digital media use and psychological distress among Turkish adults: evidence from a nationally representative, cross-sectional survey",
@@ -780,7 +788,9 @@
       "journal": "Frontiers in public health",
       "date": "2026-10-06",
       "type": "research-article, Journal Article",
-      "population": "Population and study limitations require full-text review"
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
     },
     {
       "title": "Human CD1c-autoreactive T-cells recognise Mycobacterium tuberculosis-infected antigen-presenting cells and display cytotoxic effector programmes",
@@ -788,7 +798,9 @@
       "journal": "eLife",
       "date": "2026-10-06",
       "type": "research-article, Journal Article",
-      "population": "Population and study limitations require full-text review"
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
     },
     {
       "title": "Precision-cut tumor slices: a biomimetic tool for accelerating oncological development from basic research to clinical translation",
@@ -796,7 +808,9 @@
       "journal": "Frontiers in physiology",
       "date": "2026-10-06",
       "type": "review-article, Review",
-      "population": "Population and study limitations require full-text review"
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
     },
     {
       "title": "Does getting online help low-income adults eat better? Digital access and BMI-based nutritional imbalance in China",
@@ -804,235 +818,371 @@
       "journal": "Frontiers in nutrition",
       "date": "2026-10-06",
       "type": "research-article, Journal Article",
-      "population": "Population and study limitations require full-text review"
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
     }
   ],
   "status": {
     "IN": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "US": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "CN": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "TW": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "JP": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "DE": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "GB": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "FR": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "KR": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "CA": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "AI": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^DJI": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^IXIC": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^GSPC": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^SOX": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "000001.SS": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^RUT": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "000300.SS": {
       "ok": false,
-      "checked": "2026-10-07T06:44:26.336711+00:00",
+      "checked": "2026-10-07T07:08:18.553048+00:00",
       "error": "Insufficient history"
     },
     "399001.SZ": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "000688.SS": {
       "ok": false,
-      "checked": "2026-10-07T06:44:26.336711+00:00",
+      "checked": "2026-10-07T07:08:18.553048+00:00",
       "error": "Insufficient history"
     },
     "399006.SZ": {
       "ok": false,
-      "checked": "2026-10-07T06:44:26.336711+00:00",
+      "checked": "2026-10-07T07:08:18.553048+00:00",
       "error": "Insufficient history"
     },
     "^N225": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^TOPX": {
       "ok": false,
-      "checked": "2026-10-07T06:44:26.336711+00:00",
+      "checked": "2026-10-07T07:08:18.553048+00:00",
       "error": "HTTP Error 404: Not Found"
     },
     "^NSEI": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^BSESN": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^NSEBANK": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^HSI": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^HSCE": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "HSTECH.HK": {
       "ok": false,
-      "checked": "2026-10-07T06:44:26.336711+00:00",
+      "checked": "2026-10-07T07:08:18.553048+00:00",
       "error": "Insufficient history"
     },
     "^GSPTSE": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "TX60.TS": {
       "ok": false,
-      "checked": "2026-10-07T06:44:26.336711+00:00",
+      "checked": "2026-10-07T07:08:18.553048+00:00",
       "error": "Insufficient history"
     },
     "^FTSE": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^FTMC": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^FTAS": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^FCHI": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^SBF120": {
       "ok": false,
-      "checked": "2026-10-07T06:44:26.336711+00:00",
+      "checked": "2026-10-07T07:08:18.553048+00:00",
       "error": "Insufficient history"
     },
     "^GDAXI": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^MDAXI": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^SDAXI": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^TECDAX": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^TWII": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^TWOII": {
       "ok": false,
-      "checked": "2026-10-07T06:44:26.336711+00:00",
+      "checked": "2026-10-07T07:08:18.553048+00:00",
       "error": "HTTP Error 404: Not Found"
     },
     "^KS11": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^KQ11": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^AXJO": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^AORD": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "^TASI.SR": {
       "ok": false,
-      "checked": "2026-10-07T06:44:26.336711+00:00",
+      "checked": "2026-10-07T07:08:18.553048+00:00",
       "error": "Insufficient history"
     },
     "^SPI": {
       "ok": false,
-      "checked": "2026-10-07T06:44:26.336711+00:00",
+      "checked": "2026-10-07T07:08:18.553048+00:00",
       "error": "HTTP Error 404: Not Found"
     },
     "^SSMI": {
       "ok": true,
-      "updated": "2026-10-07T06:44:26.336711+00:00"
+      "updated": "2026-10-07T07:08:18.553048+00:00"
     },
     "research": {
       "ok": true,
-      "updated": "2026-10-07T06:30:25.614894+00:00"
+      "checked": "2026-10-07T07:08:18.553048+00:00",
+      "newCount": 0
+    },
+    "english": {
+      "ok": true,
+      "updated": "2026-10-07T07:03:47.714708+00:00"
     }
   },
-  "marketUpdated": "2026-10-07T06:44:26.336711+00:00",
-  "checked": "2026-10-07T06:44:26.336711+00:00",
-  "newsUpdated": "2026-10-07T06:44:26.336711+00:00",
+  "marketUpdated": "2026-10-07T07:08:18.553048+00:00",
+  "checked": "2026-10-07T07:08:18.553048+00:00",
+  "newsUpdated": "2026-10-07T07:08:18.553048+00:00",
   "researchUpdated": "2026-10-07T06:30:25.614894+00:00",
   "daily": {
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "timezone": "America/Los_Angeles",
-    "kitchenUpdated": "2026-10-07T06:43:01.922091+00:00",
-    "englishUpdated": "2026-10-07T06:43:01.922091+00:00",
+    "kitchenUpdated": "2026-10-07T07:08:18.553048+00:00",
+    "englishUpdated": "2026-10-07T07:03:47.714708+00:00",
     "recipeIndices": [
-      10,
-      11
+      12,
+      13
     ],
-    "practiceEdition": 2,
+    "practiceEdition": 0,
     "mode": "Curated daily selection and practice rotation"
-  }
+  },
+  "english": {
+    "date": "2026-10-07",
+    "level": "B2–C1",
+    "mode": "New daily lessons with permanent archive",
+    "lessons": [
+      {
+        "image": "vocabulary",
+        "title": "ambivalent",
+        "meaning": "Having mixed feelings or conflicting views about something.",
+        "example": "I am ambivalent about the promotion: the work sounds exciting, but the extra travel worries me.",
+        "notes": "Adjective. Common pattern: ambivalent about something. It means mixed feelings, rather than simply having no opinion.",
+        "conversation": "A: Are you going to take the new role?\nB: I am still ambivalent. It is a great opportunity, but I would miss working with this team.",
+        "exercise": "Describe a decision you feel both positive and negative about. Explain each side.",
+        "id": "2026-10-07-1"
+      },
+      {
+        "image": "vocabulary",
+        "title": "discerning",
+        "meaning": "Able to notice meaningful differences and judge quality carefully.",
+        "example": "A discerning reader checks the evidence before sharing an eye-catching headline.",
+        "notes": "Adjective. Common combinations: a discerning reader, customer or eye. Usually complimentary; it does not mean difficult to please for no reason.",
+        "conversation": "A: How do you choose which reviews to trust?\nB: I try to be discerning. I look for specific examples rather than just a star rating.",
+        "exercise": "Describe how a discerning shopper would compare two similar products.",
+        "id": "2026-10-07-2"
+      },
+      {
+        "image": "phrasal",
+        "title": "iron out",
+        "meaning": "Resolve small problems or disagreements so something works smoothly.",
+        "example": "We still need to iron out a few details before we announce the schedule.",
+        "notes": "Separable: iron out the details / iron the details out. With a pronoun, say iron them out. Often used for practical issues, rather than fundamental conflicts.",
+        "conversation": "A: Is the agreement ready to sign?\nB: Almost. We need to iron out the delivery dates first.",
+        "exercise": "Name two practical details that a team might need to iron out before an event.",
+        "id": "2026-10-07-3"
+      },
+      {
+        "image": "phrasal",
+        "title": "flesh out",
+        "meaning": "Add enough detail to develop an idea, outline or proposal more fully.",
+        "example": "Could you flesh out the proposal with a budget and a realistic timeline?",
+        "notes": "Separable: flesh out the plan / flesh the plan out / flesh it out. Do not confuse it with flush out, which means force something hidden into the open.",
+        "conversation": "A: What do you think of my first draft?\nB: The central idea is strong. I would flesh out the section on how we will measure success.",
+        "exercise": "Ask a colleague to add two specific kinds of detail to an outline.",
+        "id": "2026-10-07-4"
+      },
+      {
+        "image": "idiom",
+        "title": "read the room",
+        "meaning": "Notice other people’s mood and reactions, then adjust what you say or do.",
+        "example": "He read the room and saved his joke for a less serious moment.",
+        "notes": "Informal. Often used as advice or criticism: Read the room. That direct command can sound sharp; soften it when giving feedback.",
+        "conversation": "A: Why did you change the subject?\nB: Everyone looked uncomfortable. I was trying to read the room.",
+        "exercise": "Describe a situation where noticing the mood would change how you start a conversation.",
+        "id": "2026-10-07-5"
+      },
+      {
+        "image": "idiom",
+        "title": "move the needle",
+        "meaning": "Make a noticeable difference to an outcome or measure.",
+        "example": "A nicer logo is useful, but faster customer support would really move the needle.",
+        "notes": "Informal, common in business. Usually followed by context about what improves. It can sound vague unless you name the outcome you care about.",
+        "conversation": "A: Which improvement should we prioritize?\nB: Reducing wait times. That is most likely to move the needle on customer satisfaction.",
+        "exercise": "Use the expression while naming a concrete result, such as completion rate or customer satisfaction.",
+        "id": "2026-10-07-6"
+      },
+      {
+        "image": "life",
+        "title": "I could use a hand with this.",
+        "meaning": "A natural, mildly indirect way to say you would appreciate some help.",
+        "example": "I could use a hand with these boxes, if you have a minute.",
+        "notes": "Could use expresses a current need or wish; a hand means help. Add a specific task so the other person knows what to do.",
+        "conversation": "A: You look busy. Everything okay?\nB: Yes, but I could use a hand setting up the chairs.\nA: Of course. Where would you like them?",
+        "exercise": "Make a friendly request for help, adding a specific task and an easy way to respond.",
+        "id": "2026-10-07-7"
+      },
+      {
+        "image": "grammar",
+        "title": "Hedging with might, seems and tends to",
+        "meaning": "Use hedging to show appropriate uncertainty or avoid making an overgeneralization.",
+        "example": "This approach might work better for smaller teams, but it seems less practical at our current scale.",
+        "notes": "Might + base verb signals possibility. Seems + adjective or seems to + verb reports an impression. Tends to + verb describes a usual pattern, not an absolute rule. Do not hedge a verified fact so much that it becomes unclear.",
+        "conversation": "A: Will the new schedule solve the problem?\nB: It might help. Our busiest periods tend to fall just before lunch, so we should test it then.",
+        "exercise": "Rewrite “This always works” as a careful statement that explains when it may work and what still needs testing.",
+        "id": "2026-10-07-8"
+      },
+      {
+        "image": "quote",
+        "title": "A thoughtful question can open a door that a quick answer leaves closed.",
+        "meaning": "Taking time to ask well can reveal possibilities that an immediate answer overlooks.",
+        "example": "Before offering advice, she asked what mattered most to him; that thoughtful question changed the conversation.",
+        "notes": "Original Real Family reflection. Open a door is a metaphor for creating an opportunity. This is not attributed to a historical author.",
+        "conversation": "A: Did you tell her what she should do?\nB: I asked what outcome she wanted first. That helped us see a different option.",
+        "exercise": "Paraphrase the reflection in everyday language, then give a real example.",
+        "id": "2026-10-07-9"
+      },
+      {
+        "image": "small-talk",
+        "title": "How are you settling in?",
+        "meaning": "A friendly way to ask how someone is adjusting to a new home, job or community.",
+        "example": "You have been in the neighborhood for a couple of weeks now. How are you settling in?",
+        "notes": "Settling in focuses on becoming comfortable, rather than just arriving. Follow up on what the person chooses to share; avoid pressing for private details.",
+        "conversation": "A: How are you settling in?\nB: Pretty well, thanks. I am still learning my way around.\nA: That takes a little time. Have you found a favorite coffee spot yet?\nB: Not yet. Any recommendations?",
+        "exercise": "Practice a warm opening and one follow-up question that fits the answer, without turning the conversation into an interview.",
+        "id": "2026-10-07-10"
+      }
+    ],
+    "version": 4,
+    "published": "2026-10-07T07:03:47.714708+00:00"
+  },
+  "marketCaps": {
+    "year": 2025,
+    "source": "https://data.worldbank.org/indicator/CM.MKT.LCAP.CD",
+    "checked": "2026-10-06T23:55:41.178231-07:00",
+    "datasetUpdated": "2026-07-13",
+    "values": {
+      "Australia": 2047916560000,
+      "Canada": 4621231170000,
+      "Switzerland": 2514307680000,
+      "China": 15508858500000,
+      "Germany": 2898631590000,
+      "Hong Kong": 6089226700000,
+      "India": 10559581760000,
+      "Japan": 7610543670000,
+      "South Korea": 2756667490000,
+      "Saudi Arabia": 2358620270000,
+      "United States": 68937866210000
+    }
+  },
+  "researchChecked": "2026-10-07T07:08:18.553048+00:00"
 }
