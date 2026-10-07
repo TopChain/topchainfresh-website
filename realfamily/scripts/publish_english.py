@@ -22,7 +22,7 @@ def publish(date):
  for l in e['lessons']:
   asset=ROOT/l.get('illustration','');assert asset.is_file() and 'assets/english/' in l['illustration'],'Missing topic illustration: '+l['title']
   digest=hashlib.sha256(asset.read_bytes()).hexdigest();assert digest not in current_images|past_images,'Reused illustration: '+l['title'];current_images.add(digest)
- e['cardSize']={'width':1320,'height':2868};e['version']=4;e['published']=e.get('published',datetime.datetime.now(datetime.timezone.utc).isoformat());file.write_text(json.dumps(e,ensure_ascii=False,indent=2)+'\n')
+ e['cardSize']={'width':660,'height':1434};e['version']=4;e['published']=e.get('published',datetime.datetime.now(datetime.timezone.utc).isoformat());file.write_text(json.dumps(e,ensure_ascii=False,indent=2)+'\n')
  history={'editions':[]}
  for old in sorted((p/'english-archive').glob('*.json')):
   edition=json.loads(old.read_text());history['editions'].append({'date':edition['date'],'topics':[{'image':l['image'],'title':l['title']} for l in edition['lessons']]})

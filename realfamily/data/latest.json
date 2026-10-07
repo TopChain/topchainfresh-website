@@ -137,7 +137,7 @@
         "title": "Germany’s beleaguered spies face a fresh scandal",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVDBNZ3o3blNjNm5uNXB4SHE3cVdCUl83SkN2R21JX1c0R2VqaFdwVWhrLVhSS0VhX192ZGRmRkdOOVFpUEIxem1VS2ZrWTAzQXp5ak9zZDRnc3ZHTVNIZVpaU3VGRmozRUlaSFlKdDl0Z2lTMm1MWVRFcThOZW1va2p3dTA?oc=5",
         "source": "Financial Times",
-        "published": "2026-10-07T04:02:22+00:00"
+        "published": "2026-10-07T04:00:22+00:00"
       }
     ],
     "FR": [
@@ -151,7 +151,7 @@
         "title": "What to Know About France’s High School Protests",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUUZmbzQzb0Z5T1ZRTnlNQ0lfT3dpdE1BNXYwX3piY3psTWw5NS1aNGRJQlNYdldpcy1ZaTQ4eG9CU0gyRmdXSm1fRVY5MkhUYVpMN2ZxZ3RCMmV0bldrc2c0MkFuSlVmWmhWdTlZdl9EVThGSW9lVXBHM3VGeHprSHpjdm93Z0U?oc=5",
         "source": "The New York Times",
-        "published": "2026-10-07T09:50:00+00:00"
+        "published": "2026-10-07T13:36:08+00:00"
       },
       {
         "title": "France does not need ECB's help at present, says Bank of France head",
@@ -269,11 +269,11 @@
       "analysisEligibleAt": "2026-10-07T21:00:00+00:00",
       "sessionClosedAt": "2026-10-07T16:00:00-04:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 7771.72021484375,
-      "change": -0.6037905426464985,
+      "close": 7772.4501953125,
+      "change": -0.5944544768121784,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "America/New_York",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -290,11 +290,11 @@
       "analysisEligibleAt": "2026-10-07T21:00:00+00:00",
       "sessionClosedAt": "2026-10-07T16:00:00-04:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 12943.9794921875,
-      "change": -2.0717547510729184,
+      "close": 12946.7431640625,
+      "change": -2.0508460701432307,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "America/New_York",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -311,17 +311,17 @@
       "analysisEligibleAt": "2026-10-07T21:00:00+00:00",
       "sessionClosedAt": "2026-10-07T16:00:00-04:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 27398.888671875,
-      "change": -0.7279055291692926,
+      "close": 27401.681640625,
+      "change": -0.7177859998363845,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "America/New_York",
       "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "EDT",
-        "end": 1791403200,
         "start": 1791379800,
+        "end": 1791403200,
         "gmtoffset": -14400
       },
       "analysis": null,
@@ -332,17 +332,17 @@
       "analysisEligibleAt": "2026-10-07T21:00:00+00:00",
       "sessionClosedAt": "2026-10-07T16:00:00-04:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 50987.921875,
-      "change": -1.0352214891783174,
+      "close": 51002.73828125,
+      "change": -1.006463651852607,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "America/New_York",
       "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "EDT",
-        "end": 1791403200,
         "start": 1791379800,
+        "end": 1791403200,
         "gmtoffset": -14400
       },
       "analysis": null,
@@ -353,11 +353,11 @@
       "analysisEligibleAt": "2026-10-07T21:00:00+00:00",
       "sessionClosedAt": "2026-10-07T16:00:00-04:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 2802.6240234375,
-      "change": -0.977847751586769,
+      "close": 2804.067626953125,
+      "change": -0.9268424344571313,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "America/New_York",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -378,7 +378,7 @@
       "change": 0.30659942775839166,
       "session": "2026-09-30",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Shanghai",
       "marketStatus": "Closed",
       "regularSession": {
@@ -399,7 +399,7 @@
       "change": -0.11106908574337604,
       "session": "2026-09-30",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Shanghai",
       "marketStatus": "Closed",
       "regularSession": {
@@ -420,13 +420,13 @@
       "change": -0.9171323636931961,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Tokyo",
       "marketStatus": "Closed",
       "regularSession": {
         "timezone": "JST",
-        "end": 1791354600,
         "start": 1791331200,
+        "end": 1791354600,
         "gmtoffset": 32400
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.92% and sits above its 20-session average (66,203.65). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -441,13 +441,13 @@
       "change": -0.587275518888708,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Kolkata",
       "marketStatus": "Closed",
       "regularSession": {
         "timezone": "IST",
-        "end": 1791367200,
         "start": 1791344700,
+        "end": 1791367200,
         "gmtoffset": 19800
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.59% and sits below its 20-session average (73,822.42). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -462,7 +462,7 @@
       "change": -0.7597825399998315,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Kolkata",
       "marketStatus": "Closed",
       "regularSession": {
@@ -483,13 +483,13 @@
       "change": -0.13214179681383387,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Kolkata",
       "marketStatus": "Closed",
       "regularSession": {
         "timezone": "IST",
-        "end": 1791367200,
         "start": 1791344700,
+        "end": 1791367200,
         "gmtoffset": 19800
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.13% and sits below its 20-session average (55,681.03). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -504,7 +504,7 @@
       "change": -0.6180275228213961,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Hong_Kong",
       "marketStatus": "Closed",
       "regularSession": {
@@ -525,13 +525,13 @@
       "change": -0.5728931373737978,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Hong_Kong",
       "marketStatus": "Closed",
       "regularSession": {
         "timezone": "HKT",
-        "end": 1791360600,
         "start": 1791336600,
+        "end": 1791360600,
         "gmtoffset": 28800
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed -0.57% and sits below its 20-session average (8,215.20). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -542,11 +542,11 @@
       "analysisEligibleAt": "2026-10-07T21:00:00+00:00",
       "sessionClosedAt": "2026-10-07T16:00:00-04:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 35175.640625,
-      "change": -1.3292174504551224,
+      "close": 35198.8203125,
+      "change": -1.2641963772282883,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "America/Toronto",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -563,11 +563,11 @@
       "analysisEligibleAt": "2026-10-07T16:00:00+00:00",
       "sessionClosedAt": "2026-10-07T16:30:00+01:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 10455.9599609375,
-      "change": -0.8133435099313968,
+      "close": 10461.490234375,
+      "change": -0.7608825848904988,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Europe/London",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -584,11 +584,11 @@
       "analysisEligibleAt": "2026-10-07T16:00:00+00:00",
       "sessionClosedAt": "2026-10-07T16:30:00+01:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 24016.75,
-      "change": -0.819939355879229,
+      "close": 24023.380859375,
+      "change": -0.7925564237616367,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Europe/London",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -605,11 +605,11 @@
       "analysisEligibleAt": "2026-10-07T16:00:00+00:00",
       "sessionClosedAt": "2026-10-07T16:30:00+01:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 5643.2001953125,
-      "change": -0.8083707270701956,
+      "close": 5646.0,
+      "change": -0.7591580146043442,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Europe/London",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -626,11 +626,11 @@
       "analysisEligibleAt": "2026-10-07T16:00:00+00:00",
       "sessionClosedAt": "2026-10-07T17:30:00+02:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 7752.58984375,
-      "change": -1.4301205581467635,
+      "close": 7751.0,
+      "change": -1.4503345395294187,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Europe/Paris",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -647,11 +647,11 @@
       "analysisEligibleAt": "2026-10-07T16:00:00+00:00",
       "sessionClosedAt": "2026-10-07T17:30:00+02:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 4040.06005859375,
-      "change": -1.4432051255937495,
+      "close": 4032.60009765625,
+      "change": -1.625190004339383,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Europe/Berlin",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -668,17 +668,17 @@
       "analysisEligibleAt": "2026-10-07T16:00:00+00:00",
       "sessionClosedAt": "2026-10-07T17:30:00+02:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 25073.630859375,
-      "change": -1.4757192736599478,
+      "close": 25051.0390625,
+      "change": -1.5644914403201593,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Europe/Berlin",
       "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "CEST",
-        "end": 1791387000,
         "start": 1791356400,
+        "end": 1791387000,
         "gmtoffset": 7200
       },
       "analysis": null,
@@ -689,11 +689,11 @@
       "analysisEligibleAt": "2026-10-07T16:00:00+00:00",
       "sessionClosedAt": "2026-10-07T17:30:00+02:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 18198.23046875,
-      "change": -1.0148599445682804,
+      "close": 18198.359375,
+      "change": -1.0141587883084946,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Europe/Berlin",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -710,11 +710,11 @@
       "analysisEligibleAt": "2026-10-07T16:00:00+00:00",
       "sessionClosedAt": "2026-10-07T17:30:00+02:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 30146.05078125,
-      "change": -1.3005115565430603,
+      "close": 30136.7890625,
+      "change": -1.3308348287144334,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Europe/Berlin",
       "marketStatus": "Trading now",
       "regularSession": {
@@ -735,13 +735,13 @@
       "change": -1.9807305405253106,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Seoul",
       "marketStatus": "Closed",
       "regularSession": {
         "timezone": "KST",
-        "end": 1791352800,
         "start": 1791331200,
+        "end": 1791352800,
         "gmtoffset": 32400
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed -1.98% and sits below its 20-session average (6,900.51). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -756,7 +756,7 @@
       "change": -0.03247462694360159,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Taipei",
       "marketStatus": "Closed",
       "regularSession": {
@@ -777,13 +777,13 @@
       "change": -2.3360716837992457,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Asia/Seoul",
       "marketStatus": "Closed",
       "regularSession": {
         "timezone": "KST",
-        "start": 1791331200,
         "end": 1791352800,
+        "start": 1791331200,
         "gmtoffset": 32400
       },
       "analysis": "Rule-based observation (not AI): the latest daily bar changed -2.34% and sits above its 20-session average (843.99). Next session, watch whether price holds that average and whether participation confirms the move. No directional forecast is asserted.",
@@ -798,7 +798,7 @@
       "change": -0.09157823438460388,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Australia/Sydney",
       "marketStatus": "Not yet open",
       "regularSession": {
@@ -819,13 +819,13 @@
       "change": -0.09996507693603718,
       "session": "2026-10-07",
       "state": "Historical daily bar; finality unverified",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Australia/Sydney",
       "marketStatus": "Not yet open",
       "regularSession": {
         "timezone": "AEDT",
-        "end": 1791436320,
         "start": 1791414000,
+        "end": 1791436320,
         "gmtoffset": 39600
       },
       "analysis": null,
@@ -836,17 +836,17 @@
       "analysisEligibleAt": "2026-10-07T16:00:00+00:00",
       "sessionClosedAt": "2026-10-07T17:30:00+02:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 13762.75,
-      "change": -0.18986018562218154,
+      "close": 13752.41015625,
+      "change": -0.2648467435663715,
       "session": "2026-10-07",
       "state": "Provisional daily bar",
-      "updated": "2026-10-07T14:10:10.558358+00:00",
+      "updated": "2026-10-07T14:01:35.583546+00:00",
       "timezone": "Europe/Zurich",
       "marketStatus": "Trading now",
       "regularSession": {
         "timezone": "CEST",
-        "start": 1791356400,
         "end": 1791387000,
+        "start": 1791356400,
         "gmtoffset": 7200
       },
       "analysis": null,
@@ -942,209 +942,209 @@
   "status": {
     "IN": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "US": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "CN": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "TW": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "JP": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "DE": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "GB": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "FR": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "KR": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "CA": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "AI": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^DJI": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^IXIC": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^GSPC": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^SOX": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "000001.SS": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^RUT": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "000300.SS": {
       "ok": false,
-      "checked": "2026-10-07T14:10:10.558358+00:00",
+      "checked": "2026-10-07T14:01:35.583546+00:00",
       "error": "Insufficient history"
     },
     "399001.SZ": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "000688.SS": {
       "ok": false,
-      "checked": "2026-10-07T14:10:10.558358+00:00",
+      "checked": "2026-10-07T14:01:35.583546+00:00",
       "error": "Insufficient history"
     },
     "399006.SZ": {
       "ok": false,
-      "checked": "2026-10-07T14:10:10.558358+00:00",
+      "checked": "2026-10-07T14:01:35.583546+00:00",
       "error": "Insufficient history"
     },
     "^N225": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^TOPX": {
       "ok": false,
-      "checked": "2026-10-07T14:10:10.558358+00:00",
+      "checked": "2026-10-07T14:01:35.583546+00:00",
       "error": "HTTP Error 404: Not Found"
     },
     "^NSEI": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^BSESN": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^NSEBANK": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^HSI": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^HSCE": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "HSTECH.HK": {
       "ok": false,
-      "checked": "2026-10-07T14:10:10.558358+00:00",
+      "checked": "2026-10-07T14:01:35.583546+00:00",
       "error": "Insufficient history"
     },
     "^GSPTSE": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "TX60.TS": {
       "ok": false,
-      "checked": "2026-10-07T14:10:10.558358+00:00",
+      "checked": "2026-10-07T14:01:35.583546+00:00",
       "error": "Insufficient history"
     },
     "^FTSE": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^FTMC": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^FTAS": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^FCHI": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^SBF120": {
       "ok": false,
-      "checked": "2026-10-07T14:10:10.558358+00:00",
+      "checked": "2026-10-07T14:01:35.583546+00:00",
       "error": "Insufficient history"
     },
     "^GDAXI": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^MDAXI": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^SDAXI": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^TECDAX": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^TWII": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^TWOII": {
       "ok": false,
-      "checked": "2026-10-07T14:10:10.558358+00:00",
+      "checked": "2026-10-07T14:01:35.583546+00:00",
       "error": "HTTP Error 404: Not Found"
     },
     "^KS11": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^KQ11": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^AXJO": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^AORD": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "^TASI.SR": {
       "ok": false,
-      "checked": "2026-10-07T14:10:10.558358+00:00",
+      "checked": "2026-10-07T14:01:35.583546+00:00",
       "error": "Insufficient history"
     },
     "^SPI": {
       "ok": false,
-      "checked": "2026-10-07T14:10:10.558358+00:00",
+      "checked": "2026-10-07T14:01:35.583546+00:00",
       "error": "HTTP Error 404: Not Found"
     },
     "^SSMI": {
       "ok": true,
-      "updated": "2026-10-07T14:10:10.558358+00:00"
+      "updated": "2026-10-07T14:01:35.583546+00:00"
     },
     "research": {
       "ok": true,
@@ -1156,9 +1156,9 @@
       "updated": "2026-10-07T07:28:55.761806+00:00"
     }
   },
-  "marketUpdated": "2026-10-07T14:10:10.558358+00:00",
-  "checked": "2026-10-07T14:10:10.558358+00:00",
-  "newsUpdated": "2026-10-07T14:10:10.558358+00:00",
+  "marketUpdated": "2026-10-07T14:01:35.583546+00:00",
+  "checked": "2026-10-07T14:01:35.583546+00:00",
+  "newsUpdated": "2026-10-07T14:01:35.583546+00:00",
   "researchUpdated": "2026-10-07T06:30:25.614894+00:00",
   "daily": {
     "date": "2026-10-07",
@@ -1290,10 +1290,10 @@
     ],
     "version": 4,
     "published": "2026-10-07T07:28:55.761806+00:00",
-    "revision": 2,
+    "revision": 3,
     "cardSize": {
-      "width": 1320,
-      "height": 2868
+      "width": 660,
+      "height": 1434
     },
     "illustrationStyle": "Simple flat comic",
     "firstPublished": "2026-10-07T07:03:47.714708+00:00"
