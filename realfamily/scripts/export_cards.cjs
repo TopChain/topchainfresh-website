@@ -1,7 +1,7 @@
 /* Complete portrait cards: iPhone 17 Pro Max, screen ratio, lightweight 660 × 1434 pixels. */
 const fs=require('fs'),path=require('path');
 const sharp=require(process.env.REAL_FAMILY_SHARP||'/Users/jr/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
-const root=path.resolve(__dirname,'..'),date=process.argv[2],edition=JSON.parse(fs.readFileSync(path.join(root,'data/english-archive',date+'.json'))),out=path.join(root,'data/english-images',date);fs.mkdirSync(out,{recursive:true});
+const root=path.resolve(__dirname,'..'),date=process.argv[2],edition=JSON.parse(fs.readFileSync(fs.existsSync(path.join(root,'data/english-archive',date+'.json'))?path.join(root,'data/english-archive',date+'.json'):path.join(root,'data/english-staged',date+'.json'))),out=path.join(root,'data/english-images',date);fs.mkdirSync(out,{recursive:true});
 const colors={vocabulary:'#b82c30',phrasal:'#ad5018',idiom:'#926a0c',life:'#1c5840',grammar:'#244890',quote:'#503773','small-talk':'#25272c'},labels={vocabulary:'Vocabulary',phrasal:'Phrasal verbs',idiom:'Idioms & slang',life:'Life phrases',grammar:'Grammar',quote:'Quote','small-talk':'Small talk'};
 const escape=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 const {createCanvas,GlobalFonts}=require(process.env.REAL_FAMILY_CANVAS||'/Users/jr/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/@napi-rs/canvas');

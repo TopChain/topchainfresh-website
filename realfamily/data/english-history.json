@@ -89,6 +89,51 @@
           "title": "How are you settling in?"
         }
       ]
+    },
+    {
+      "date": "2026-10-08",
+      "topics": [
+        {
+          "image": "vocabulary",
+          "title": "resilient"
+        },
+        {
+          "image": "vocabulary",
+          "title": "resourceful"
+        },
+        {
+          "image": "phrasal",
+          "title": "bring up"
+        },
+        {
+          "image": "phrasal",
+          "title": "draw on"
+        },
+        {
+          "image": "idiom",
+          "title": "the ball is in your court"
+        },
+        {
+          "image": "idiom",
+          "title": "a blessing in disguise"
+        },
+        {
+          "image": "life",
+          "title": "Let me get back to you on that."
+        },
+        {
+          "image": "grammar",
+          "title": "Inversion after Not only"
+        },
+        {
+          "image": "quote",
+          "title": "Clarity begins when we name what matters."
+        },
+        {
+          "image": "small-talk",
+          "title": "Have you come across anything worth watching lately?"
+        }
+      ]
     }
   ]
 }

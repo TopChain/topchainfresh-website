@@ -15,6 +15,9 @@ def load_old():
     try:return json.loads(DEST.read_text())
     except Exception:return {'countries':{},'ai':[],'markets':{},'research':[],'status':{}}
 data=load_old()
+from release_english import release,validate as validate_english
+try:release(ROOT,NOW)
+except Exception as e:data['status']['englishRelease']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
 countries=[('US','United States'),('TW','Taiwan'),('GB','United Kingdom'),('JP','Japan'),('CN','China'),('IN','India'),('DE','Germany'),('FR','France'),('KR','South Korea'),('CA','Canada')]
 from news_sources import refresh as refresh_news
 from google_finance import quote as google_quote
@@ -65,14 +68,18 @@ if data.get('daily',{}).get('date')!=DAILY_DATE:
     data['daily']={'date':DAILY_DATE,'timezone':'America/Los_Angeles','kitchenUpdated':STAMP,'englishUpdated':STAMP,'recipeIndices':[(offset%10)*2,(offset%10)*2+1],'practiceEdition':offset%3,'mode':'Curated daily selection and practice rotation'}
 # Publish only an actually authored edition. Never rotate old lessons or relabel their date.
 archive=ROOT/'data/english-archive'/f'{DAILY_DATE}.json'
+current=None
 if archive.exists():
-    current=json.loads(archive.read_text())
-    if data.get('english',{}).get('date')!=current['date'] or data.get('english',{}).get('version')!=4 or data.get('english',{}).get('revision')!=current.get('revision'):
-        data['english']=current
+    try:
+        current=json.loads(archive.read_text());validate_english(ROOT,current)
+    except Exception as e:data['status']['english']={'ok':False,'checked':STAMP,'error':'Invalid current edition: '+str(e)[:120]}
+if current:
+    data['english']=current
     data['daily']['englishUpdated']=current.get('published',STAMP)
+    data['status']['english']={'ok':True,'checked':STAMP,'updated':current.get('published',STAMP)}
 else:
     data['daily']['englishUpdated']=data.get('english',{}).get('published',data.get('daily',{}).get('englishUpdated'))
-    data['status']['english']={'ok':False,'checked':STAMP,'error':'New daily edition awaiting authoring; previous edition retained with its original date.'}
+    data['status'].setdefault('english',{'ok':False,'checked':STAMP,'error':'New edition incomplete; previous edition retained with its original date.'})
 if not data.get('marketCaps',{}).get('checked','').startswith(STAMP[:7]):
     try:
         cap_url='https://api.worldbank.org/v2/country/USA;CHN;JPN;IND;HKG;CAN;GBR;FRA;DEU;KOR;AUS;SAU;CHE/indicator/CM.MKT.LCAP.CD?format=json&date=2025&per_page=100'
