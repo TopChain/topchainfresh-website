@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "version": 4,
-  "revision": 1,
+  "revision": 2,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -112,7 +112,7 @@
       "meaning": "A friendly way to ask how someone relaxes after a busy or stressful period.",
       "example": "What do you like to do to unwind after a long week?",
       "notes": "Unwind means relax, not solve a problem. Keep the question open and avoid assuming everyone drinks alcohol or enjoys the same activities.",
-      "conversation": "A: What do you like to do to unwind?\nB: I usually take a walk or look after my plants.\nA: That sounds relaxing. Have you been gardening long?",
+      "conversation": "A: What do you like to do to unwind?\nB: I tend to take a walk or look after my plants.\nA: Have you been gardening long?\nB: Only a year. It gives me something else to focus on.\nA: I could use a hobby like that. What is easy to start with?\nB: Herbs are forgiving. I can show you a few next time.",
       "exercise": "Answer with one relaxing activity, then ask a natural follow-up question.",
       "id": "2026-10-09-10",
       "illustration": "assets/english/2026-10-09/10.png"

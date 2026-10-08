@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "version": 4,
-  "revision": 1,
+  "revision": 2,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -112,7 +112,7 @@
       "meaning": "A friendly invitation to share a recent film, show or video recommendation.",
       "example": "Have you come across anything worth watching lately? I am looking for a good documentary.",
       "notes": "Come across means find by chance; worth + -ing describes something deserving your time. Lately connects naturally with the present perfect. Follow up on the person’s taste.",
-      "conversation": "A: Have you come across anything worth watching lately?\nB: A short documentary about city wildlife.\nA: That sounds interesting. What did you like about it?",
+      "conversation": "A: Have you come across anything worth watching lately?\nB: A documentary about city wildlife.\nA: What stood out to you?\nB: How animals adapt to places we overlook.\nA: That sounds right up my alley. Where can I find it?\nB: I will send you the link. Let me know what you think.",
       "exercise": "Recommend something briefly, then ask a follow-up question about the other person’s interests.",
       "id": "2026-10-08-10",
       "illustration": "assets/english/2026-10-08/10.png"
