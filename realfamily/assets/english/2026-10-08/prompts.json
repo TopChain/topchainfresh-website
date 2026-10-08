@@ -1,0 +1,45 @@
+{
+  "tool": "Built-in imagegen",
+  "prompts": [
+    {
+      "image": "1.png",
+      "prompt": "Wide simple 2D comic: resilient tree bends in wind then stands upright again, two panels. Thick outlines, flat colors, plain background, no text. Landscape 2:1."
+    },
+    {
+      "image": "2.png",
+      "prompt": "Simple wide 2D comic for 'resourceful': a person repairs a broken suitcase wheel using a small skateboard, smiling at the clever solution. Thick outlines, flat colors, plain background, few objects, no text. Landscape 2:1."
+    },
+    {
+      "image": "3.png",
+      "prompt": "Simple wide 2D comic for 'bring up a topic': two people at a table; one gently points to a speech bubble containing a calendar to introduce scheduling. Thick outlines, flat colors, minimal background, no words or letters. Landscape 2:1."
+    },
+    {
+      "image": "4.png",
+      "prompt": "Simple wide 2D comic for 'draw on experience': a cook remembers a past cooking lesson in a small thought bubble, then uses that skill to prepare a meal. Thick outlines, flat colors, few objects, no text. Landscape 2:1."
+    },
+    {
+      "image": "5.png",
+      "prompt": "Simple wide 2D comic for 'the ball is in your court': one person has passed a tennis ball across the net; receiver holds racket and decides next move. Thick outlines, flat colors, simple court, two people, no text. Landscape 2:1."
+    },
+    {
+      "image": "6.png",
+      "prompt": "Simple wide 2D comic for 'a blessing in disguise': rain spoils a picnic, but two friends shelter in a cozy cafe and happily reconnect. Two panels, thick outlines, flat colors, minimal details, no text. Landscape 2:1."
+    },
+    {
+      "image": "7.png",
+      "prompt": "Simple wide 2D comic for 'Let me get back to you on that': one person pauses before answering, checks a calendar, then calls the other person back. Two panels, thick outlines, flat colors, plain background, no text. Landscape 2:1."
+    },
+    {
+      "image": "8.png",
+      "prompt": "Simple wide 2D comic: a helpful coworker finishes a large task and also helps a colleague carry a box, two clearly connected actions. Teaches emphatic 'Not only ... but also'. Thick outlines, flat colors, simple office, no text. Landscape 2:1."
+    },
+    {
+      "image": "9.png",
+      "prompt": "Simple wide 2D comic: a person clears a cluttered desk and highlights one important item with a bright circle, looking relieved. Teaches 'Clarity begins when we name what matters.' Thick outlines, flat colors, few objects, no text. Landscape 2:1."
+    },
+    {
+      "image": "10.png",
+      "prompt": "Simple wide 2D comic: two friends casually chat on a sofa, one points to a television showing a tiny bird documentary, both interested. Teaches asking for something worth watching. Thick outlines, flat colors, plain background, no text. Landscape 2:1."
+    }
+  ]
+}

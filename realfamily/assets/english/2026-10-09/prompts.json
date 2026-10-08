@@ -1,0 +1,45 @@
+{
+  "tool": "Built-in imagegen",
+  "prompts": [
+    {
+      "image": "1.png",
+      "prompt": "Simple wide 2D comic for 'pragmatic': a person chooses a sturdy ordinary umbrella over a beautiful broken one while rain approaches. Thick outlines, flat colors, minimal background, no text. Landscape 2:1."
+    },
+    {
+      "image": "2.png",
+      "prompt": "Simple wide 2D comic for 'inadvertent': a person accidentally bumps a cup off a desk and looks surprised, clearly unintentional. Thick outlines, flat colors, few objects, no text. Landscape 2:1."
+    },
+    {
+      "image": "3.png",
+      "prompt": "Simple wide 2D comic for 'rule out': a detective crosses one harmless object off a visual list of possible causes and examines the remaining two. Thick outlines, flat colors, simple shapes, no letters or text. Landscape 2:1."
+    },
+    {
+      "image": "4.png",
+      "prompt": "Simple wide 2D comic for 'put off': a person moves a repair task icon from today's calendar square to a later square, while the broken chair waits. Thick outlines, flat colors, few objects, no text. Landscape 2:1."
+    },
+    {
+      "image": "5.png",
+      "prompt": "Simple wide 2D comic for 'on the same page': two coworkers compare matching simple project diagrams and nod in agreement. Thick outlines, flat colors, plain background, no text. Landscape 2:1."
+    },
+    {
+      "image": "6.png",
+      "prompt": "Simple wide 2D comic for 'cut corners': a worker skips bolts while assembling a chair; it wobbles when tested. Two panels, thick outlines, flat colors, minimal details, no text. Landscape 2:1."
+    },
+    {
+      "image": "7.png",
+      "prompt": "Simple wide 2D comic for 'That works for me': two friends agree on a meeting time by pointing to a calendar and giving a thumbs-up. Thick outlines, flat colors, minimal objects, no text. Landscape 2:1."
+    },
+    {
+      "image": "8.png",
+      "prompt": "Simple wide 2D comic for expressing a polite preference: one person gestures toward a quiet room rather than a crowded noisy room; another understands. Thick outlines, flat colors, simple setting, no text. Landscape 2:1."
+    },
+    {
+      "image": "9.png",
+      "prompt": "Simple wide 2D comic: a hiker pauses and looks back at the winding path already climbed, smiling at the progress. Thick outlines, flat colors, simple hill, few details, no text. Landscape 2:1."
+    },
+    {
+      "image": "10.png",
+      "prompt": "Simple wide 2D comic: two friends chat; a thought bubble shows one person relaxing after work by tending small plants. Thick outlines, flat colors, simple background, no text. Landscape 2:1."
+    }
+  ]
+}

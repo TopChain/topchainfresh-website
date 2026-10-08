@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-09",
+  "version": 4,
+  "revision": 1,
+  "cardSize": {
+    "width": 660,
+    "height": 1434
+  },
+  "lessons": [
+    {
+      "image": "vocabulary",
+      "title": "pragmatic",
+      "meaning": "Focused on what is practical and likely to work in the real situation.",
+      "example": "We took a pragmatic approach: repair the existing system before designing a new one.",
+      "notes": "Adjective. Common combinations: a pragmatic approach, solution or decision. It emphasizes practical results, not necessarily a lack of principles.",
+      "conversation": "A: Should we replace everything?\nB: A more pragmatic option is to fix the parts causing trouble.",
+      "exercise": "Describe a pragmatic choice and the practical constraint behind it.",
+      "id": "2026-10-09-1",
+      "illustration": "assets/english/2026-10-09/1.png"
+    },
+    {
+      "image": "vocabulary",
+      "title": "inadvertent",
+      "meaning": "Unintentional; happening without being meant or planned.",
+      "example": "An inadvertent change to the settings caused the notifications to stop.",
+      "notes": "Adjective, often used with error, omission or disclosure. Adverb: inadvertently. It explains that something was accidental; it does not remove responsibility for fixing it.",
+      "conversation": "A: Why was my name missing?\nB: It was an inadvertent omission. I will correct it.",
+      "exercise": "Use inadvertently to describe a small accidental mistake and how you corrected it.",
+      "id": "2026-10-09-2",
+      "illustration": "assets/english/2026-10-09/2.png"
+    },
+    {
+      "image": "phrasal",
+      "title": "rule out",
+      "meaning": "Decide that a possibility is not suitable or cannot be the explanation.",
+      "example": "We cannot rule out a connection problem until we test the router.",
+      "notes": "Separable: rule out a cause / rule a cause out / rule it out. Cannot rule out means the possibility remains; it does not confirm that possibility.",
+      "conversation": "A: Is the cable the problem?\nB: We tested it, so we can rule that out.",
+      "exercise": "Write one possibility you can rule out and one you cannot yet rule out.",
+      "id": "2026-10-09-3",
+      "illustration": "assets/english/2026-10-09/3.png"
+    },
+    {
+      "image": "phrasal",
+      "title": "put off",
+      "meaning": "Delay doing something until a later time.",
+      "example": "I kept putting off the appointment until I finally booked it yesterday.",
+      "notes": "Separable: put off the meeting / put the meeting off / put it off. Before another action, use -ing: put off making a decision, not put off to decide.",
+      "conversation": "A: Have you booked the checkup?\nB: Not yet. I have been putting it off.\nA: Let us set a reminder.",
+      "exercise": "Write a sentence about something you have been putting off, followed by a concrete next step.",
+      "id": "2026-10-09-4",
+      "illustration": "assets/english/2026-10-09/4.png"
+    },
+    {
+      "image": "idiom",
+      "title": "on the same page",
+      "meaning": "Sharing the same understanding of a situation or plan.",
+      "example": "Before we start, let us make sure we are on the same page about the priorities.",
+      "notes": "Informal, common in teamwork. Use on the same page about something. Check understanding with specifics; the expression does not mean everyone has identical opinions.",
+      "conversation": "A: Is speed more important than adding features?\nB: Yes, for this release.\nA: Good. We are on the same page.",
+      "exercise": "Write a question that checks whether two people share an understanding of a plan.",
+      "id": "2026-10-09-5",
+      "illustration": "assets/english/2026-10-09/5.png"
+    },
+    {
+      "image": "idiom",
+      "title": "cut corners",
+      "meaning": "Skip necessary steps to save time, money or effort, often reducing quality.",
+      "example": "The repairs were cheap because the contractor had cut corners on the materials.",
+      "notes": "Usually negative. Efficient work is not automatically cutting corners; the expression suggests an important standard or step was sacrificed.",
+      "conversation": "A: Can we finish without checking the measurements?\nB: I would rather not cut corners. A mistake could cost us more time.",
+      "exercise": "Describe the difference between working efficiently and cutting corners.",
+      "id": "2026-10-09-6",
+      "illustration": "assets/english/2026-10-09/6.png"
+    },
+    {
+      "image": "life",
+      "title": "That works for me.",
+      "meaning": "A natural way to accept a proposed time, plan or arrangement.",
+      "example": "Thursday at three? That works for me.",
+      "notes": "Here works means is suitable, not has a job. Useful for arrangements; it signals acceptance rather than strong enthusiasm. Add a detail when confirming plans.",
+      "conversation": "A: Shall we meet outside the station at six?\nB: That works for me. I will bring the tickets.",
+      "exercise": "Accept a proposed plan, then confirm one practical detail.",
+      "id": "2026-10-09-7",
+      "illustration": "assets/english/2026-10-09/7.png"
+    },
+    {
+      "image": "grammar",
+      "title": "Would rather with another subject",
+      "meaning": "Use would rather + subject + past form to express a present or future preference about someone else’s action.",
+      "example": "I would rather we discussed the details tomorrow.",
+      "notes": "The past form marks a preference, not past time. Same subject: I would rather wait. Different subject: I would rather you waited. Negative: I would rather you did not rush.",
+      "conversation": "A: Shall I send it now?\nB: I would rather you checked the figures first.",
+      "exercise": "Rewrite politely: I prefer that you do not change the schedule. Use would rather.",
+      "id": "2026-10-09-8",
+      "illustration": "assets/english/2026-10-09/8.png"
+    },
+    {
+      "image": "quote",
+      "title": "Progress is easier to notice when we pause to look back.",
+      "meaning": "Reflecting on earlier efforts can reveal improvement that feels invisible day to day.",
+      "example": "After months of practice, he compared his first recording with his latest one and noticed his progress.",
+      "notes": "Original Real Family reflection, not attributed to a historical author. Look back means reflect on the past here; noticing progress does not mean stopping improvement.",
+      "conversation": "A: I feel as if I am not improving.\nB: Compare your work with last month’s.\nA: I can see a difference now.",
+      "exercise": "Name one sign of progress you can identify by comparing now with an earlier moment.",
+      "id": "2026-10-09-9",
+      "illustration": "assets/english/2026-10-09/9.png"
+    },
+    {
+      "image": "small-talk",
+      "title": "What do you like to do to unwind?",
+      "meaning": "A friendly way to ask how someone relaxes after a busy or stressful period.",
+      "example": "What do you like to do to unwind after a long week?",
+      "notes": "Unwind means relax, not solve a problem. Keep the question open and avoid assuming everyone drinks alcohol or enjoys the same activities.",
+      "conversation": "A: What do you like to do to unwind?\nB: I usually take a walk or look after my plants.\nA: That sounds relaxing. Have you been gardening long?",
+      "exercise": "Answer with one relaxing activity, then ask a natural follow-up question.",
+      "id": "2026-10-09-10",
+      "illustration": "assets/english/2026-10-09/10.png"
+    }
+  ],
+  "preparedAt": "2026-10-08T16:26:35.075375+00:00"
+}
