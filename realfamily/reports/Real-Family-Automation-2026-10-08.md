@@ -20,3 +20,5 @@
 本次結果：10 月 8 日十張新課已發布且 Gmail 已確認寄送十個完整 PNG 附件。10 月 9 日完整課程已預備在 staged，尚未提早加入公開日期選單。兩份 GitHub 自動更新工作均已實際執行成功。
 
 圖像使用內建 imagegen，保存於 assets/english/2026-10-08/ 與 assets/english/2026-10-09/；完整提示分別保留在各目錄的 prompts.json。
+
+教學程度更新：未來課程涵蓋 B2、C1、C2，逐卡加入 level。已完成課程保留原 B2–C1 標示；不僅更改標籤。頁面時間統一使用 PT，完整時間戳依季節顯示 PDT／PST，不再追加 Pacific Time。

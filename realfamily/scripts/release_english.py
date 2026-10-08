@@ -9,6 +9,7 @@ def validate(root,edition):
  assert len({l['id'] for l in lessons})==10
  seen=set();pictures=set()
  for l in lessons:
+  if 'level' in l:assert l['level'] in {'B2','C1','C2'},'Invalid CEFR level'
   assert re.fullmatch(re.escape(date)+r'-\d+',l['id'])
   for key in ['title','meaning','example','notes','conversation','exercise']:assert isinstance(l.get(key),str) and l[key].strip(),key
   title=''.join(c for c in l['title'].casefold() if c.isalnum());assert title not in seen;seen.add(title)
