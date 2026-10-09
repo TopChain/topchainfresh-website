@@ -1,0 +1,42 @@
+{
+  "vocabulary": {
+    "fill": "#efd6d5",
+    "accent": "#9b4f53",
+    "ink": "#382d2e"
+  },
+  "phrasal": {
+    "fill": "#f1dfcf",
+    "accent": "#96633f",
+    "ink": "#3d3028"
+  },
+  "idiom": {
+    "fill": "#efe6bd",
+    "accent": "#806c27",
+    "ink": "#383426"
+  },
+  "life": {
+    "fill": "#dce6d8",
+    "accent": "#526f4f",
+    "ink": "#2d382e"
+  },
+  "grammar": {
+    "fill": "#dce5ee",
+    "accent": "#4e6e8b",
+    "ink": "#2c3540"
+  },
+  "quote": {
+    "fill": "#e7dfec",
+    "accent": "#7b628c",
+    "ink": "#382f40"
+  },
+  "small-talk": {
+    "fill": "#e3e1df",
+    "accent": "#5f5b58",
+    "ink": "#353331"
+  },
+  "essay": {
+    "fill": "#f1eadc",
+    "accent": "#81735e",
+    "ink": "#37322b"
+  }
+}

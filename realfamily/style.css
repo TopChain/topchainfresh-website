@@ -30,3 +30,5 @@
 .edition-download{margin:24px 0 28px}.edition-download .button{font-size:1rem}.edition-download .fine{margin:10px 0}
 
 .lesson.essay-card{grid-column:1/-1;max-width:100%}.essay-card .lesson-poster{aspect-ratio:239/110}
+
+.file-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}.file-actions .listen{padding:8px 4px;white-space:nowrap;font-size:14px;margin-bottom:0}.audio-actions{margin-bottom:6px}.audio-actions .listen{margin-bottom:0;font-size:14px;padding:8px 7px}

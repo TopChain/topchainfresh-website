@@ -32,6 +32,8 @@ def sync():
                 assert '/' not in lesson['filename'] and '\\' not in lesson['filename']
                 if lesson['image']!='essay':download(lesson['illustration'])
                 download('data/english-images/'+date+'/'+lesson['filename'])
+                download('data/english-print/'+date+'/'+lesson['filename'].replace('.png','.svg'))
+                download('data/english-print/'+date+'/'+lesson['filename'])
             # Validate against all local historical teaching points and image hashes.
             archive_dir=source/'data/english-archive';archive_dir.mkdir(parents=True,exist_ok=True)
             for old in (ROOT/'data/english-archive').glob('*.json'):
@@ -45,7 +47,7 @@ def sync():
             validate(source,edition)
             # Copy assets first and expose a dated edition only when all ten are available.
             for lesson in edition['lessons']:
-                for rel in ([lesson['illustration']] if lesson['image']!='essay' else [])+['data/english-images/'+date+'/'+lesson['filename']]:
+                for rel in ([lesson['illustration']] if lesson['image']!='essay' else [])+['data/english-images/'+date+'/'+lesson['filename'],'data/english-print/'+date+'/'+lesson['filename'].replace('.png','.svg'),'data/english-print/'+date+'/'+lesson['filename']]:
                     destination=ROOT/rel;destination.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source/rel,destination)
             target_staged.parent.mkdir(parents=True,exist_ok=True)
             target_staged.write_text(json.dumps(edition,ensure_ascii=False,indent=2)+'\n')

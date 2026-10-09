@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "version": 4,
-  "revision": 10,
+  "revision": 11,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -199,5 +199,6 @@
   "cardFooterVersion": 2,
   "published": "2026-10-09T07:15:46.265599+00:00",
   "theme": "Making thoughtful choices and finding balance",
-  "curriculumVersion": 5
+  "curriculumVersion": 5,
+  "essayFontVersion": 2
 }
