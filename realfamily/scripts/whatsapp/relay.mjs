@@ -44,15 +44,18 @@ async function complete(){
  stage='fetching current groups';const activeGroups=await socket.groupFetchAllParticipating();
  if(!verifiedRoutes.some(r=>r.category==='Essay')){
   stage='matching Essay@Family';const matches=Object.values(activeGroups).filter(g=>g.subject==='Essay@Family');
-  console.log('Essay@Family exact matches: '+matches.length);if(matches.length!==1)throw Error('Essay@Family is missing or ambiguous');
-  verifiedRoutes.push({category:'Essay',groupName:'Essay@Family',jid:matches[0].id});
-  await put('routes',verifiedRoutes);console.log('Essay@Family verified and added to encrypted cloud routes.');
+  console.log('Essay@Family exact matches: '+matches.length);
+  if(matches.length===1){
+   verifiedRoutes.push({category:'Essay',groupName:'Essay@Family',jid:matches[0].id});
+   await put('routes',verifiedRoutes);console.log('Essay@Family verified and added to encrypted cloud routes.');
+  }else if(process.env.WHATSAPP_VERIFY_ONLY==='true'){throw Error('Essay@Family is missing or ambiguous')}
+  else console.log('Essay destination needs selection; the ten existing cards remain enabled.');
  }
- stage='checking eight destinations';if(verifiedRoutes.length!==8||verifiedRoutes.some(r=>activeGroups[r.jid]?.subject!==r.groupName))throw Error('Verified destination changed or unavailable');
- if(process.env.WHATSAPP_VERIFY_ONLY==='true'){console.log('Cloud session restored; all eight selected groups verified. Verification only: zero cards sent.');return}
+ stage='checking eight destinations';if(![7,8].includes(verifiedRoutes.length)||verifiedRoutes.some(r=>activeGroups[r.jid]?.subject!==r.groupName))throw Error('Verified destination changed or unavailable');
+ if(process.env.WHATSAPP_VERIFY_ONLY==='true'){console.log('Cloud session restored; all '+verifiedRoutes.length+' selected groups verified. Verification only: zero cards sent.');return}
  const clock=pacificClock();if(!clock.due){console.log('Before 7:30 AM PT; no cards sent.');return}
  const edition=JSON.parse(await readFile(join(root,'data/english-archive',clock.date+'.json'),'utf8'));
- const routes=verifiedRoutes;const jobs=plan(edition,routes,clock.date);
+ const routes=verifiedRoutes;const deliveryEdition=routes.some(r=>r.category==='Essay')?edition:{...edition,lessons:edition.lessons.filter(l=>l.image!=='essay')};const jobs=plan(deliveryEdition,routes,clock.date);
  // Validate every image before claiming any delivery.
  for(const job of jobs){job.png=await readFile(join(root,'data/english-images',clock.date,job.lesson.filename));if(job.png.toString('hex',0,8)!=='89504e470d0a1a0a'||job.png.readUInt32BE(16)!==(job.lesson.image==='essay'?1434:660)||job.png.readUInt32BE(20)!==(job.lesson.image==='essay'?660:1434))throw Error('Invalid PNG')}
  for(const {lesson,route,png} of jobs){
