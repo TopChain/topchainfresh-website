@@ -134,6 +134,51 @@
           "title": "Have you come across anything worth watching lately?"
         }
       ]
+    },
+    {
+      "date": "2026-10-09",
+      "topics": [
+        {
+          "image": "vocabulary",
+          "title": "pragmatic"
+        },
+        {
+          "image": "vocabulary",
+          "title": "inadvertent"
+        },
+        {
+          "image": "phrasal",
+          "title": "rule out"
+        },
+        {
+          "image": "phrasal",
+          "title": "put off"
+        },
+        {
+          "image": "idiom",
+          "title": "on the same page"
+        },
+        {
+          "image": "idiom",
+          "title": "cut corners"
+        },
+        {
+          "image": "life",
+          "title": "That works for me."
+        },
+        {
+          "image": "grammar",
+          "title": "Would rather with another subject"
+        },
+        {
+          "image": "quote",
+          "title": "Progress is easier to notice when we pause to look back."
+        },
+        {
+          "image": "small-talk",
+          "title": "What do you like to do to unwind?"
+        }
+      ]
     }
   ]
 }
