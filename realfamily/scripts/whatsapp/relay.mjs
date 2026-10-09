@@ -4,6 +4,8 @@ import {mkdtemp,readFile,writeFile,readdir,rm,mkdir} from 'node:fs/promises';
 import {tmpdir} from 'node:os';import {join,resolve} from 'node:path';
 import {randomBytes,createCipheriv,createDecipheriv,createHash} from 'node:crypto';
 import {pacificClock,plan} from './plan.mjs';
+// Await the user's new unique Essay group name; never select the remaining old namesake.
+const ESSAY_GROUP_NAME='';
 const pairing=process.argv.includes('--pair');const root=resolve(import.meta.dirname,'../..');
 const key=Buffer.from(process.env.WHATSAPP_STATE_KEY||'','base64');if(key.length!==32)throw Error('Private encryption key required');
 async function api(action,body){const r=await fetch(process.env.SUBSCRIPTION_ENDPOINT+'?action='+action,{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+process.env.MAILER_SECRET},body:JSON.stringify(body),signal:AbortSignal.timeout(25000)});if(!r.ok)throw Error('Private state request failed');return r.json()}
@@ -43,10 +45,10 @@ async function complete(){
  stage='loading encrypted routes';const verifiedRoutes=await get('routes');if(!verifiedRoutes)throw Error('Group routes are not verified');
  stage='fetching current groups';const activeGroups=await socket.groupFetchAllParticipating();
  if(!verifiedRoutes.some(r=>r.category==='Essay')){
-  stage='matching Essay@Family';const matches=Object.values(activeGroups).filter(g=>g.subject==='Essay@Family');
+  stage='matching Essay@Family';const matches=Object.values(activeGroups).filter(g=>ESSAY_GROUP_NAME&&g.subject===ESSAY_GROUP_NAME);
   console.log('Essay@Family exact matches: '+matches.length);
   if(matches.length===1){
-   verifiedRoutes.push({category:'Essay',groupName:'Essay@Family',jid:matches[0].id});
+   verifiedRoutes.push({category:'Essay',groupName:ESSAY_GROUP_NAME,jid:matches[0].id});
    await put('routes',verifiedRoutes);console.log('Essay@Family verified and added to encrypted cloud routes.');
   }else if(process.env.WHATSAPP_VERIFY_ONLY==='true'){throw Error('Essay@Family is missing or ambiguous')}
   else console.log('Essay destination needs selection; the ten existing cards remain enabled.');
