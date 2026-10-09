@@ -1,0 +1,12 @@
+let DAILY_HISTORY={health:[],recipes:[]},HEALTH_EDITION=null,KITCHEN_EDITION=null;
+function archivePicker(topic){const edition=topic==='health'?HEALTH_EDITION:KITCHEN_EDITION;const dates=DAILY_HISTORY[topic]||[];return `<label class="edition-picker">Browse ${topic==='health'?'health':'recipe'} editions<select id="${topic}-edition" aria-label="Choose ${topic} edition date"><option value="latest" ${!edition?'selected':''}>Latest edition · PT</option>${dates.map(date=>`<option value="${date}" ${edition?.date===date?'selected':''}>${date} · PT</option>`).join('')}</select></label><p class="fine">${edition?'Archived edition: '+edition.date+' · PT':'Daily editions begin October 8, 2026 · PT'}. Each saved date keeps the content presented that day.</p>`}
+function healthResearch(){return HEALTH_EDITION?.research||DATA.research||[]}
+async function loadDailyHistory(){const old=JSON.stringify(DAILY_HISTORY);try{const response=await fetch('data/daily-history.json',{cache:'no-cache'});if(response.ok)DAILY_HISTORY=await response.json();const params=new URLSearchParams(location.search);for(const topic of ['health','recipes']){const date=params.get(topic==='health'?'health-date':'recipe-date');const selected=topic==='health'?HEALTH_EDITION:KITCHEN_EDITION;if(!selected&&date&&DAILY_HISTORY[topic]?.includes(date)){const response=await fetch('data/'+topic+'-archive/'+date+'.json');if(response.ok){const edition=await response.json();if(topic==='health')HEALTH_EDITION=edition;else KITCHEN_EDITION=edition}}}}catch{}return old!==JSON.stringify(DAILY_HISTORY)}
+document.addEventListener('change',async event=>{
+ if(!['health-edition','recipes-edition'].includes(event.target.id))return;
+ const topic=event.target.id==='health-edition'?'health':'recipes',date=event.target.value;
+ try{let edition=null;if(date!=='latest'){if(!DAILY_HISTORY[topic]?.includes(date))throw Error();const response=await fetch('data/'+topic+'-archive/'+date+'.json');if(!response.ok)throw Error();edition=await response.json()}
+ if(topic==='health'){HEALTH_EDITION=edition;researchDate='All'}else KITCHEN_EDITION=edition;
+ const url=new URL(location.href),key=topic==='health'?'health-date':'recipe-date';if(edition)url.searchParams.set(key,date);else url.searchParams.delete(key);history.replaceState(null,'',url);render();
+ }catch{event.target.insertAdjacentHTML('afterend','<p role="status">This edition could not be loaded. Please try again.</p>')}
+});

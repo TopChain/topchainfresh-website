@@ -21,32 +21,35 @@ except Exception as e:data['status']['englishRelease']={'ok':False,'checked':STA
 countries=[('US','United States'),('TW','Taiwan'),('GB','United Kingdom'),('JP','Japan'),('CN','China'),('IN','India'),('DE','Germany'),('FR','France'),('KR','South Korea'),('CA','Canada')]
 from news_sources import refresh as refresh_news
 from google_finance import quote as google_quote
-try:
-    news_rows=refresh_news(get,NOW)
-    for code,rows in news_rows.items():
-        if code=='AI':data['ai']=rows
-        else:data['countries'][code]=rows
-        data['status'][code]={'ok':bool(rows),'checked':STAMP,'count':len(rows)}
-    data['newsUpdated']=STAMP
-except Exception as e:
-    from news_sources import recent
-    for code in data['countries']:data['countries'][code]=[r for r in data['countries'][code] if r.get('freeAccessVerified') and recent(r.get('published'),NOW)]
-    data['ai']=[r for r in data['ai'] if r.get('freeAccessVerified') and recent(r.get('published'),NOW)]
-    data['status']['news']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
+from refresh_schedule import due
+if due(data.get('newsUpdated'),NOW):
+    try:
+        news_rows=refresh_news(get,NOW)
+        for code,rows in news_rows.items():
+            if code=='AI':data['ai']=rows
+            else:data['countries'][code]=rows
+            data['status'][code]={'ok':bool(rows),'checked':STAMP,'count':len(rows)}
+        data['newsUpdated']=STAMP
+    except Exception as e:
+        from news_sources import recent
+        for code in data['countries']:data['countries'][code]=[r for r in data['countries'][code] if r.get('freeAccessVerified') and recent(r.get('published'),NOW)]
+        data['ai']=[r for r in data['ai'] if r.get('freeAccessVerified') and recent(r.get('published'),NOW)]
+        data['status']['news']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
 
 # Latest daily bars can be incomplete; do not label them final before exchange close.
 markets=[('America/New_York','16:00',['^DJI','^IXIC','^GSPC','^SOX','^RUT']),('Asia/Shanghai','15:00',['000001.SS','399001.SZ','000300.SS','000688.SS','399006.SZ']),('Asia/Tokyo','15:30',['^N225','^TOPX']),('Asia/Kolkata','15:30',['^NSEI','^BSESN','^NSEBANK']),('Asia/Hong_Kong','16:00',['^HSI','^HSCE','HSTECH.HK']),('America/Toronto','16:00',['^GSPTSE','TX60.TS']),('Europe/London','16:30',['^FTSE','^FTMC','^FTAS']),('Europe/Paris','17:30',['^FCHI','^SBF120']),('Europe/Berlin','17:30',['^GDAXI','^MDAXI','^SDAXI','^TECDAX']),('Asia/Taipei','13:30',['^TWII','^TWOII']),('Asia/Seoul','15:30',['^KS11','^KQ11']),('Australia/Sydney','16:00',['^AXJO','^AORD']),('Asia/Riyadh','15:00',['^TASI.SR']),('Europe/Zurich','17:30',['^SSMI','^SPI'])]
 def market_task(symbol,tz,close_time):
     return symbol,google_quote(symbol,tz,get,NOW)
 # Never relabel retained Yahoo quotes as Google Finance data.
-data['markets']={k:v for k,v in data['markets'].items() if v.get('provider')=='Google Finance'}
-with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-    futures={pool.submit(market_task,s,t,c):s for t,c,symbols in markets for s in symbols}
-    for future in concurrent.futures.as_completed(futures):
-        symbol=futures[future]
-        try:key,row=future.result();data['markets'][key]=row;data['status'][symbol]={'ok':True,'updated':STAMP}
-        except Exception as e:data['status'][symbol]={'ok':False,'checked':STAMP,'error':str(e)[:160]}
-if any(v.get('updated')==STAMP for v in data['markets'].values()):data['marketUpdated']=STAMP
+if due(data.get('marketUpdated'),NOW):
+    data['markets']={k:v for k,v in data['markets'].items() if v.get('provider')=='Google Finance'}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        futures={pool.submit(market_task,s,t,c):s for t,c,symbols in markets for s in symbols}
+        for future in concurrent.futures.as_completed(futures):
+            symbol=futures[future]
+            try:key,row=future.result();data['markets'][key]=row;data['status'][symbol]={'ok':True,'updated':STAMP}
+            except Exception as e:data['status'][symbol]={'ok':False,'checked':STAMP,'error':str(e)[:160]}
+    if any(v.get('updated')==STAMP for v in data['markets'].values()):data['marketUpdated']=STAMP
 # Refresh research at most daily. Indexing date and publication date are separate.
 research_date=dt.datetime.fromisoformat(data.get('researchChecked',data.get('researchUpdated'))).astimezone(PACIFIC).date().isoformat() if data.get('researchChecked') or data.get('researchUpdated') else None
 if research_date!=DAILY_DATE:
@@ -88,6 +91,9 @@ if not data.get('marketCaps',{}).get('checked','').startswith(STAMP[:7]):
         caps={aliases.get(r['country']['value'],r['country']['value']):r['value'] for r in cap_result[1] if r['value'] is not None}
         if len(caps)>=10:data['marketCaps']={'year':2025,'source':cap_url,'checked':STAMP,'values':caps,'datasetUpdated':cap_result[0]['lastupdated']}
     except Exception as e:data['status']['marketCaps']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
+from daily_archives import snapshot
+try:snapshot(ROOT,data,NOW)
+except Exception as e:data['status']['dailyArchives']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
 data['checked']=STAMP
 DEST.parent.mkdir(exist_ok=True);DEST.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'news_countries':len(data['countries']),'ai_stories':len(data['ai']),'market_benchmarks':len(data['markets']),'research_papers':len(data['research']),'failed_sources':[k for k,v in data['status'].items() if not v['ok']]}))
