@@ -1,0 +1,461 @@
+{
+  "date": "2026-10-10",
+  "lessons": [
+    {
+      "image": "vocabulary",
+      "level": "B2",
+      "title": "streamline",
+      "meaning": "To make a process more efficient by removing unnecessary steps or complexity.",
+      "example": "We streamlined the approval process by replacing three separate forms with one.",
+      "notes": "Streamline takes an object: streamline a workflow, service, or procedure. It emphasizes how something operates, rather than simply doing it faster. Simplify is broader; an explanation can be simplified without being streamlined. Avoid claiming efficiency if you have only moved work onto someone else.",
+      "conversation": "A: These requests pass through four different teams.\nB: Could we streamline the approval process?\nA: We could remove the duplicate review.\nB: That would save time without skipping the necessary checks.",
+      "exercise": "Improve this proposal using streamline: We should remove duplicate forms and unnecessary approvals. Model: We should streamline the process by removing duplicate forms and unnecessary approvals.",
+      "scene": {
+        "background": "#eef6f9",
+        "description": "A professional pointing at a clipboard with an overly complex diagram, focused on making it simpler.",
+        "characters": [
+          {
+            "x": 200,
+            "y": 80,
+            "scale": 1,
+            "shirt": "#4a90e2",
+            "flip": false,
+            "face": "determined",
+            "pose": "point"
+          }
+        ],
+        "props": [
+          {
+            "kind": "chart",
+            "x": 15,
+            "y": 125,
+            "scale": 0.7
+          },
+          {
+            "kind": "arrow",
+            "x": 300,
+            "y": 215,
+            "scale": 0.7
+          },
+          {
+            "kind": "check",
+            "x": 405,
+            "y": 125,
+            "scale": 1
+          }
+        ]
+      },
+      "id": "2026-10-10-1",
+      "illustration": "assets/english/2026-10-10/01.png",
+      "filename": "Vocabulary_2026-10-10_01.png"
+    },
+    {
+      "image": "vocabulary",
+      "level": "B2",
+      "title": "grasp",
+      "meaning": "To understand an idea, especially one that initially seems difficult or unfamiliar.",
+      "example": "I grasp the basic argument, but I am not convinced by the evidence.",
+      "notes": "Grasp an idea, principle, implication, or concept. Understanding an argument does not mean agreeing with it. I cannot quite grasp it sounds less absolute than I do not understand anything. The noun a grasp of describes understanding: She has a solid grasp of the subject.",
+      "conversation": "A: Do you grasp how the new system works?\nB: I grasp the principle, but the setup still confuses me.\nA: Shall we work through one example?\nB: Yes, that would help me connect the steps.",
+      "exercise": "Distinguish understanding from agreement. Model: I grasp your argument, although I disagree with your conclusion. Then write one sentence using a solid grasp of.",
+      "scene": {
+        "background": "#fdf5e6",
+        "description": "A person standing in a warm-lit room, looking up at a glowing lightbulb with a smile.",
+        "characters": [
+          {
+            "x": 250,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#f5a623",
+            "flip": false,
+            "face": "happy",
+            "pose": "think"
+          }
+        ],
+        "props": [
+          {
+            "kind": "lightbulb",
+            "x": 400,
+            "y": 40,
+            "scale": 1
+          }
+        ]
+      },
+      "id": "2026-10-10-2",
+      "illustration": "assets/english/2026-10-10/02.png",
+      "filename": "Vocabulary_2026-10-10_02.png"
+    },
+    {
+      "image": "phrasal",
+      "level": "C1",
+      "title": "trade off",
+      "meaning": "To accept less of one desirable outcome in exchange for more of another.",
+      "example": "We are trading off convenience against privacy when we keep every account signed in.",
+      "notes": "Trade off X against Y makes the competing priorities explicit. In American English, trade X for Y is also natural, but may describe a simple exchange. The noun is a trade-off, with a hyphen; the verb is trade off. Specify the cost rather than using trade off as a vague synonym for decide.",
+      "conversation": "A: Could we make the app easier to access?\nB: Yes, but we would be trading off security against convenience.\nA: Is there a way to reduce that cost?\nB: We could keep a quick login while requiring checks for sensitive actions.",
+      "exercise": "Turn the noun into a verb: There is a trade-off between speed and accuracy. Model: We are trading off accuracy against speed. Explain which outcome your wording prioritizes.",
+      "scene": {
+        "background": "#f0f0f0",
+        "description": "A person looking at a balance scale with weights on each side, showing a difficult choice.",
+        "characters": [
+          {
+            "x": 180,
+            "y": 70,
+            "scale": 1,
+            "shirt": "#d0021b",
+            "flip": false,
+            "face": "worried",
+            "pose": "think"
+          }
+        ],
+        "props": [
+          {
+            "kind": "balance",
+            "x": 400,
+            "y": 120,
+            "scale": 1.2
+          }
+        ]
+      },
+      "id": "2026-10-10-3",
+      "illustration": "assets/english/2026-10-10/03.png",
+      "filename": "Phrasal verbs_2026-10-10_01.png"
+    },
+    {
+      "image": "phrasal",
+      "level": "C1",
+      "title": "zero in on",
+      "meaning": "To focus increasingly closely on a specific issue, detail, or likely explanation.",
+      "example": "After reviewing the complaints, we zeroed in on the confusing checkout instructions.",
+      "notes": "Zero in on suggests narrowing attention from several possibilities to one target. It does not imply that you have proved the explanation correct. Say zero in on the cause, rather than zero on the cause. It works in conversations about investigations, planning, and problem-solving; it can sound overly aggressive when directed at a person.",
+      "conversation": "A: Have you figured out why customers are leaving?\nB: We have zeroed in on the checkout process.\nA: Do we know which step is causing trouble?\nB: Not yet. We are testing the delivery options first.",
+      "exercise": "Show narrowed attention without overstating certainty. Model: We have zeroed in on the payment screen as a possible source of confusion, but we still need to test it.",
+      "scene": {
+        "background": "#e0f7fa",
+        "description": "A person standing in the middle of a road fork, holding a map and deciding which way to go.",
+        "characters": [
+          {
+            "x": 300,
+            "y": 80,
+            "scale": 1,
+            "shirt": "#00796b",
+            "flip": false,
+            "face": "curious",
+            "pose": "think"
+          }
+        ],
+        "props": [
+          {
+            "kind": "question",
+            "x": 20,
+            "y": 55,
+            "scale": 0.7
+          },
+          {
+            "kind": "clipboard",
+            "x": 415,
+            "y": 170,
+            "scale": 0.7
+          }
+        ]
+      },
+      "id": "2026-10-10-4",
+      "illustration": "assets/english/2026-10-10/04.png",
+      "filename": "Phrasal verbs_2026-10-10_02.png"
+    },
+    {
+      "image": "idiom",
+      "level": "C2",
+      "title": "damn with faint praise",
+      "meaning": "To weaken someone or something with praise so restrained that it implies a negative judgment.",
+      "example": "Calling her excellent presentation adequate damned it with faint praise.",
+      "notes": "The phrase describes an inferred attitude, not a literal insult. Adequate can be neutral when basic sufficiency is the real criterion; it becomes faint praise when excellence is expected or deserved. Consider context, tone, and comparison before inferring hostility. This expression is more common in commentary than in friendly small talk.",
+      "conversation": "A: The review said the performance was competent.\nB: That sounds positive at first.\nA: But the reviewer called every other performer outstanding.\nB: In that context, competent rather damns her with faint praise.",
+      "exercise": "Explain the implication of The meal was edible in an enthusiastic restaurant review. Model: It suggests mere acceptability rather than enjoyment; the low standard makes the apparent praise sound critical.",
+      "scene": {
+        "background": "#fff3e0",
+        "description": "A proud presenter points to a rising chart while a listener gives a restrained skeptical shrug, making faint praise visibly less enthusiastic than the achievement deserves.",
+        "characters": [
+          {
+            "x": 145,
+            "y": 80,
+            "scale": 1,
+            "shirt": "#247c67",
+            "face": "happy",
+            "pose": "point",
+            "flip": false
+          },
+          {
+            "x": 425,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#cc7344",
+            "face": "skeptical",
+            "pose": "cross",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "kind": "chart",
+            "x": 260,
+            "y": 180,
+            "scale": 0.7
+          }
+        ]
+      },
+      "id": "2026-10-10-5",
+      "illustration": "assets/english/2026-10-10/05.png",
+      "filename": "Idioms & slang_2026-10-10_01.png"
+    },
+    {
+      "image": "idiom",
+      "level": "B2",
+      "title": "under the gun",
+      "meaning": "Under strong pressure, usually because a deadline is close.",
+      "example": "We are under the gun to finish the proposal before the client meeting.",
+      "notes": "This is an informal American expression. It emphasizes pressure, not literal danger. Under pressure is more suitable for a formal report or a sensitive conversation. Use under the gun to do something; avoid under a gun. Be specific about the deadline so the listener understands what help you need.",
+      "conversation": "A: Can you review these slides today?\nB: I can, but I am under the gun with another deadline.\nA: Would tomorrow morning be more realistic?\nB: Yes. Send them over and I will review them before lunch.",
+      "exercise": "Make this request considerate: We are under the gun, so help us now. Model: We are under the gun to finish by Friday. Would you have time to review one section today?",
+      "scene": {
+        "background": "#fbe9e7",
+        "description": "A person looking anxiously at a clock on the wall while holding an important envelope.",
+        "characters": [
+          {
+            "x": 250,
+            "y": 80,
+            "scale": 1,
+            "shirt": "#bf360c",
+            "flip": false,
+            "face": "worried",
+            "pose": "think"
+          }
+        ],
+        "props": [
+          {
+            "kind": "clock",
+            "x": 400,
+            "y": 50,
+            "scale": 1.2
+          },
+          {
+            "kind": "envelope",
+            "x": 150,
+            "y": 150,
+            "scale": 1
+          }
+        ]
+      },
+      "id": "2026-10-10-6",
+      "illustration": "assets/english/2026-10-10/06.png",
+      "filename": "Idioms & slang_2026-10-10_02.png"
+    },
+    {
+      "image": "life",
+      "level": "C1",
+      "title": "Let's leave some room for flexibility.",
+      "meaning": "A collaborative way to suggest keeping a plan open to reasonable changes.",
+      "example": "We have a useful outline, but let us leave some room for flexibility if the weather changes.",
+      "notes": "Leave room for is a natural expression meaning allow space or possibility. Flexibility concerns adaptation; vagueness concerns missing detail. This phrase works best after agreeing on the essentials. Otherwise, it may sound like avoiding a commitment. The contraction let us becomes let's in ordinary speech and writing.",
+      "conversation": "A: Shall we schedule every stop before the trip?\nB: Let us book the essentials and leave some room for flexibility.\nA: What should we decide now?\nB: The hotel and transport. We can choose the afternoon activities later.",
+      "exercise": "Suggest a flexible plan with one clear commitment. Model: Let us confirm dinner for six and leave some room for flexibility about what we do afterward.",
+      "scene": {
+        "background": "#e8f5e9",
+        "description": "A planner keeps a timetable open while leaving another route available, illustrating flexibility rather than a rigid plan.",
+        "characters": [
+          {
+            "x": 250,
+            "y": 70,
+            "scale": 1,
+            "shirt": "#2e7d32",
+            "flip": false,
+            "face": "happy",
+            "pose": "point"
+          }
+        ],
+        "props": [
+          {
+            "kind": "clock",
+            "x": 20,
+            "y": 60,
+            "scale": 0.7
+          },
+          {
+            "kind": "road",
+            "x": 380,
+            "y": 190,
+            "scale": 0.7
+          }
+        ]
+      },
+      "id": "2026-10-10-7",
+      "illustration": "assets/english/2026-10-10/07.png",
+      "filename": "Life phrases_2026-10-10_01.png"
+    },
+    {
+      "image": "grammar",
+      "level": "C2",
+      "title": "Were it not for: present hypothetical inversion",
+      "meaning": "Were it not for introduces a hypothetical situation in which a current condition is absent.",
+      "example": "Were it not for the grant, the research team would have to close the project.",
+      "notes": "This formal construction means If it were not for; omit if and place were before it. For a past counterfactual, use Had it not been for the grant, the team would have closed. Do not mix the present opening with would have merely because the grant arrived earlier: choose tense according to the consequence being imagined.",
+      "conversation": "A: Why does the report mention the grant so prominently?\nB: Were it not for that support, the project would be impossible.\nA: Are you describing the current situation?\nB: Exactly. For last year, I would use Had it not been for.",
+      "exercise": "Rewrite for a past consequence: If it had not been for her help, we would have missed the deadline. Model: Had it not been for her help, we would have missed the deadline.",
+      "scene": {
+        "background": "#edf4ff",
+        "description": "A grant envelope supports a bridge carrying a research book; without that support the project cannot move ahead, illustrating a current hypothetical dependency.",
+        "characters": [
+          {
+            "x": 150,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#4169b1",
+            "face": "determined",
+            "pose": "point",
+            "flip": false
+          }
+        ],
+        "props": [
+          {
+            "kind": "envelope",
+            "x": 300,
+            "y": 150,
+            "scale": 0.7
+          },
+          {
+            "kind": "bridge",
+            "x": 390,
+            "y": 215,
+            "scale": 0.7
+          },
+          {
+            "kind": "book",
+            "x": 425,
+            "y": 95,
+            "scale": 0.7
+          }
+        ]
+      },
+      "id": "2026-10-10-8",
+      "illustration": "assets/english/2026-10-10/08.png",
+      "filename": "Grammar_2026-10-10_01.png"
+    },
+    {
+      "image": "quote",
+      "level": "B2",
+      "title": "Give your next step more attention than your last stumble.",
+      "meaning": "An original practice sentence encouraging useful action after a setback.",
+      "example": "After a difficult rehearsal, she gave her next step more attention than her last stumble.",
+      "notes": "A stumble is literally a loss of balance; here it represents a minor mistake. Next step is also figurative, meaning the next action. The sentence encourages learning and moving forward, rather than ignoring harm or responsibility. This is an original Real Family learning line, not a quotation attributed to a historical author.",
+      "conversation": "A: I keep thinking about yesterday's mistake.\nB: What could you do differently next time?\nA: I could check the figures before presenting.\nB: That sounds like a useful next step.",
+      "exercise": "Paraphrase the line without its metaphors. Model: Learn from your mistake, then focus on the action you can take now. Name one practical action instead of offering a vague reassurance.",
+      "scene": {
+        "background": "#fffde7",
+        "description": "A person moves from a worried glance at a question mark to a checked practical next step on a clipboard.",
+        "characters": [
+          {
+            "x": 300,
+            "y": 65,
+            "scale": 1,
+            "shirt": "#fbc02d",
+            "flip": false,
+            "face": "neutral",
+            "pose": "think"
+          }
+        ],
+        "props": [
+          {
+            "kind": "question",
+            "x": 30,
+            "y": 80,
+            "scale": 0.7
+          },
+          {
+            "kind": "clipboard",
+            "x": 435,
+            "y": 160,
+            "scale": 0.7
+          },
+          {
+            "kind": "check",
+            "x": 430,
+            "y": 80,
+            "scale": 0.7
+          }
+        ]
+      },
+      "id": "2026-10-10-9",
+      "illustration": "assets/english/2026-10-10/09.png",
+      "filename": "Quote_2026-10-10_01.png"
+    },
+    {
+      "image": "small-talk",
+      "level": "C1",
+      "title": "Any plans you are looking forward to?",
+      "meaning": "An open-ended, low-pressure question that invites someone to share an upcoming activity.",
+      "example": "Any plans you are looking forward to this weekend, or are you keeping it low-key?",
+      "notes": "Looking forward to takes a noun or an -ing form. Keeping it low-key means choosing something relaxed. Offer an easy alternative so the question does not imply that exciting plans are expected. Follow the detail your partner shares instead of switching straight to your own story. A short reciprocal question keeps the exchange balanced.",
+      "conversation": "A: Any plans you are looking forward to this weekend?\nB: A short hike, if the weather holds.\nA: Nice. Have you picked a trail yet?\nB: A quiet one near the lake. What about you?\nA: I am keeping it low-key, probably reading at home.\nB: That sounds lovely. Anything good on your reading list?",
+      "exercise": "Respond with a plan, one detail, and a question back. Model: I am meeting a friend for coffee near the park. Are you doing anything outdoors?",
+      "scene": {
+        "background": "#e1f5fe",
+        "description": "Two colleagues standing near a coffee station, talking and smiling.",
+        "characters": [
+          {
+            "x": 150,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#0288d1",
+            "flip": false,
+            "face": "happy",
+            "pose": "up"
+          },
+          {
+            "x": 450,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#01579b",
+            "flip": true,
+            "face": "happy",
+            "pose": "up"
+          }
+        ],
+        "props": [
+          {
+            "kind": "coffee",
+            "x": 300,
+            "y": 200,
+            "scale": 1
+          }
+        ]
+      },
+      "id": "2026-10-10-10",
+      "illustration": "assets/english/2026-10-10/10.png",
+      "filename": "Small talk_2026-10-10_01.png"
+    }
+  ],
+  "version": 4,
+  "cardSize": {
+    "width": 660,
+    "height": 1434
+  },
+  "generation": {
+    "textModel": "gemini-3.1-flash-lite",
+    "art": "program-drawn-comic",
+    "freeTierVerifiedOn": "2026-10-08",
+    "editorialRepair": "Codex reviewed and corrected rejected candidate without additional API calls"
+  },
+  "editorialApproved": true,
+  "editorialReview": {
+    "approved": true,
+    "reviewer": "Codex",
+    "issues": [],
+    "checks": [
+      "All historical titles and meanings compared",
+      "Correct category counts and B2/C1/C2 distribution",
+      "C2 tense and pragmatic distinctions checked",
+      "Natural six-turn alternating small talk",
+      "Original quote with no historical attribution"
+    ]
+  }
+}
