@@ -1,7 +1,7 @@
 let DAILY_HISTORY={health:[],recipes:[]},HEALTH_EDITION=null,KITCHEN_EDITION=null;
 function archivePicker(topic){return dateBrowser(topic)}
 function editionDates(topic){return [...new Set(topic==='english'?ENGLISH_HISTORY.map(e=>e.date):(DAILY_HISTORY[topic]||[]))].sort()}
-function editionDate(topic){return topic==='english'?currentEdition()?.date:topic==='health'?HEALTH_EDITION?.date||(DATA.researchChecked?new Date(DATA.researchChecked).toLocaleDateString('en-CA',{timeZone:'America/Los_Angeles'}):null):KITCHEN_EDITION?.date||DATA.daily?.date}
+function editionDate(topic){return topic==='english'?currentEdition()?.date:topic==='health'?HEALTH_EDITION?.date||(DATA.researchChecked?new Date(DATA.researchChecked).toLocaleDateString('en-CA',{timeZone:'America/Los_Angeles'}):null):KITCHEN_EDITION?.date||DATA.kitchen?.date||DATA.daily?.date}
 function dateOptions(values,selected,kind){return values.map(v=>`<option value="${v}" ${v===selected?'selected':''}>${kind==='month'?new Date('2026-'+v+'-15T12:00:00Z').toLocaleDateString('en-US',{month:'long',timeZone:'UTC'}):v}</option>`).join('')}
 function dateBrowser(topic){
  const dates=editionDates(topic),date=editionDate(topic)||dates.at(-1)||'',parts=date.split('-'),years=[...new Set(dates.map(d=>d.slice(0,4)))].reverse(),months=[...new Set(dates.filter(d=>d.startsWith(parts[0]+'-')).map(d=>d.slice(5,7)))],days=dates.filter(d=>d.startsWith(parts.slice(0,2).join('-')+'-')).map(d=>d.slice(8,10)),index=dates.indexOf(date);
@@ -19,7 +19,7 @@ document.addEventListener('click',async event=>{
  try{
   button.disabled=true;group.querySelector('.date-browser-status').textContent='Loading edition…';let edition=null;
   if(date!=='latest'){if(!editionDates(topic).includes(date))throw Error();const response=await fetch('data/'+(topic==='english'?'english':topic)+'-archive/'+date+'.json');if(!response.ok)throw Error();edition=await response.json();if(edition.date!==date)throw Error()}
-  if(topic==='english')SELECTED_EDITION=edition;else if(topic==='health'){HEALTH_EDITION=edition;researchDate='All'}else KITCHEN_EDITION=edition;
+  if(topic==='english')SELECTED_EDITION=edition;else if(topic==='health'){HEALTH_EDITION=edition;researchDate='All'}else {KITCHEN_EDITION=edition;cuisine='All';meal='All'}
   const url=new URL(location.href),key=topic==='english'?'lesson-date':topic==='health'?'health-date':'recipe-date';if(edition)url.searchParams.set(key,date);else url.searchParams.delete(key);history.replaceState(null,'',url);render();
  }catch{button.disabled=false;group.querySelector('.date-browser-status').textContent='This edition could not be loaded. Please try again.'}
 });

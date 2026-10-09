@@ -15,6 +15,9 @@ def load_old():
     try:return json.loads(DEST.read_text())
     except Exception:return {'countries':{},'ai':[],'markets':{},'research':[],'status':{}}
 data=load_old()
+from release_kitchen import release as release_kitchen
+try:release_kitchen(ROOT,NOW)
+except Exception as e:data['status']['kitchenRelease']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
 from release_english import release,validate as validate_english
 try:release(ROOT,NOW)
 except Exception as e:data['status']['englishRelease']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
@@ -67,8 +70,19 @@ if research_date!=DAILY_DATE:
         (ROOT/'data/research-archive.json').write_text(json.dumps(data['research'],ensure_ascii=False,indent=2)+'\n')
     except Exception as e:data['status']['research']={'ok':False,'checked':STAMP,'error':str(e)[:160]}
 if data.get('daily',{}).get('date')!=DAILY_DATE:
-    offset=NOW.astimezone(PACIFIC).date().toordinal()
-    data['daily']={'date':DAILY_DATE,'timezone':'America/Los_Angeles','kitchenUpdated':STAMP,'englishUpdated':STAMP,'recipeIndices':[(offset%10)*2,(offset%10)*2+1],'practiceEdition':offset%3,'mode':'Curated daily selection and practice rotation'}
+    previous=data.get('daily',{})
+    data['daily']={'date':DAILY_DATE,'timezone':'America/Los_Angeles','kitchenUpdated':previous.get('kitchenUpdated'),'englishUpdated':previous.get('englishUpdated'),'recipeIndices':previous.get('recipeIndices',[]),'mode':'Immutable daily editions'}
+# Retain the actual kitchen edition date if new content is unavailable.
+kitchen_file=ROOT/'data/recipes-archive'/f'{DAILY_DATE}.json'
+if not kitchen_file.exists():
+    past=sorted((ROOT/'data/recipes-archive').glob('*.json'))
+    kitchen_file=next((p for p in reversed(past) if p.stem<=DAILY_DATE),kitchen_file)
+if kitchen_file.exists():
+    kitchen=json.loads(kitchen_file.read_text())
+    data['kitchen']=kitchen
+    data['daily']['kitchenUpdated']=kitchen.get('published')
+    data['daily']['recipeIndices']=kitchen.get('recipeIndices',[])
+    data['status']['kitchen']={'ok':kitchen['date']==DAILY_DATE,'checked':STAMP,'updated':kitchen.get('published'),'date':kitchen['date']}
 # Publish only an actually authored edition. Never rotate old lessons or relabel their date.
 archive=ROOT/'data/english-archive'/f'{DAILY_DATE}.json'
 current=None

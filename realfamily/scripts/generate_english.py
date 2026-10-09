@@ -107,12 +107,12 @@ def prepare(date):
     validate(ROOT,json.loads(staged.read_text()))
     print('Complete validated staged edition:',date)
 
-def reserve_request(date):
+def reserve_request(date,limit=2):
     file=ROOT/'data/english-generation-status.json'
     status=json.loads(file.read_text()) if file.exists() else {}
     assert not status.get('paused'),'Generation paused after a failed API request; check free quota before resuming'
     requests=status.setdefault('requests',{})
-    assert requests.get(date,0)<2,'Daily two-request cap reached; existing draft retained for review'
+    assert requests.get(date,0)<limit,'Request cap reached; existing draft retained for review'
     requests[date]=requests.get(date,0)+1
     file.write_text(json.dumps(status,indent=2)+'\n')
 

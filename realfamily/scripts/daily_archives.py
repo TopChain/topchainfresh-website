@@ -13,8 +13,8 @@ def snapshot(root,data,now):
      edition={'date':day,'published':checked,'profiles':catalog(root,'health-guidance.js'),'research':data.get('research',[]),'researchChecked':checked,'researchUpdated':data.get('researchUpdated')}
     else:edition=None
    else:
-    daily=data.get('daily',{})
-    edition={'date':day,'published':daily.get('kitchenUpdated',now.isoformat()),'recipeIndices':daily.get('recipeIndices',[]),'recipes':catalog(root,'recipes.js')} if daily.get('date')==day else None
+    # Recipe archives are created only by release_kitchen after authoring validation.
+    edition=None
    if edition:file.write_text(json.dumps(edition,ensure_ascii=False,indent=2)+'\n')
   history[topic]=sorted([p.stem for p in directory.glob('*.json') if p.stem<=day],reverse=True)
  (root/'data/daily-history.json').write_text(json.dumps(history,indent=2)+'\n')
