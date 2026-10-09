@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "version": 4,
-  "revision": 11,
+  "revision": 12,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -242,7 +242,7 @@
   ],
   "published": "2026-10-08T16:15:33.678066+00:00",
   "cardFooterVersion": 2,
-  "cardStyleVersion": 6,
+  "cardStyleVersion": 7,
   "theme": "Turning a setback into a shared opportunity",
   "curriculumVersion": 5,
   "historicalEssayAddedOn": "2026-10-09",
