@@ -1,5 +1,6 @@
 """Release a complete prebuilt lesson set on its Pacific date, without a local computer."""
 import collections,datetime as dt,hashlib,json,re,struct,zoneinfo
+from card_naming import assign_filenames
 PACIFIC=zoneinfo.ZoneInfo('America/Los_Angeles')
 COUNTS={'vocabulary':2,'phrasal':2,'idiom':2,'life':1,'grammar':1,'quote':1,'small-talk':1}
 def validate(root,edition):
@@ -17,7 +18,7 @@ def validate(root,edition):
   title=''.join(c for c in l['title'].casefold() if c.isalnum());assert title not in seen;seen.add(title)
   art=root/l['illustration'];assert art.is_file() and l['illustration'].startswith('assets/english/'+date+'/')
   digest=hashlib.sha256(art.read_bytes()).hexdigest();assert digest not in pictures;pictures.add(digest)
-  png=root/'data/english-images'/date/(l['id']+'.png');header=png.read_bytes()[:24]
+  png=root/'data/english-images'/date/l.get('filename',l['id']+'.png');header=png.read_bytes()[:24]
   assert header[:8]==b'\x89PNG\r\n\x1a\n' and struct.unpack('>II',header[16:24])==(660,1434),'Missing or wrong-sized PNG'
  for old in (root/'data/english-archive').glob('*.json'):
   if old.stem==date:continue
@@ -31,6 +32,7 @@ def release(root,now):
  date=now.astimezone(PACIFIC).date().isoformat();staged=root/'data/english-staged'/f'{date}.json';archive=root/'data/english-archive'/f'{date}.json'
  if archive.exists() or not staged.exists():return False
  edition=json.loads(staged.read_text());assert edition['date']==date
+ assign_filenames(edition)
  validate(root,edition)
  edition.update(published=now.isoformat(),version=4,cardSize={'width':660,'height':1434})
  archive.write_text(json.dumps(edition,ensure_ascii=False,indent=2)+'\n')
