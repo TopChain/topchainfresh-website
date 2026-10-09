@@ -21,10 +21,10 @@ async function exportEssay(l){
  if(!l.illustration)throw Error('Missing Essay topic illustration: '+l.title);
  const art=await sharp(path.join(root,l.illustration)).resize(520,268,{fit:'contain',background:palette.essay.fill}).png().toBuffer();
  function compose(bodySize){const parts=[`<image x="1132" y="70" width="260" height="134" href="data:image/png;base64,${art.toString('base64')}"/>`];
- const put=(text,y,size,bold=false,x=42,area=textArea)=>{measure.font=`${bold?'bold ':''}${size}px ${fontFamily}`;let line='',rows=[];for(const word of text.split(/\s+/)){const next=(line+' '+word).trim();if(measure.measureText(next).width>area&&line){rows.push(line);line=word}else line=next}if(line)rows.push(line);for(const row of rows){parts.push(`<text x="${x}" y="${y}" fill="${ink}" font-family="${fontFamily}" font-size="${size}" ${bold?'font-weight="bold"':''}>${escape(row)}</text>`);y+=size*1.2}return y;};
+ const put=(text,y,size,bold=false,x=42,area=textArea,muted=false)=>{measure.font=`${bold?'bold ':''}${size}px ${fontFamily}`;let line='',rows=[];for(const word of text.split(/\s+/)){const next=(line+' '+word).trim();if(measure.measureText(next).width>area&&line){rows.push(line);line=word}else line=next}if(line)rows.push(line);for(const row of rows){parts.push(`<text x="${x}" y="${y}" fill="${ink}" ${muted?'fill-opacity="0.5"':''} font-family="${fontFamily}" font-size="${size}" ${bold?'font-weight="bold"':''}>${escape(row)}</text>`);y+=size*1.2}return y;};
  parts.push(`<text x="42" y="42" fill="${ink}" font-family="${fontFamily}" font-size="22" font-weight="bold">Everyday English - Essay</text>`,`<text x="1392" y="42" text-anchor="end" fill="${ink}" font-family="${fontFamily}" font-size="18">${date} · PT</text>`);
  let y=put(l.title,90,32,true,42,1068)+10;const labels=['1 · INTRODUCTION','2 · DEVELOP THE IDEA','3 · EXAMPLE & REFLECTION','4 · CONCLUSION'];
- for(let i=0;i<4;i++){y=put(labels[i],y,17,true,42,i===0?1068:textArea)+bodySize-17+4;y=put(l.paragraphs[i].join(' '),y,bodySize,false,42,i===0?1068:textArea)+10;if(i===0)y=Math.max(y,225);}
+ for(let i=0;i<4;i++){y=put(labels[i],y,17,true,42,i===0?1068:textArea,true)+bodySize-17+4;y=put(l.paragraphs[i].join(' '),y,bodySize,false,42,i===0?1068:textArea)+10;if(i===0)y=Math.max(y,225);}
  y=put('BUILD YOUR OWN · '+l.structure,y+4,18)+4;y=put(l.exercise,y,19);
  return {parts,y};}
  let best=null,chosen=0;for(let size=24;size<=40;size++){const trial=compose(size);if(trial.y<=646){best=trial;chosen=size;}}
