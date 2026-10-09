@@ -20,7 +20,9 @@ def history(root=ROOT):
     return lessons
 
 def check_lessons(lessons,past):
-    assert len(lessons)==10 and collections.Counter(l['image'] for l in lessons)==COUNTS,'Wrong lesson counts'
+    assert isinstance(lessons,list) and len(lessons)==10,'Exactly ten lessons required'
+    assert all(isinstance(l,dict) and isinstance(l.get('image'),str) and l['image'] in COUNTS for l in lessons),'image must be a category string, never a picture or storyboard object'
+    assert collections.Counter(l['image'] for l in lessons)==COUNTS,'Wrong lesson counts'
     assert collections.Counter(l['level'] for l in lessons)=={'B2':4,'C1':4,'C2':2},'Wrong level distribution'
     used={norm(l['title']) for l in past};meanings={norm(l['meaning']) for l in past};scenes=set()
     for l in lessons:
@@ -64,6 +66,8 @@ def generate(prompt):
 def prompt_for(date,past):
     return '''Create 10 NEW precise, natural English-only B2/C1/C2 micro-lessons for '''+date+'''.
 Return JSON {"lessons":[...]}. Each lesson has image, level, title, meaning, example, notes, conversation, exercise, scene.
+CRITICAL SCHEMA: image is ONLY a category STRING: "vocabulary", "phrasal", "idiom", "life", "grammar", "quote", or "small-talk". Never put artwork in image. scene is ONLY an OBJECT with background, description, characters and props, never a string.
+The two phrasal lessons MUST teach verb + particle constructions (for example a verb followed by up/out/off), not a single verb or noun. The grammar lesson MUST teach an advanced grammatical contrast with a correct rule, not vocabulary. Match each title to its declared category. C2 lessons require real pragmatic or semantic distinctions in notes and exercises. Do not reuse a familiar saying as an original quote.
 Counts: vocabulary 2, phrasal 2, idiom 2, life 1, grammar 1, quote 1, small-talk 1. Levels B2 4, C1 4, C2 2.
 Teach native-like collocations and pragmatic nuance. C2 must teach register, implied meaning or precise semantic contrasts, not relabel basic material.
 Quote must be ORIGINAL, no author attribution. Each lesson 110-170 words total, maximum 190; title under 55 characters. All have a clear definition, natural example, specific usage warning, 4 alternating A:/B: dialogue lines, and a concrete exercise with a short model answer. Small-talk has SIX alternating A:/B: lines, with follow-up questions and natural replies. Use actual newline characters in conversation.
