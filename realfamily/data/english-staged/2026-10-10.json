@@ -346,7 +346,7 @@
       "title": "Give your next step more attention than your last stumble.",
       "meaning": "An original practice sentence encouraging useful action after a setback.",
       "example": "After a difficult rehearsal, she gave her next step more attention than her last stumble.",
-      "notes": "A stumble is literally a loss of balance; here it represents a minor mistake. Next step is also figurative, meaning the next action. The sentence encourages learning and moving forward, rather than ignoring harm or responsibility. This is an original Real Family learning line, not a quotation attributed to a historical author.",
+      "notes": "A stumble is literally a loss of balance; here it represents a minor mistake. Next step is also figurative, meaning the next action. Use this sentence to encourage learning and moving forward, rather than ignoring harm or responsibility.",
       "conversation": "A: I keep thinking about yesterday's mistake.\nB: What could you do differently next time?\nA: I could check the figures before presenting.\nB: That sounds like a useful next step.",
       "exercise": "Paraphrase the line without its metaphors. Model: Learn from your mistake, then focus on the action you can take now. Name one practical action instead of offering a vague reassurance.",
       "scene": {
@@ -457,5 +457,6 @@
       "Natural six-turn alternating small talk",
       "Original quote with no historical attribution"
     ]
-  }
+  },
+  "revision": 2
 }

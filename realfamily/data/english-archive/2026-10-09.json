@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "version": 4,
-  "revision": 3,
+  "revision": 4,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -108,7 +108,7 @@
       "title": "Progress is easier to notice when we pause to look back.",
       "meaning": "Reflecting on earlier efforts can reveal improvement that feels invisible day to day.",
       "example": "After months of practice, he compared his first recording with his latest one and noticed his progress.",
-      "notes": "Original Real Family reflection, not attributed to a historical author. Look back means reflect on the past here; noticing progress does not mean stopping improvement.",
+      "notes": "Look back means reflect on the past here. Use this sentence to encourage someone to recognize gradual progress; pausing to reflect does not mean giving up on improvement.",
       "conversation": "A: I feel as if I am not improving.\nB: Compare your work with last month’s.\nA: I can see a difference now.",
       "exercise": "Name one sign of progress you can identify by comparing now with an earlier moment.",
       "id": "2026-10-09-9",
@@ -130,5 +130,5 @@
   ],
   "preparedAt": "2026-10-08T16:26:35.075375+00:00",
   "cardFooterVersion": 2,
-  "published": "2026-10-09T07:15:55.477333+00:00"
+  "published": "2026-10-09T07:15:46.265599+00:00"
 }

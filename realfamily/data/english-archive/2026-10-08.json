@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "version": 4,
-  "revision": 3,
+  "revision": 4,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -108,7 +108,7 @@
       "title": "Clarity begins when we name what matters.",
       "meaning": "Identifying a priority can make a confusing situation easier to understand.",
       "example": "With several tasks competing for attention, she reminded herself: clarity begins when we name what matters.",
-      "notes": "Original Real Family reflection, not a quotation attributed to a historical author. Name here means identify or state explicitly, rather than give someone a name.",
+      "notes": "Name here means identify or state explicitly, rather than give someone a name. Use the sentence when discussing priorities or clarifying what is most important.",
       "conversation": "A: Everything feels urgent.\nB: What matters most today?\nA: Finishing the application. That gives me a starting point.",
       "exercise": "Paraphrase the reflection and identify one priority for today.",
       "id": "2026-10-08-9",
