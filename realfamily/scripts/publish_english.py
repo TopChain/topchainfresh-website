@@ -14,7 +14,9 @@ def publish(date):
    seen.add(norm(l['title']))
    asset=ROOT/l.get('illustration','')
    if asset.is_file():past_images.add(hashlib.sha256(asset.read_bytes()).hexdigest())
+ from lesson_quality import validate_lesson
  for l in e['lessons']:
+  validate_lesson(l)
   for field in ['title','meaning','example','notes','conversation','exercise']:assert l.get(field),'Missing '+field
   key=norm(l['title']);assert key not in seen,'Repeated topic: '+l['title'];seen.add(key)
  assert len({l.get('illustration') for l in e['lessons']})==10,'Each lesson needs a distinct illustration'

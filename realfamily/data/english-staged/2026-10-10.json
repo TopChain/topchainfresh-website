@@ -298,7 +298,7 @@
       "title": "Were it not for: present hypothetical inversion",
       "meaning": "Were it not for introduces a hypothetical situation in which a current condition is absent.",
       "example": "Were it not for the grant, the research team would have to close the project.",
-      "notes": "This formal construction means If it were not for; omit if and place were before it. For a past counterfactual, use Had it not been for the grant, the team would have closed. Do not mix the present opening with would have merely because the grant arrived earlier: choose tense according to the consequence being imagined.",
+      "notes": "This formal construction means If it were not for; omit if and place were before it. It normally introduces an imagined change to a current situation. To describe a past counterfactual, use Had it not been for the grant, the team would have closed. Choose the form according to the time of the imagined situation, rather than simply when the grant arrived.",
       "conversation": "A: Why does the report mention the grant so prominently?\nB: Were it not for that support, the project would be impossible.\nA: Are you describing the current situation?\nB: Exactly. For last year, I would use Had it not been for.",
       "exercise": "Rewrite for a past consequence: If it had not been for her help, we would have missed the deadline. Model: Had it not been for her help, we would have missed the deadline.",
       "scene": {
@@ -394,8 +394,8 @@
       "title": "Any plans you are looking forward to?",
       "meaning": "An open-ended, low-pressure question that invites someone to share an upcoming activity.",
       "example": "Any plans you are looking forward to this weekend, or are you keeping it low-key?",
-      "notes": "Looking forward to takes a noun or an -ing form. Keeping it low-key means choosing something relaxed. Offer an easy alternative so the question does not imply that exciting plans are expected. Follow the detail your partner shares instead of switching straight to your own story. A short reciprocal question keeps the exchange balanced.",
-      "conversation": "A: Any plans you are looking forward to this weekend?\nB: A short hike, if the weather holds.\nA: Nice. Have you picked a trail yet?\nB: A quiet one near the lake. What about you?\nA: I am keeping it low-key, probably reading at home.\nB: That sounds lovely. Anything good on your reading list?",
+      "notes": "Looking forward to takes a noun or an -ing form. Keeping it low-key means choosing something relaxed. Offer an easy alternative so the question does not imply that exciting plans are expected. Follow the detail your partner shares instead of switching straight to your own story.",
+      "conversation": "A: Any plans you are looking forward to this weekend?\nB: A short hike, if the weather holds.\nA: Nice. Have you picked a trail yet?\nB: A quiet one near the lake. What about you?\nA: I am keeping it low-key, probably reading at home.\nB: That sounds lovely. Anything good on your reading list?\nA: A mystery novel I have been saving for a quiet afternoon.\nB: Enjoy it. We can compare weekend highlights on Monday.",
       "exercise": "Respond with a plan, one detail, and a question back. Model: I am meeting a friend for coffee near the park. Are you doing anything outdoors?",
       "scene": {
         "background": "#e1f5fe",
@@ -458,5 +458,5 @@
       "Original quote with no historical attribution"
     ]
   },
-  "revision": 3
+  "revision": 4
 }

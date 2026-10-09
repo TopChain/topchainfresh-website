@@ -10,12 +10,8 @@ def validate(root,edition):
  assert len({l['id'] for l in lessons})==10
  seen=set();pictures=set()
  for l in lessons:
-  if l['image']=='quote':
-   assert 'real family' not in l.get('notes','').casefold(),'Quote usage notes must focus on language, without branding'
-   assert l['title'] in l.get('example','') and l['title'] in l.get('conversation',''),'Quote examples and conversation must demonstrate the exact quote'
-   assert len(l.get('conversation','').replace('\\n','\n').splitlines())>=4,'Quote needs a connected four-turn conversation'
-  if l['image']=='small-talk':
-   turns=l['conversation'].replace('\\n','\n').splitlines();assert len(turns)>=6 and all(t.startswith(('A:','B:')[i%2]) for i,t in enumerate(turns)),'Small talk needs at least six alternating turns'
+  from lesson_quality import validate_lesson
+  validate_lesson(l)
   if 'level' in l:assert l['level'] in {'B2','C1','C2'},'Invalid CEFR level'
   assert re.fullmatch(re.escape(date)+r'-\d+',l['id'])
   for key in ['title','meaning','example','notes','conversation','exercise']:assert isinstance(l.get(key),str) and l[key].strip(),key

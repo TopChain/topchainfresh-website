@@ -1,0 +1,14 @@
+"""Structural checks supplement the editorial review of topic relevance."""
+GENERIC=('Use this pattern when the meaning fits the situation.', 'Make this your own: write one example from your life', 'I kept this reflection in mind while deciding how to respond.')
+def validate_lesson(lesson):
+    turns=lesson['conversation'].replace('\\n','\n').splitlines()
+    expected=8 if lesson['image']=='small-talk' else 4
+    assert len(turns)==expected, f"{lesson['title']}: expected {expected} dialogue turns"
+    assert all(turn.startswith(('A:','B:')[i%2]) and turn[2:].strip() for i,turn in enumerate(turns)), 'Dialogue must alternate A/B with nonempty replies'
+    for field in ('meaning','example','notes','exercise'):
+        assert isinstance(lesson.get(field),str) and lesson[field].strip(), 'Missing '+field
+        assert not any(template.casefold() in lesson[field].casefold() for template in GENERIC), 'Generic teaching template in '+field
+    if lesson['image']=='quote':
+        assert 'real family' not in lesson['notes'].casefold(), 'Brand mention in Quote usage note'
+        assert lesson['title'] in lesson['example'] and lesson['title'] in lesson['conversation'], 'Quote must appear in example and conversation'
+    return True
