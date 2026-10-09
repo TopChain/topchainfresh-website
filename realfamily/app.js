@@ -25,7 +25,35 @@ function playLessonAudio(text,button){
 }
 
 function render(){const draft=captureSubscriptionDraft();let route=location.hash.slice(1)||'home';const pages={home,news,markets,health,recipes,english};if(!pages[route])route='home';main.innerHTML=pages[route]();if(route!=='home')main.insertAdjacentHTML('beforeend',subscriptionSection(route));restoreSubscriptionDraft(draft,route);main.dataset.route=route;if(route!=='home')main.querySelector('.page-head').insertAdjacentHTML('afterend',updateNote(route));main.classList.remove('loaded');void main.offsetWidth;main.classList.add('loaded');if(route==='english')preloadCardExports();if(typeof currentLanguage!=='undefined'&&currentLanguage!=='en')translatePage();document.querySelectorAll('nav a').forEach(a=>{const active=a.hash==='#'+route;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});document.title=`${{home:'Our home',news:'World & AI news',markets:'Global markets',health:'Healthy living',recipes:'Family kitchen',english:'Everyday English'}[route]} — Real Family`}
-window.addEventListener('hashchange',()=>{render();window.scrollTo(0,0)});main.addEventListener('click',e=>{const b=e.target.closest('button[data-action]');if(!b)return;let v=b.dataset.value;switch(b.dataset.action){case 'research-all':researchDate='All';break;case 'country':newsCountry=v;break;case 'cuisine':cuisine=v;break;case 'meal':meal=v;break;case 'lesson':lessonCategory=v;break;case 'share-card':case 'save-card':return;case 'speak':playLessonAudio(v,b);return;case 'speak-conversation':{const lesson=activeLessons().find(l=>l.id===v);if(lesson)playLessonAudio(lesson.conversation.replace(/\\n/g,'\n').replace(/^[AB]:\s*/gm,''),b);return}}render()});main.addEventListener('change',async e=>{if(e.target.id==='research-date'){researchDate=e.target.value||'All';render();return}if(e.target.id==='english-date'){try{const response=await fetch('data/english-archive/'+e.target.value+'.json');if(!response.ok)throw Error();SELECTED_EDITION=await response.json();const url=new URL(location.href);url.searchParams.set('lesson-date',SELECTED_EDITION.date);history.replaceState(null,'',url);render()}catch{document.querySelector('#card-status').textContent='This edition could not be loaded. Please try again.'}return}if(e.target.id==='age'){age=e.target.value;render()}if(e.target.id==='sex'){sex=e.target.value;render()}});document.querySelector('#size').onclick=()=>{document.body.classList.toggle('large');localStorage.setItem('real-large',document.body.classList.contains('large'))};if(localStorage.getItem('real-large')==='true')document.body.classList.add('large');document.querySelector('#language').onchange=e=>{currentLanguage=e.target.value;render();if(currentLanguage==='en')translatePage()};async function refresh(){try{const response=await fetch('data/latest.json?minute='+Math.floor(Date.now()/60000),{cache:'no-cache'});if(!response.ok)throw Error('Data not available');const next=await response.json();if(next.countries&&Array.isArray(next.ai)){const previousData=JSON.stringify(DATA),previousHistory=JSON.stringify(ENGLISH_HISTORY);let archiveLoaded=false;DATA=next;const history=await fetch('data/english-history.json',{cache:'no-cache'});if(history.ok)ENGLISH_HISTORY=(await history.json()).editions.filter(e=>e.date>='2026-10-07').reverse();const requested=new URLSearchParams(location.search).get('lesson-date');if(!SELECTED_EDITION&&requested&&ENGLISH_HISTORY.some(e=>e.date===requested)){const edition=await fetch('data/english-archive/'+requested+'.json');if(edition.ok){SELECTED_EDITION=await edition.json();archiveLoaded=true}}const dailyChanged=await loadDailyHistory();if(dailyChanged||archiveLoaded||previousData!==JSON.stringify(DATA)||previousHistory!==JSON.stringify(ENGLISH_HISTORY))render()}}catch{}}refresh();setInterval(refresh,60000);
+window.addEventListener('hashchange',()=>{render();window.scrollTo(0,0)});main.addEventListener('click',e=>{const b=e.target.closest('button[data-action]');if(!b)return;let v=b.dataset.value;switch(b.dataset.action){case 'research-all':researchDate='All';break;case 'country':newsCountry=v;break;case 'cuisine':cuisine=v;break;case 'meal':meal=v;break;case 'lesson':lessonCategory=v;break;case 'share-card':case 'save-card':return;case 'speak':playLessonAudio(v,b);return;case 'speak-conversation':{const lesson=activeLessons().find(l=>l.id===v);if(lesson)playLessonAudio(lesson.conversation.replace(/\\n/g,'\n').replace(/^[AB]:\s*/gm,''),b);return}}render()});main.addEventListener('change',async e=>{if(e.target.id==='research-date'){researchDate=e.target.value||'All';render();return}if(e.target.id==='english-date'){try{const response=await fetch('data/english-archive/'+e.target.value+'.json');if(!response.ok)throw Error();SELECTED_EDITION=await response.json();const url=new URL(location.href);url.searchParams.set('lesson-date',SELECTED_EDITION.date);history.replaceState(null,'',url);render()}catch{document.querySelector('#card-status').textContent='This edition could not be loaded. Please try again.'}return}if(e.target.id==='age'){age=e.target.value;render()}if(e.target.id==='sex'){sex=e.target.value;render()}});document.querySelector('#size').onclick=()=>{document.body.classList.toggle('large');localStorage.setItem('real-large',document.body.classList.contains('large'))};if(localStorage.getItem('real-large')==='true')document.body.classList.add('large');document.querySelector('#language').onchange=e=>{currentLanguage=e.target.value;render();if(currentLanguage==='en')translatePage()};let refreshBusy=false;
+async function refresh(){
+ if(refreshBusy)return;
+ refreshBusy=true;
+ try{
+  const response=await fetch('data/latest.json?check='+Date.now(),{cache:'no-store'});
+  if(!response.ok)throw Error('Data not available');
+  const next=await response.json();
+  if(!next.countries||!Array.isArray(next.ai))throw Error('Invalid site data');
+  const previousData=JSON.stringify(DATA),previousHistory=JSON.stringify(ENGLISH_HISTORY);
+  let archiveLoaded=false;DATA=next;
+  // A history request must never prevent fresh published cards from rendering.
+  try{
+   const historyResponse=await fetch('data/english-history.json?check='+Date.now(),{cache:'no-store'});
+   if(historyResponse.ok)ENGLISH_HISTORY=(await historyResponse.json()).editions.filter(e=>e.date>='2026-10-07').reverse();
+   const requested=new URLSearchParams(location.search).get('lesson-date');
+   if(!SELECTED_EDITION&&requested&&ENGLISH_HISTORY.some(e=>e.date===requested)){
+    const edition=await fetch('data/english-archive/'+requested+'.json',{cache:'no-cache'});
+    if(edition.ok){SELECTED_EDITION=await edition.json();archiveLoaded=true}
+   }
+  }catch{}
+  const dailyChanged=await loadDailyHistory();
+  if(dailyChanged||archiveLoaded||previousData!==JSON.stringify(DATA)||previousHistory!==JSON.stringify(ENGLISH_HISTORY))render();
+ }catch{}finally{refreshBusy=false}
+}
+refresh();setInterval(refresh,60000);
+window.addEventListener('pageshow',()=>refresh());
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')refresh()});
+
 
 document.addEventListener('click',event=>{const anchor=event.target.closest('a[href^="#"]');if(!anchor||anchor.hash==='#main')return;event.preventDefault();location.hash=anchor.hash;render();window.scrollTo(0,0)});
 
