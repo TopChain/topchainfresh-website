@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "version": 4,
-  "revision": 9,
+  "revision": 10,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -135,5 +135,6 @@
     }
   ],
   "published": "2026-10-08T16:15:33.678066+00:00",
-  "cardFooterVersion": 2
+  "cardFooterVersion": 2,
+  "cardStyleVersion": 6
 }

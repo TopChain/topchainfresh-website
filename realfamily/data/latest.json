@@ -1289,7 +1289,7 @@
   "english": {
     "date": "2026-10-09",
     "version": 4,
-    "revision": 11,
+    "revision": 12,
     "cardSize": {
       "width": 660,
       "height": 1434
@@ -1488,7 +1488,8 @@
     "published": "2026-10-09T07:15:46.265599+00:00",
     "theme": "Making thoughtful choices and finding balance",
     "curriculumVersion": 5,
-    "essayFontVersion": 2
+    "essayFontVersion": 2,
+    "cardStyleVersion": 6
   },
   "marketCaps": {
     "year": 2025,

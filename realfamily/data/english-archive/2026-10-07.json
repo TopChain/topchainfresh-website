@@ -132,12 +132,13 @@
   ],
   "version": 4,
   "published": "2026-10-07T07:28:55.761806+00:00",
-  "revision": 11,
+  "revision": 12,
   "cardSize": {
     "width": 660,
     "height": 1434
   },
   "illustrationStyle": "Simple flat comic",
   "firstPublished": "2026-10-07T07:03:47.714708+00:00",
-  "cardFooterVersion": 2
+  "cardFooterVersion": 2,
+  "cardStyleVersion": 6
 }

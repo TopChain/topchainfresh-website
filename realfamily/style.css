@@ -32,3 +32,14 @@
 .lesson.essay-card{grid-column:1/-1;max-width:100%}.essay-card .lesson-poster{aspect-ratio:239/110}
 
 .file-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}.file-actions .listen{padding:8px 4px;white-space:nowrap;font-size:14px;margin-bottom:0}.audio-actions{margin-bottom:6px}.audio-actions .listen{margin-bottom:0;font-size:14px;padding:8px 7px}
+
+/* Approved muted category colors, shared with exported cards. */
+.lesson.red{background:#efd6d5;color:#382d2e}
+.lesson.orange{background:#f1dfcf;color:#3d3028}
+.lesson.yellow{background:#efe6bd;color:#383426}
+.lesson.green{background:#dce6d8;color:#2d382e}
+.lesson.blue{background:#dce5ee;color:#2c3540}
+.lesson.purple{background:#e7dfec;color:#382f40}
+.lesson.black{background:#e3e1df;color:#353331}
+.lesson.essay-card{background:#f1eadc;color:#37322b}
+.lesson .listen{background:#ffffff55;border-color:currentColor}.lesson-body .eyebrow{color:inherit;opacity:.5}.lesson-body details{border-color:#00000022}

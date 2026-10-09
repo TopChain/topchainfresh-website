@@ -533,8 +533,9 @@
       "Original quote with no historical attribution"
     ]
   },
-  "revision": 9,
+  "revision": 10,
   "theme": "Planning flexibly under pressure",
   "curriculumVersion": 5,
-  "essayFontVersion": 2
+  "essayFontVersion": 2,
+  "cardStyleVersion": 6
 }
