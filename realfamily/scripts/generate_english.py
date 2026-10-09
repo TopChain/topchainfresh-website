@@ -54,7 +54,7 @@ def generate(prompt):
         with urllib.request.urlopen(request,timeout=180) as response:data=json.load(response)
     except urllib.error.HTTPError as error:
         if error.code in (402,403,429):raise RuntimeError('Free API unavailable or quota exhausted; generation stopped without paid fallback.') from None
-        raise RuntimeError('Text request failed; no automatic retry or paid fallback.') from None
+        raise RuntimeError('Text request failed (HTTP '+str(error.code)+'); no automatic retry or paid fallback.') from None
     except Exception:raise RuntimeError('Text response uncertain; no automatic retry.') from None
     candidate=data.get('candidates',[{}])[0]
     assert candidate.get('finishReason')=='STOP','Incomplete text response'
@@ -112,6 +112,7 @@ def reserve_request(date,limit=2):
     status=json.loads(file.read_text()) if file.exists() else {}
     assert not status.get('paused'),'Generation paused after a failed API request; check free quota before resuming'
     requests=status.setdefault('requests',{})
+    limit+=int(date in status.get('approvedRecoveryKeys',[]))
     assert requests.get(date,0)<limit,'Request cap reached; existing draft retained for review'
     requests[date]=requests.get(date,0)+1
     file.write_text(json.dumps(status,indent=2)+'\n')

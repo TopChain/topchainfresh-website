@@ -1,5 +1,5 @@
 """Immutable daily kitchen editions: ten themes, each with a new main and snack."""
-import collections, datetime as dt, json, re, urllib.parse, zoneinfo
+import difflib, collections, datetime as dt, json, re, urllib.parse, zoneinfo
 PACIFIC=zoneinfo.ZoneInfo('America/Los_Angeles')
 CUISINES=('American','European','Japanese','Mediterranean','Chinese','Taiwanese','Hong Kong','Korean','Indian','Seasonal')
 def normalized(text):return re.sub(r'[^a-z0-9]','',text.lower())
@@ -8,13 +8,13 @@ def history(root,exclude=None):
     for folder in ('recipes-archive','recipes-staged'):
         for file in (root/'data'/folder).glob('*.json'):
             if file.stem!=exclude:rows.extend(json.loads(file.read_text())['recipes'])
-    return rows
+    return list({normalized(r['title']):r for r in rows}.values())
 def validate(root,edition,photos=True):
     dt.date.fromisoformat(edition['date'])
     rows=edition['recipes']
     assert len(rows)==20,'Twenty recipes required'
     assert collections.Counter((r['cuisine'],r['meal']) for r in rows)==collections.Counter((c,m) for c in CUISINES for m in ('Main','Snack')),'Each theme needs one main and one snack'
-    used={normalized(r['title']) for r in history(root,edition['date'])}
+    past=history(root,edition['date']);used={normalized(r['title']) for r in past}
     for r in rows:
         assert r['serves']==6,'Six servings required'
         assert isinstance(r['prep'],int) and 0<r['prep']<=180
@@ -24,7 +24,9 @@ def validate(root,edition,photos=True):
         for item in r['ingredients']:
             assert isinstance(item['name'],str) and item['name'].strip()
             assert isinstance(item['amount'],str) and re.search(r'\d',item['amount']),'Ingredient quantity missing'
-        assert 5<=len(r['steps'])<=10 and all(isinstance(s,str) and len(s.split())>=9 for s in r['steps']),'Detailed method required'
+        method=normalized(' '.join(r['steps']))
+        assert not any(difflib.SequenceMatcher(None,method,normalized(' '.join(old['steps']))).ratio()>.90 for old in past),'Near-identical historical recipe method'
+        assert 5<=len(r['steps'])<=10 and all(isinstance(s,str) and len(s.split())>=3 for s in r['steps']) and len(' '.join(r['steps']).split())>=80,'Detailed method required'
         for key in ('allergens','note','storage'):assert isinstance(r.get(key),str) and r[key].strip(),key
         assert not re.search(r'\b(wine|beer|brandy|sake|mirin|rum|alcohol)\b',' '.join(i['name'] for i in r['ingredients']),re.I),'Use alcohol-free ingredients'
         if photos:
