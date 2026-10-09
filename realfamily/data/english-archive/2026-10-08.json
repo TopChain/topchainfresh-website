@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "version": 4,
-  "revision": 4,
+  "revision": 5,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -107,10 +107,10 @@
       "image": "quote",
       "title": "Clarity begins when we name what matters.",
       "meaning": "Identifying a priority can make a confusing situation easier to understand.",
-      "example": "With several tasks competing for attention, she reminded herself: clarity begins when we name what matters.",
+      "example": "With three deadlines competing for attention, Jo reminded herself, “Clarity begins when we name what matters.” She chose the most important task.",
       "notes": "Name here means identify or state explicitly, rather than give someone a name. Use the sentence when discussing priorities or clarifying what is most important.",
-      "conversation": "A: Everything feels urgent.\nB: What matters most today?\nA: Finishing the application. That gives me a starting point.",
-      "exercise": "Paraphrase the reflection and identify one priority for today.",
+      "conversation": "A: Everything feels urgent. Where do I start?\nB: “Clarity begins when we name what matters.” Which deadline affects someone else?\nA: The application. My colleague needs it today.\nB: Then make that your first priority.",
+      "exercise": "Use the quote to introduce one priority and explain why it matters. Model: Finishing the application matters because someone is waiting for it.",
       "id": "2026-10-08-9",
       "illustration": "assets/english/2026-10-08/9.png",
       "filename": "Quote_2026-10-08_01.png"

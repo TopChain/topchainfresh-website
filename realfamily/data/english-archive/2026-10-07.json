@@ -103,10 +103,10 @@
       "image": "quote",
       "title": "A thoughtful question can open a door that a quick answer leaves closed.",
       "meaning": "Taking time to ask well can reveal possibilities that an immediate answer overlooks.",
-      "example": "Before offering advice, she asked what mattered most to him; that thoughtful question changed the conversation.",
-      "notes": "Open a door is a metaphor for creating an opportunity. Use this reflection to encourage thoughtful questions, especially when a quick answer might end a discussion.",
-      "conversation": "A: Did you tell her what she should do?\nB: I asked what outcome she wanted first. That helped us see a different option.",
-      "exercise": "Paraphrase the reflection in everyday language, then give a real example.",
+      "example": "Before advising a colleague, Lena said, “A thoughtful question can open a door that a quick answer leaves closed.” She asked what was making the decision difficult.",
+      "notes": "Open a door means create a possibility. Leaves closed suggests an opportunity remains unexplored. Use the contrast to encourage curiosity before giving advice.",
+      "conversation": "A: Should I just tell him to change jobs?\nB: “A thoughtful question can open a door that a quick answer leaves closed.”\nA: Then I could ask what he wants from his work.\nB: Yes. His answer may reveal another option.",
+      "exercise": "Replace a quick piece of advice with a thoughtful question. Model: Instead of “Quit,” ask “What would make staying worthwhile?”",
       "id": "2026-10-07-9",
       "illustration": "assets/english/2026-10-07/9.png",
       "filename": "Quote_2026-10-07_01.png"
@@ -126,7 +126,7 @@
   ],
   "version": 4,
   "published": "2026-10-07T07:28:55.761806+00:00",
-  "revision": 6,
+  "revision": 7,
   "cardSize": {
     "width": 660,
     "height": 1434

@@ -344,11 +344,11 @@
       "image": "quote",
       "level": "B2",
       "title": "Give your next step more attention than your last stumble.",
-      "meaning": "An original practice sentence encouraging useful action after a setback.",
-      "example": "After a difficult rehearsal, she gave her next step more attention than her last stumble.",
-      "notes": "A stumble is literally a loss of balance; here it represents a minor mistake. Next step is also figurative, meaning the next action. Use this sentence to encourage learning and moving forward, rather than ignoring harm or responsibility.",
-      "conversation": "A: I keep thinking about yesterday's mistake.\nB: What could you do differently next time?\nA: I could check the figures before presenting.\nB: That sounds like a useful next step.",
-      "exercise": "Paraphrase the line without its metaphors. Model: Learn from your mistake, then focus on the action you can take now. Name one practical action instead of offering a vague reassurance.",
+      "meaning": "Focus on a useful action after a setback instead of dwelling on the mistake.",
+      "example": "After a difficult presentation, her colleague said, “Give your next step more attention than your last stumble.” She decided to rehearse the opening again.",
+      "notes": "Stumble is a metaphor for a minor mistake; next step means the next action. Use the line to redirect attention after acknowledging the problem, not to dismiss its consequences.",
+      "conversation": "A: I cannot stop thinking about my mistake.\nB: “Give your next step more attention than your last stumble.” What could you change?\nA: I could check the figures before presenting.\nB: Good. That addresses the problem directly.",
+      "exercise": "Use the quote after acknowledging a setback, then suggest a concrete action. Model: The error mattered. Now check the figures and send a correction.",
       "scene": {
         "background": "#fffde7",
         "description": "A person moves from a worried glance at a question mark to a checked practical next step on a clipboard.",
@@ -458,5 +458,5 @@
       "Original quote with no historical attribution"
     ]
   },
-  "revision": 2
+  "revision": 3
 }

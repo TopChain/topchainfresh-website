@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "version": 4,
-  "revision": 4,
+  "revision": 5,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -107,10 +107,10 @@
       "image": "quote",
       "title": "Progress is easier to notice when we pause to look back.",
       "meaning": "Reflecting on earlier efforts can reveal improvement that feels invisible day to day.",
-      "example": "After months of practice, he compared his first recording with his latest one and noticed his progress.",
+      "example": "Reviewing her first recording, Maya said, “Progress is easier to notice when we pause to look back.” She could hear how much smoother her speech had become.",
       "notes": "Look back means reflect on the past here. Use this sentence to encourage someone to recognize gradual progress; pausing to reflect does not mean giving up on improvement.",
-      "conversation": "A: I feel as if I am not improving.\nB: Compare your work with last month’s.\nA: I can see a difference now.",
-      "exercise": "Name one sign of progress you can identify by comparing now with an earlier moment.",
+      "conversation": "A: My English still feels the same.\nB: “Progress is easier to notice when we pause to look back.” Listen to your first recording.\nA: I used to hesitate after every sentence. Now I barely pause.\nB: That is a concrete sign of progress.",
+      "exercise": "Quote the line, then describe one specific before-and-after change. Model: I used to read from notes; now I can explain the idea without them.",
       "id": "2026-10-09-9",
       "illustration": "assets/english/2026-10-09/9.png",
       "filename": "Quote_2026-10-09_01.png"
