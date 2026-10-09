@@ -1,6 +1,14 @@
 """Structural checks supplement the editorial review of topic relevance."""
 GENERIC=('Use this pattern when the meaning fits the situation.', 'Make this your own: write one example from your life', 'I kept this reflection in mind while deciding how to respond.')
 def validate_lesson(lesson):
+    if lesson['image']=='essay':
+        paragraphs=lesson.get('paragraphs',[])
+        assert len(paragraphs)==4, 'Essay needs four paragraphs'
+        for rows,low,high in zip(paragraphs,[1,4,4,1],[2,5,5,2]):
+            assert isinstance(rows,list) and low<=len(rows)<=high and all(isinstance(t,str) and t.strip() for t in rows), 'Wrong essay paragraph sentence counts'
+        assert len(lesson.get('connections',[]))==10, 'Essay must connect all ten preceding lessons'
+        assert lesson.get('structure') and lesson.get('exercise'), 'Essay needs structure guidance and practice'
+        return True
     turns=lesson['conversation'].replace('\\n','\n').splitlines()
     expected=8 if lesson['image']=='small-talk' else 4
     assert len(turns)==expected, f"{lesson['title']}: expected {expected} dialogue turns"

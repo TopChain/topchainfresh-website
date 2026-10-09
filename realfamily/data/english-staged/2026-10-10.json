@@ -438,6 +438,81 @@
       "id": "2026-10-10-10",
       "illustration": "assets/english/2026-10-10/10.png",
       "filename": "Small talk_2026-10-10_01.png"
+    },
+    {
+      "id": "2026-10-10-11",
+      "image": "essay",
+      "level": "C1",
+      "title": "Planning flexibly under pressure",
+      "meaning": "A short model essay brings today’s language together in one situation.",
+      "paragraphs": [
+        [
+          "Good planning balances clear priorities with room to adapt."
+        ],
+        [
+          "Our team was under the gun to organize a weekend event.",
+          "We needed to streamline the booking process and grasp the practical constraints.",
+          "After we zeroed in on the main problem, we discussed what we would trade off: convenience or privacy.",
+          "A colleague warned that calling a thoughtful proposal merely adequate would damn it with faint praise."
+        ],
+        [
+          "“Let’s leave some room for flexibility,” I suggested.",
+          "Were it not for our backup plan, a change in the weather would force us to cancel.",
+          "When a friend asked, “Any plans you are looking forward to?”, I told her about the event.",
+          "Her advice was simple: “Give your next step more attention than your last stumble.”"
+        ],
+        [
+          "We can prepare carefully without expecting every detail to go perfectly."
+        ]
+      ],
+      "structure": "Introduce your idea → develop a problem → give an example and reflect → conclude. Paragraphs: 1–2 / 4–5 / 4–5 / 1–2 sentences.",
+      "exercise": "Your turn: Write four short paragraphs about a similar choice. Reuse two expressions and today’s grammar.",
+      "example": "Good planning balances clear priorities with room to adapt.\n\nOur team was under the gun to organize a weekend event. We needed to streamline the booking process and grasp the practical constraints. After we zeroed in on the main problem, we discussed what we would trade off: convenience or privacy. A colleague warned that calling a thoughtful proposal merely adequate would damn it with faint praise.\n\n“Let’s leave some room for flexibility,” I suggested. Were it not for our backup plan, a change in the weather would force us to cancel. When a friend asked, “Any plans you are looking forward to?”, I told her about the event. Her advice was simple: “Give your next step more attention than your last stumble.”\n\nWe can prepare carefully without expecting every detail to go perfectly.",
+      "notes": "Notice how each paragraph develops the same central idea.",
+      "conversation": "",
+      "connections": [
+        {
+          "lessonId": "2026-10-10-1",
+          "expression": "streamline"
+        },
+        {
+          "lessonId": "2026-10-10-2",
+          "expression": "grasp"
+        },
+        {
+          "lessonId": "2026-10-10-3",
+          "expression": "trade off"
+        },
+        {
+          "lessonId": "2026-10-10-4",
+          "expression": "zero in on"
+        },
+        {
+          "lessonId": "2026-10-10-5",
+          "expression": "damn with faint praise"
+        },
+        {
+          "lessonId": "2026-10-10-6",
+          "expression": "under the gun"
+        },
+        {
+          "lessonId": "2026-10-10-7",
+          "expression": "Let's leave some room for flexibility."
+        },
+        {
+          "lessonId": "2026-10-10-8",
+          "expression": "Were it not for: present hypothetical inversion"
+        },
+        {
+          "lessonId": "2026-10-10-9",
+          "expression": "Give your next step more attention than your last stumble."
+        },
+        {
+          "lessonId": "2026-10-10-10",
+          "expression": "Any plans you are looking forward to?"
+        }
+      ],
+      "filename": "Essay_2026-10-10_01.png"
     }
   ],
   "version": 4,
@@ -464,5 +539,7 @@
       "Original quote with no historical attribution"
     ]
   },
-  "revision": 6
+  "revision": 7,
+  "theme": "Planning flexibly under pressure",
+  "curriculumVersion": 5
 }

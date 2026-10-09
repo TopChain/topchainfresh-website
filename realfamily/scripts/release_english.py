@@ -5,15 +5,20 @@ PACIFIC=zoneinfo.ZoneInfo('America/Los_Angeles')
 COUNTS={'vocabulary':2,'phrasal':2,'idiom':2,'life':1,'grammar':1,'quote':1,'small-talk':1}
 def validate(root,edition):
  date=edition['date'];dt.date.fromisoformat(date)
- lessons=edition['lessons'];assert len(lessons)==10
- assert collections.Counter(l['image'] for l in lessons)==COUNTS
- assert len({l['id'] for l in lessons})==10
+ lessons=edition['lessons'];assert len(lessons)==(11 if edition.get('curriculumVersion',0)>=5 else 10)
+ assert collections.Counter(l['image'] for l in lessons)==dict(COUNTS,essay=1) if edition.get('curriculumVersion',0)>=5 else collections.Counter(l['image'] for l in lessons)==COUNTS
+ assert len({l['id'] for l in lessons})==len(lessons)
  seen=set();pictures=set()
  for l in lessons:
   from lesson_quality import validate_lesson
   validate_lesson(l)
   if 'level' in l:assert l['level'] in {'B2','C1','C2'},'Invalid CEFR level'
-  assert re.fullmatch(re.escape(date)+r'-\d+',l['id'])
+  assert date<'2026-10-07' or re.fullmatch(re.escape(date)+r'-\d+',l['id'])
+  if l['image']=='essay':
+   assert {c['lessonId'] for c in l['connections']}=={x['id'] for x in lessons if x['image']!='essay'}
+   png=root/'data/english-images'/date/l['filename'];header=png.read_bytes()[:24]
+   assert header[:8]==b'\x89PNG\r\n\x1a\n' and struct.unpack('>II',header[16:24])==(1434,900),'Missing landscape essay PNG'
+   continue
   for key in ['title','meaning','example','notes','conversation','exercise']:assert isinstance(l.get(key),str) and l[key].strip(),key
   title=''.join(c for c in l['title'].casefold() if c.isalnum());assert title not in seen;seen.add(title)
   art=root/l['illustration'];assert art.is_file() and l['illustration'].startswith('assets/english/'+date+'/')

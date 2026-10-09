@@ -1243,18 +1243,18 @@
     },
     "english": {
       "ok": true,
-      "checked": "2026-10-09T19:12:00.260092+00:00",
+      "checked": "2026-10-09T20:50:42.193472+00:00",
       "updated": "2026-10-09T07:15:46.265599+00:00"
     },
     "kitchen": {
       "ok": true,
-      "checked": "2026-10-09T19:12:00.260092+00:00",
+      "checked": "2026-10-09T20:50:42.193472+00:00",
       "updated": "2026-10-09T07:15:46.265599+00:00",
       "date": "2026-10-09"
     }
   },
   "marketUpdated": "2026-10-09T19:12:00.260092+00:00",
-  "checked": "2026-10-09T19:12:00.260092+00:00",
+  "checked": "2026-10-09T20:50:42.193472+00:00",
   "newsUpdated": "2026-10-09T19:12:00.260092+00:00",
   "researchUpdated": "2026-10-09T08:53:57.015218+00:00",
   "daily": {
@@ -1289,7 +1289,7 @@
   "english": {
     "date": "2026-10-09",
     "version": 4,
-    "revision": 8,
+    "revision": 9,
     "cardSize": {
       "width": 660,
       "height": 1434
@@ -1420,11 +1420,88 @@
         "id": "2026-10-09-10",
         "illustration": "assets/english/2026-10-09/10.png",
         "filename": "Small talk_2026-10-09_01.png"
+      },
+      {
+        "id": "2026-10-09-11",
+        "image": "essay",
+        "level": "C1",
+        "title": "Making thoughtful choices and finding balance",
+        "meaning": "A short model essay brings today’s language together in one situation.",
+        "paragraphs": [
+          [
+            "A pragmatic approach helps us solve problems while leaving time to unwind."
+          ],
+          [
+            "Yesterday, an inadvertent change disrupted our community project.",
+            "We could not rule out a technical fault, and we had already put off the repair.",
+            "Once everyone was on the same page, we agreed not to cut corners.",
+            "When a colleague proposed a careful test, I said, “That works for me.”"
+          ],
+          [
+            "I would rather we fixed the problem calmly than rushed into another mistake.",
+            "After work, a friend asked, “What do you like to do to unwind?”",
+            "We took a walk and discussed what we had learned.",
+            "“Progress is easier to notice when we pause to look back,” I said."
+          ],
+          [
+            "Thoughtful action and a little reflection can move us forward together."
+          ]
+        ],
+        "structure": "Introduce your idea → develop a problem → give an example and reflect → conclude. Paragraphs: 1–2 / 4–5 / 4–5 / 1–2 sentences.",
+        "exercise": "Your turn: Write four short paragraphs about a similar choice. Reuse two expressions and today’s grammar.",
+        "example": "A pragmatic approach helps us solve problems while leaving time to unwind.\n\nYesterday, an inadvertent change disrupted our community project. We could not rule out a technical fault, and we had already put off the repair. Once everyone was on the same page, we agreed not to cut corners. When a colleague proposed a careful test, I said, “That works for me.”\n\nI would rather we fixed the problem calmly than rushed into another mistake. After work, a friend asked, “What do you like to do to unwind?” We took a walk and discussed what we had learned. “Progress is easier to notice when we pause to look back,” I said.\n\nThoughtful action and a little reflection can move us forward together.",
+        "notes": "Notice how each paragraph develops the same central idea.",
+        "conversation": "",
+        "connections": [
+          {
+            "lessonId": "2026-10-09-1",
+            "expression": "pragmatic"
+          },
+          {
+            "lessonId": "2026-10-09-2",
+            "expression": "inadvertent"
+          },
+          {
+            "lessonId": "2026-10-09-3",
+            "expression": "rule out"
+          },
+          {
+            "lessonId": "2026-10-09-4",
+            "expression": "put off"
+          },
+          {
+            "lessonId": "2026-10-09-5",
+            "expression": "on the same page"
+          },
+          {
+            "lessonId": "2026-10-09-6",
+            "expression": "cut corners"
+          },
+          {
+            "lessonId": "2026-10-09-7",
+            "expression": "That works for me."
+          },
+          {
+            "lessonId": "2026-10-09-8",
+            "expression": "Would rather with another subject"
+          },
+          {
+            "lessonId": "2026-10-09-9",
+            "expression": "Progress is easier to notice when we pause to look back."
+          },
+          {
+            "lessonId": "2026-10-09-10",
+            "expression": "What do you like to do to unwind?"
+          }
+        ],
+        "filename": "Essay_2026-10-09_01.png"
       }
     ],
     "preparedAt": "2026-10-08T16:26:35.075375+00:00",
     "cardFooterVersion": 2,
-    "published": "2026-10-09T07:15:46.265599+00:00"
+    "published": "2026-10-09T07:15:46.265599+00:00",
+    "theme": "Making thoughtful choices and finding balance",
+    "curriculumVersion": 5
   },
   "marketCaps": {
     "year": 2025,

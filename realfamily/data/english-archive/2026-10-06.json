@@ -13,7 +13,32 @@
       "exercise": "Describe a subtle difference between two messages and explain its effect. Model: Adding “when you have time” makes the request subtly less urgent.",
       "ipa": "/ˈsʌt̬.əl/",
       "ipaAccent": "en-US",
-      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/subtle"
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/subtle",
+      "illustration": "assets/english/2026-10-06/01.png",
+      "scene": {
+        "background": "#f5ead7",
+        "description": "Not obvious; requiring attention to notice.",
+        "characters": [
+          {
+            "x": 340,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#b82c30",
+            "flip": false,
+            "face": "curious",
+            "pose": "think"
+          }
+        ],
+        "props": [
+          {
+            "kind": "lightbulb",
+            "x": 90,
+            "y": 80,
+            "scale": 1
+          }
+        ]
+      },
+      "filename": "Vocabulary_2026-10-06_01.png"
     },
     {
       "id": "vocabulary-11",
@@ -26,7 +51,32 @@
       "exercise": "Describe two records that disagree without assigning blame. Model: There is a discrepancy between the invoice total and the amount received.",
       "ipa": "/dɪˈskrep.ən.si/",
       "ipaAccent": "en-US",
-      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/discrepancy"
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/discrepancy",
+      "illustration": "assets/english/2026-10-06/02.png",
+      "scene": {
+        "background": "#e3efec",
+        "description": "A difference between things that should match.",
+        "characters": [
+          {
+            "x": 340,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#244890",
+            "flip": true,
+            "face": "skeptical",
+            "pose": "point"
+          }
+        ],
+        "props": [
+          {
+            "kind": "balance",
+            "x": 97,
+            "y": 80,
+            "scale": 1
+          }
+        ]
+      },
+      "filename": "Vocabulary_2026-10-06_02.png"
     },
     {
       "id": "phrasal-10",
@@ -36,7 +86,32 @@
       "example": "The company is phasing out the old system.",
       "notes": "Phase out means remove gradually, not stop overnight. It is separable: phase the system out; phase it out. Use phasing for an ongoing transition.",
       "conversation": "A: Are we stopping the old system immediately?\nB: No. We are phasing it out over three months.\nA: Will both systems run during the transition?\nB: Yes, until everyone has moved to the new one.",
-      "exercise": "Describe a gradual transition using phase out and a time frame. Model: We will phase out paper forms over the next six months."
+      "exercise": "Describe a gradual transition using phase out and a time frame. Model: We will phase out paper forms over the next six months.",
+      "illustration": "assets/english/2026-10-06/03.png",
+      "scene": {
+        "background": "#e5eafb",
+        "description": "Stop using something gradually.",
+        "characters": [
+          {
+            "x": 340,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#1c5840",
+            "flip": false,
+            "face": "determined",
+            "pose": "reach"
+          }
+        ],
+        "props": [
+          {
+            "kind": "clock",
+            "x": 104,
+            "y": 80,
+            "scale": 1
+          }
+        ]
+      },
+      "filename": "Phrasal verbs_2026-10-06_01.png"
     },
     {
       "id": "phrasal-11",
@@ -46,7 +121,32 @@
       "example": "Our travel plans fell through at the last minute.",
       "notes": "Fall through is intransitive: the deal fell through, not we fell the deal through. It describes an arrangement that fails to happen; say fell through for the past.",
       "conversation": "A: Are you still taking the weekend trip?\nB: No. Our plans fell through when the booking was canceled.\nA: Could you rearrange it for next month?\nB: Yes. We will check dates before making new plans.",
-      "exercise": "Explain why an arrangement fell through. Model: The agreement fell through because the two sides could not agree on a price."
+      "exercise": "Explain why an arrangement fell through. Model: The agreement fell through because the two sides could not agree on a price.",
+      "illustration": "assets/english/2026-10-06/04.png",
+      "scene": {
+        "background": "#f5ead7",
+        "description": "Fail to happen as planned.",
+        "characters": [
+          {
+            "x": 340,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#b82c30",
+            "flip": true,
+            "face": "worried",
+            "pose": "think"
+          }
+        ],
+        "props": [
+          {
+            "kind": "puzzle",
+            "x": 111,
+            "y": 80,
+            "scale": 1
+          }
+        ]
+      },
+      "filename": "Phrasal verbs_2026-10-06_02.png"
     },
     {
       "id": "idiom-10",
@@ -56,7 +156,32 @@
       "example": "Our weekend plans are still up in the air.",
       "notes": "Use still up in the air for an undecided outcome or arrangement. It does not mean something has definitely been canceled.",
       "conversation": "A: Have you decided where to go this weekend?\nB: Our plans are still up in the air.\nA: What are you waiting for?\nB: The weather forecast. Then we can choose.",
-      "exercise": "Name an undecided plan and what would settle it. Model: The venue is up in the air until we know how many guests are coming."
+      "exercise": "Name an undecided plan and what would settle it. Model: The venue is up in the air until we know how many guests are coming.",
+      "illustration": "assets/english/2026-10-06/05.png",
+      "scene": {
+        "background": "#e3efec",
+        "description": "Undecided or uncertain.",
+        "characters": [
+          {
+            "x": 340,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#244890",
+            "flip": false,
+            "face": "curious",
+            "pose": "point"
+          }
+        ],
+        "props": [
+          {
+            "kind": "question",
+            "x": 118,
+            "y": 80,
+            "scale": 1
+          }
+        ]
+      },
+      "filename": "Idioms & slang_2026-10-06_01.png"
     },
     {
       "id": "idiom-11",
@@ -66,7 +191,32 @@
       "example": "The new software has a steep learning curve.",
       "notes": "A steep learning curve commonly means a task is difficult to learn quickly in everyday speech. Learning curve refers to learning over time, not a literal physical curve.",
       "conversation": "A: Is the new software easy to learn?\nB: It has a steep learning curve at first.\nA: What makes it challenging?\nB: The unfamiliar shortcuts, though practice is making them easier.",
-      "exercise": "Describe what makes a new skill difficult at first. Model: The editing software has a steep learning curve because its controls are unfamiliar."
+      "exercise": "Describe what makes a new skill difficult at first. Model: The editing software has a steep learning curve because its controls are unfamiliar.",
+      "illustration": "assets/english/2026-10-06/06.png",
+      "scene": {
+        "background": "#e5eafb",
+        "description": "The process or difficulty of gaining new skills.",
+        "characters": [
+          {
+            "x": 340,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#1c5840",
+            "flip": true,
+            "face": "happy",
+            "pose": "reach"
+          }
+        ],
+        "props": [
+          {
+            "kind": "ladder",
+            "x": 125,
+            "y": 80,
+            "scale": 1
+          }
+        ]
+      },
+      "filename": "Idioms & slang_2026-10-06_02.png"
     },
     {
       "id": "life-5",
@@ -76,7 +226,32 @@
       "example": "I do not want to overstep, but may I offer a suggestion?",
       "notes": "Overstep means exceed a boundary or your authority. This softening phrase should precede a respectful request, not excuse intrusive advice.",
       "conversation": "A: I do not want to overstep, but may I suggest a different approach?\nB: Of course. What did you have in mind?\nA: Could we ask the team before changing their schedule?\nB: That sounds reasonable. Let us check with them first.",
-      "exercise": "Offer a suggestion while respecting a boundary. Model: I do not want to overstep, but would you like another perspective on the draft?"
+      "exercise": "Offer a suggestion while respecting a boundary. Model: I do not want to overstep, but would you like another perspective on the draft?",
+      "illustration": "assets/english/2026-10-06/07.png",
+      "scene": {
+        "background": "#f5ead7",
+        "description": "Show awareness of another person’s boundaries or authority.",
+        "characters": [
+          {
+            "x": 340,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#b82c30",
+            "flip": false,
+            "face": "calm",
+            "pose": "think"
+          }
+        ],
+        "props": [
+          {
+            "kind": "speech",
+            "x": 132,
+            "y": 80,
+            "scale": 1
+          }
+        ]
+      },
+      "filename": "Life phrases_2026-10-06_01.png"
     },
     {
       "id": "grammar-5",
@@ -86,7 +261,32 @@
       "example": "I wish I had asked more questions.",
       "notes": "For regret about a completed past event, use wish + had + past participle. I wish I had asked means I did not ask; it cannot change the past.",
       "conversation": "A: Did you ask about the deadline?\nB: No. I wish I had asked more questions.\nA: What would you do differently next time?\nB: Prepare a list beforehand so I do not forget.",
-      "exercise": "Express regret: You did not save the file. Model: I wish I had saved the file before closing the program."
+      "exercise": "Express regret: You did not save the file. Model: I wish I had saved the file before closing the program.",
+      "illustration": "assets/english/2026-10-06/08.png",
+      "scene": {
+        "background": "#e3efec",
+        "description": "Use wish + past perfect to express regret about the past.",
+        "characters": [
+          {
+            "x": 340,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#244890",
+            "flip": true,
+            "face": "worried",
+            "pose": "point"
+          }
+        ],
+        "props": [
+          {
+            "kind": "rain",
+            "x": 139,
+            "y": 80,
+            "scale": 1
+          }
+        ]
+      },
+      "filename": "Grammar_2026-10-06_01.png"
     },
     {
       "id": "small-talk-5",
@@ -96,7 +296,32 @@
       "example": "What is keeping you busy these days?",
       "notes": "These days asks about a current period, not only today. Let the person choose work, hobbies or family; follow up on the detail they offer.",
       "conversation": "A: What is keeping you busy these days?\nB: I am learning to bake bread.\nA: What got you interested in it?\nB: A friend showed me how to make a simple loaf.\nA: Have you tried anything more challenging?\nB: Sourdough, though I am still getting the timing right.\nA: That sounds rewarding. What do you enjoy most?\nB: Sharing a fresh loaf with people. What have you been up to?",
-      "exercise": "Answer the opening with an activity and a detail, then ask a question back. Model: I am learning to bake bread on weekends. What is keeping you busy?"
+      "exercise": "Answer the opening with an activity and a detail, then ask a question back. Model: I am learning to bake bread on weekends. What is keeping you busy?",
+      "illustration": "assets/english/2026-10-06/09.png",
+      "scene": {
+        "background": "#e5eafb",
+        "description": "Invite a broad answer about work, hobbies, or family.",
+        "characters": [
+          {
+            "x": 340,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#1c5840",
+            "flip": false,
+            "face": "determined",
+            "pose": "reach"
+          }
+        ],
+        "props": [
+          {
+            "kind": "clipboard",
+            "x": 146,
+            "y": 80,
+            "scale": 1
+          }
+        ]
+      },
+      "filename": "Small talk_2026-10-06_01.png"
     },
     {
       "id": "quote-5",
@@ -106,11 +331,36 @@
       "example": "Before her daily speaking practice, Maya reminded herself, “Confidence grows when practice becomes a habit.”",
       "notes": "Use this reflection to encourage consistent practice. Becomes a habit means an action grows familiar through repetition; avoid presenting confidence as an immediate result.",
       "conversation": "A: I still feel nervous speaking English.\nB: “Confidence grows when practice becomes a habit.” Try five minutes daily.\nA: So I should focus on consistency, not perfection?\nB: Exactly. Start with something you can repeat.",
-      "exercise": "Use the quote to encourage a friend, then suggest one realistic practice habit. Model: Read a short paragraph aloud every morning."
+      "exercise": "Use the quote to encourage a friend, then suggest one realistic practice habit. Model: Read a short paragraph aloud every morning.",
+      "illustration": "assets/english/2026-10-06/10.png",
+      "scene": {
+        "background": "#f5ead7",
+        "description": "Regular repetition builds ease over time.",
+        "characters": [
+          {
+            "x": 340,
+            "y": 90,
+            "scale": 1,
+            "shirt": "#b82c30",
+            "flip": true,
+            "face": "happy",
+            "pose": "think"
+          }
+        ],
+        "props": [
+          {
+            "kind": "plant",
+            "x": 153,
+            "y": 80,
+            "scale": 1
+          }
+        ]
+      },
+      "filename": "Quote_2026-10-06_01.png"
     }
   ],
   "version": 4,
   "mode": "New daily lessons with permanent archive",
   "published": "2026-10-07T06:59:48.834242+00:00",
-  "revision": 4
+  "revision": 14
 }

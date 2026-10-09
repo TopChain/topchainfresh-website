@@ -1,5 +1,5 @@
 """Public PNG names use the category, PT edition date, and category sequence."""
-LABELS={'vocabulary':'Vocabulary','phrasal':'Phrasal verbs','idiom':'Idioms & slang','life':'Life phrases','grammar':'Grammar','quote':'Quote','small-talk':'Small talk'}
+LABELS={'vocabulary':'Vocabulary','phrasal':'Phrasal verbs','idiom':'Idioms & slang','life':'Life phrases','grammar':'Grammar','quote':'Quote','small-talk':'Small talk','essay':'Essay'}
 def assign_filenames(edition):
  counts={}
  for lesson in edition['lessons']:

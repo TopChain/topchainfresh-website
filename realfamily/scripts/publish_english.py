@@ -5,8 +5,9 @@ def norm(s):return ''.join(c for c in unicodedata.normalize('NFKC',s).casefold()
 def publish(date):
  p=ROOT/'data';file=p/'english-archive'/f'{date}.json';e=json.loads(file.read_text());assert e['date']==date
  expected={'vocabulary':2,'phrasal':2,'idiom':2,'life':1,'grammar':1,'quote':1,'small-talk':1}
+ if e.get('curriculumVersion',0)>=5:expected['essay']=1
  assert collections.Counter(l['image'] for l in e['lessons'])==expected,'Wrong daily category counts'
- assert len({l['id'] for l in e['lessons']})==10,'Duplicate IDs'
+ assert len({l['id'] for l in e['lessons']})==len(e['lessons']),'Duplicate IDs'
  seen=set();past_images=set()
  for old in (p/'english-archive').glob('*.json'):
   if old==file:continue
@@ -17,11 +18,13 @@ def publish(date):
  from lesson_quality import validate_lesson
  for l in e['lessons']:
   validate_lesson(l)
+  if l['image']=='essay':continue
   for field in ['title','meaning','example','notes','conversation','exercise']:assert l.get(field),'Missing '+field
   key=norm(l['title']);assert key not in seen,'Repeated topic: '+l['title'];seen.add(key)
- assert len({l.get('illustration') for l in e['lessons']})==10,'Each lesson needs a distinct illustration'
+ assert len({l.get('illustration') for l in e['lessons'] if l['image']!='essay'})==10,'Each lesson needs a distinct illustration'
  current_images=set()
  for l in e['lessons']:
+  if l['image']=='essay':continue
   asset=ROOT/l.get('illustration','');assert asset.is_file() and 'assets/english/' in l['illustration'],'Missing topic illustration: '+l['title']
   digest=hashlib.sha256(asset.read_bytes()).hexdigest();assert digest not in current_images|past_images,'Reused illustration: '+l['title'];current_images.add(digest)
  from card_naming import assign_filenames
