@@ -2,37 +2,45 @@
   "countries": {
     "JP": [
       {
+        "title": "Running out of royals: why calls are growing to let Japan’s princess Aiko take the throne",
+        "url": "https://www.theguardian.com/world/2026/oct/09/japan-royal-throne-lineage-princess-aiko-forbidden-ascending",
+        "source": "The Guardian",
+        "published": "2026-10-09T00:20:50.000Z",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
+        "freeAccessVerified": true
+      },
+      {
         "title": "Japan beer giants raided over suspicions they colluded to set the price of beverages",
         "url": "https://www.theguardian.com/world/2026/oct/08/japan-beer-giants-raided-over-suspicions-they-colluded-to-set-the-price-of-beverages",
         "source": "The Guardian",
         "published": "2026-10-08T03:54:38.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       }
     ],
     "GB": [
       {
-        "title": "Two Latvian men arrested at RAF base in Cambridgeshire used by US military",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/08/two-latvian-men-arrested-raf-molesworth-cambridgeshire-us-nato",
+        "title": "Green party concedes in Holborn and St Pancras byelection as result imminent – UK politics live",
+        "url": "https://www.theguardian.com/politics/live/2026/oct/09/holborn-st-pancras-byelection-result-zack-polanski-sagal-abdi-wali-uk-labour-green-party-uk-politics-latest-news",
         "source": "The Guardian",
-        "published": "2026-10-08T21:27:17.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "published": "2026-10-09T02:05:41.000Z",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
-        "title": "Polls close in Holborn and St Pancras byelection as Labour hopes to retain seat",
-        "url": "https://www.theguardian.com/politics/2026/oct/08/polls-close-holborn-st-pancras-byelection-labour-greens",
+        "title": "Labour fends off Green party to win Holborn and St Pancras byelection",
+        "url": "https://www.theguardian.com/politics/2026/oct/09/labour-wins-holborn-st-pancras-byelection-green-party",
         "source": "The Guardian",
-        "published": "2026-10-08T21:22:29.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "published": "2026-10-09T02:03:41.000Z",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
-        "title": "Royal Navy sailor accused of spying for Russia appears in court",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/08/royal-navy-serviceman-arrested-under-national-security-act",
+        "title": "NHS at risk of ‘system failures’ as demand for ADHD and autism care soars, inquiry finds",
+        "url": "https://www.theguardian.com/society/2026/oct/09/nhs-fonagy-review-autism-adhd-mental-health-conditions-care",
         "source": "The Guardian",
-        "published": "2026-10-08T18:14:08.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "published": "2026-10-08T23:01:32.000Z",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       }
     ],
@@ -42,7 +50,7 @@
         "url": "https://focustaiwan.tw/politics/202610080021",
         "source": "Focus Taiwan",
         "published": "2026-10-08T20:53:00+08:00",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
@@ -50,7 +58,7 @@
         "url": "https://focustaiwan.tw/business/202610080020",
         "source": "Focus Taiwan",
         "published": "2026-10-08T20:52:00+08:00",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
@@ -58,7 +66,7 @@
         "url": "https://focustaiwan.tw/politics/202610080019",
         "source": "Focus Taiwan",
         "published": "2026-10-08T20:29:00+08:00",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       }
     ],
@@ -68,7 +76,7 @@
         "url": "https://www.theguardian.com/world/2026/oct/08/china-succession-crisis-factory-workers-manufacturing-family-businesses",
         "source": "The Guardian",
         "published": "2026-10-07T23:19:03.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
@@ -76,44 +84,53 @@
         "url": "https://www.theguardian.com/world/2026/oct/07/satellite-images-attack-jets-china-military-facility-laos",
         "source": "The Guardian",
         "published": "2026-10-07T14:46:01.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       }
     ],
     "US": [
       {
-        "title": "Democratic senator says Hegseth trying to hide costs of Iran war from US public",
-        "url": "https://www.theguardian.com/us-news/2026/oct/08/chris-murphy-pete-hegseth-iran-war-costs",
-        "source": "The Guardian",
-        "published": "2026-10-08T21:41:08.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
-        "freeAccessVerified": true
-      },
-      {
-        "title": "USS Abraham Lincoln’s commanding officer addresses suicide attempts in strike group after record deployment – live",
+        "title": "Hegseth falsely claims Obama called 2009 Fort Hood attack ‘workplace violence’ – US politics live",
         "url": "https://www.theguardian.com/us-news/live/2026/oct/08/uss-lincoln-san-diego-donald-trump-republicans-democrats-us-politics-latest-news",
         "source": "The Guardian",
-        "published": "2026-10-08T21:32:48.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "published": "2026-10-09T02:00:54.000Z",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
-        "title": "Thousands turn out to welcome weary USS Lincoln sailors after record-breaking deployment",
-        "url": "https://www.theguardian.com/us-news/2026/oct/08/uss-abraham-lincoln-return-san-diego",
+        "title": "ICE agent shoots man in New York City with five-year-old reportedly in car",
+        "url": "https://www.theguardian.com/us-news/2026/oct/08/nyc-shooting-federal-agent",
         "source": "The Guardian",
-        "published": "2026-10-08T20:18:19.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "published": "2026-10-09T01:50:05.000Z",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
+        "freeAccessVerified": true
+      },
+      {
+        "title": "Millions on alert as Hurricane Isaias set to bring dangerous storm surge",
+        "url": "https://www.theguardian.com/world/2026/oct/08/hurricane-isaias-gulf-coast",
+        "source": "The Guardian",
+        "published": "2026-10-09T01:21:04.000Z",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       }
     ],
-    "IN": [],
+    "IN": [
+      {
+        "title": "India’s ‘Cockroach’ party accuses government of mass detention of members ahead of weekend protest",
+        "url": "https://www.theguardian.com/world/2026/oct/09/india-dehli-cockroach-party-weekend-demonstration-mass-detention",
+        "source": "The Guardian",
+        "published": "2026-10-09T01:55:34.000Z",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
+        "freeAccessVerified": true
+      }
+    ],
     "DE": [
       {
         "title": "A death, a plagiarism scandal and a quest for revenge: the bizarre tale of Otto Z",
         "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/08/a-death-a-plagiarism-scandal-and-a-quest-for-revenge-the-bizarre-tale-of-otto-z",
         "source": "The Guardian",
         "published": "2026-10-08T04:00:09.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
@@ -121,17 +138,17 @@
         "url": "https://www.theguardian.com/world/2026/oct/07/germany-court-august-hanning-spying-arrest-detention-bnd",
         "source": "The Guardian",
         "published": "2026-10-07T17:03:53.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       }
     ],
     "FR": [
       {
-        "title": "French students continue protests, saying ministers’ pledges not enough",
+        "title": "French ministers scramble to appease students after 10 days of protests",
         "url": "https://www.theguardian.com/world/2026/oct/08/france-student-protests-schools-vow-to-continue",
         "source": "The Guardian",
         "published": "2026-10-08T21:47:23.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
@@ -139,7 +156,7 @@
         "url": "https://www.theguardian.com/world/live/2026/oct/08/france-protests-spain-housing-maria-del-carmen-abascal-burnham-merz-europe-latest-news",
         "source": "The Guardian",
         "published": "2026-10-08T16:05:05.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
@@ -147,17 +164,25 @@
         "url": "https://www.theguardian.com/film/2026/oct/08/george-clooney-italian-restaurant-provence-france",
         "source": "The Guardian",
         "published": "2026-10-08T11:25:36.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       }
     ],
     "KR": [
       {
+        "title": "S. Korea urges N. Korea to take 'responsible measures' over mine explosion incident at UN",
+        "url": "https://www.koreatimes.co.kr/southkorea/defense/20261009/s-korea-urges-n-korea-to-take-responsible-measures-over-mine-explosion-incident-at-un?utm_source=rss",
+        "source": "The Korea Times",
+        "published": "2026-10-08T23:28:02.000Z",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
+        "freeAccessVerified": true
+      },
+      {
         "title": "Overnight Coupang outage causes widespread disruptions, sparks fresh hacking fears",
         "url": "https://www.koreatimes.co.kr/southkorea/20261009/overnight-coupang-outage-causes-widespread-disruptions-sparks-fresh-hacking-fears?utm_source=rss",
         "source": "The Korea Times",
         "published": "2026-10-08T17:06:03.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
@@ -165,15 +190,7 @@
         "url": "https://www.koreatimes.co.kr/southkorea/education/20261009/teachers-turn-classrooms-into-social-media-stages-sometimes-exposing-students-without-consent?utm_source=rss",
         "source": "The Korea Times",
         "published": "2026-10-08T15:50:08.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
-        "freeAccessVerified": true
-      },
-      {
-        "title": "South Korea threatens legal action if fuel shipments to Russia found to have broken law",
-        "url": "https://www.theguardian.com/world/2026/oct/08/south-korea-fuel-shipments-to-russia-domestic-law",
-        "source": "The Guardian",
-        "published": "2026-10-08T04:45:07.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       }
     ],
@@ -183,7 +200,7 @@
         "url": "https://www.theguardian.com/world/2026/oct/08/teen-hike-claude-ai-directions-rescue-canada-mountain",
         "source": "The Guardian",
         "published": "2026-10-08T19:31:23.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
@@ -191,7 +208,7 @@
         "url": "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026",
         "source": "The Guardian",
         "published": "2026-10-08T14:03:29.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       },
       {
@@ -199,18 +216,42 @@
         "url": "https://www.theguardian.com/us-news/2026/oct/07/trump-eu-disinformation-conference",
         "source": "The Guardian",
         "published": "2026-10-07T19:38:24.000Z",
-        "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+        "accessChecked": "2026-10-09T02:05:50.203377+00:00",
         "freeAccessVerified": true
       }
     ]
   },
   "ai": [
     {
+      "title": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude",
+      "url": "https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude",
+      "source": "The Guardian",
+      "published": "2026-10-09T01:25:42.000Z",
+      "accessChecked": "2026-10-09T02:05:50.203377+00:00",
+      "freeAccessVerified": true
+    },
+    {
+      "title": "Firmus pulls biggest ASX float since Telstra amid investor doubt about datacentre company",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-pulls-asx-float-datacentre-investor-doubt-australia",
+      "source": "The Guardian",
+      "published": "2026-10-08T22:33:24.000Z",
+      "accessChecked": "2026-10-09T02:05:50.203377+00:00",
+      "freeAccessVerified": true
+    },
+    {
+      "title": "Trump hosts awards party for tech billionaires, almost as if he doesn’t care about ordinary Americans",
+      "url": "https://www.theguardian.com/us-news/2026/oct/08/trump-awards-party-tech-billionaires",
+      "source": "The Guardian",
+      "published": "2026-10-08T22:28:48.000Z",
+      "accessChecked": "2026-10-09T02:05:50.203377+00:00",
+      "freeAccessVerified": true
+    },
+    {
       "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
       "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
       "source": "TechCrunch",
       "published": "2026-10-08T21:00:00+00:00",
-      "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+      "accessChecked": "2026-10-09T02:05:50.203377+00:00",
       "freeAccessVerified": true
     },
     {
@@ -218,7 +259,7 @@
       "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
       "source": "TechCrunch",
       "published": "2026-10-08T20:04:26+00:00",
-      "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+      "accessChecked": "2026-10-09T02:05:50.203377+00:00",
       "freeAccessVerified": true
     },
     {
@@ -226,7 +267,7 @@
       "url": "https://www.theguardian.com/world/2026/oct/08/teen-hike-claude-ai-directions-rescue-canada-mountain",
       "source": "The Guardian",
       "published": "2026-10-08T19:31:23.000Z",
-      "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+      "accessChecked": "2026-10-09T02:05:50.203377+00:00",
       "freeAccessVerified": true
     },
     {
@@ -234,7 +275,7 @@
       "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
       "source": "TechCrunch",
       "published": "2026-10-08T18:20:32+00:00",
-      "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+      "accessChecked": "2026-10-09T02:05:50.203377+00:00",
       "freeAccessVerified": true
     },
     {
@@ -242,7 +283,7 @@
       "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
       "source": "TechCrunch",
       "published": "2026-10-08T18:19:45+00:00",
-      "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+      "accessChecked": "2026-10-09T02:05:50.203377+00:00",
       "freeAccessVerified": true
     },
     {
@@ -250,7 +291,7 @@
       "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
       "source": "TechCrunch",
       "published": "2026-10-08T18:19:42+00:00",
-      "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+      "accessChecked": "2026-10-09T02:05:50.203377+00:00",
       "freeAccessVerified": true
     },
     {
@@ -258,45 +299,21 @@
       "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
       "source": "TechCrunch",
       "published": "2026-10-08T18:18:00+00:00",
-      "accessChecked": "2026-10-08T22:02:00.947023+00:00",
-      "freeAccessVerified": true
-    },
-    {
-      "title": "Anthropic changes usage policy to ban model abuse and election interference",
-      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-      "source": "TechCrunch",
-      "published": "2026-10-08T18:16:24+00:00",
-      "accessChecked": "2026-10-08T22:02:00.947023+00:00",
-      "freeAccessVerified": true
-    },
-    {
-      "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
-      "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
-      "source": "TechCrunch",
-      "published": "2026-10-08T18:10:55+00:00",
-      "accessChecked": "2026-10-08T22:02:00.947023+00:00",
-      "freeAccessVerified": true
-    },
-    {
-      "title": "An AI boom is sending San Francisco rents through the roof: ‘nowhere left for people to go’",
-      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/08/san-francisco-housing-ai-boom",
-      "source": "The Guardian",
-      "published": "2026-10-08T17:04:09.000Z",
-      "accessChecked": "2026-10-08T22:02:00.947023+00:00",
+      "accessChecked": "2026-10-09T02:05:50.203377+00:00",
       "freeAccessVerified": true
     }
   ],
   "markets": {
     "^SOX": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-08T21:00:00+00:00",
+      "analysisEligibleAt": "2026-10-08T22:00:00+00:00",
       "sessionClosedAt": "2026-10-08T16:00:00-04:00",
       "analysisStatus": "Awaiting a matching Google Finance daily close; analysis withheld.",
       "close": 12623.715,
       "change": -3.386113,
       "session": "2026-10-08",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T17:15:59-04:00",
       "timezone": "America/New_York",
       "marketStatus": "Closed",
@@ -309,15 +326,15 @@
       "provider": "Google Finance"
     },
     "^DJI": {
-      "analysisReady": false,
-      "analysisEligibleAt": "2026-10-08T21:00:00+00:00",
+      "analysisReady": true,
+      "analysisEligibleAt": "2026-10-08T22:00:00+00:00",
       "sessionClosedAt": "2026-10-08T16:00:00-04:00",
-      "analysisStatus": "Awaiting a matching Google Finance daily close; analysis withheld.",
+      "analysisStatus": "Closed-session technical observation available.",
       "close": 51231.64,
       "change": 0.10115213,
       "session": "2026-10-08",
-      "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "state": "Verified daily close",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T16:46:52-04:00",
       "timezone": "America/New_York",
       "marketStatus": "Closed",
@@ -325,20 +342,20 @@
         "start": 1791466200.0,
         "end": 1791489600.0
       },
-      "analysis": null,
+      "analysis": "Rule-based observation (not AI): the verified close changed +0.10% and is below its 20-session average (51,582.73). Next trading session, watch the average and price confirmation; no reliable direction is asserted.",
       "source": "https://www.google.com/finance/quote/.DJI:INDEXDJX?hl=en",
       "provider": "Google Finance"
     },
     "^GSPC": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-08T21:00:00+00:00",
+      "analysisEligibleAt": "2026-10-08T22:00:00+00:00",
       "sessionClosedAt": "2026-10-08T16:00:00-04:00",
       "analysisStatus": "Awaiting a matching Google Finance daily close; analysis withheld.",
       "close": 7765.36,
       "change": -0.46669096,
       "session": "2026-10-08",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T16:46:43-04:00",
       "timezone": "America/New_York",
       "marketStatus": "Closed",
@@ -352,14 +369,14 @@
     },
     "^IXIC": {
       "analysisReady": true,
-      "analysisEligibleAt": "2026-10-08T21:00:00+00:00",
+      "analysisEligibleAt": "2026-10-08T22:00:00+00:00",
       "sessionClosedAt": "2026-10-08T16:00:00-04:00",
       "analysisStatus": "Closed-session technical observation available.",
       "close": 27193.34,
       "change": -1.2540594,
       "session": "2026-10-08",
       "state": "Verified daily close",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T17:15:59-04:00",
       "timezone": "America/New_York",
       "marketStatus": "Closed",
@@ -373,17 +390,17 @@
     },
     "000001.SS": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T08:00:00+00:00",
+      "analysisEligibleAt": "2026-10-09T10:00:00+00:00",
       "sessionClosedAt": "2026-10-09T15:00:00+08:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 3811.9043,
-      "change": -0.7883589,
+      "close": 3783.394,
+      "change": -0.74792683,
       "session": "2026-10-09",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-09T05:33:37+08:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T10:04:45+08:00",
       "timezone": "Asia/Shanghai",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791509400.0,
         "end": 1791529200.0
@@ -394,17 +411,17 @@
     },
     "399001.SZ": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T08:00:00+00:00",
+      "analysisEligibleAt": "2026-10-09T10:00:00+00:00",
       "sessionClosedAt": "2026-10-09T15:00:00+08:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 12620.897,
-      "change": -2.0696037,
-      "session": "2026-10-08",
-      "state": "Verified daily close",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-08T16:29:04+08:00",
+      "close": 12413.518,
+      "change": -1.6431469,
+      "session": "2026-10-09",
+      "state": "Latest quote; closing finality unverified",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T10:05:52+08:00",
       "timezone": "Asia/Shanghai",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791509400.0,
         "end": 1791529200.0
@@ -415,17 +432,17 @@
     },
     "000300.SS": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T08:00:00+00:00",
+      "analysisEligibleAt": "2026-10-09T10:00:00+00:00",
       "sessionClosedAt": "2026-10-09T15:00:00+08:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 4310.2764,
-      "change": -1.0863591,
+      "close": 4268.959,
+      "change": -0.9585785,
       "session": "2026-10-09",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-09T05:33:38+08:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T10:05:00+08:00",
       "timezone": "Asia/Shanghai",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791509400.0,
         "end": 1791529200.0
@@ -435,15 +452,15 @@
       "provider": "Google Finance"
     },
     "^RUT": {
-      "analysisReady": false,
-      "analysisEligibleAt": "2026-10-08T21:00:00+00:00",
+      "analysisReady": true,
+      "analysisEligibleAt": "2026-10-08T22:00:00+00:00",
       "sessionClosedAt": "2026-10-08T16:00:00-04:00",
-      "analysisStatus": "Awaiting a matching Google Finance daily close; analysis withheld.",
+      "analysisStatus": "Closed-session technical observation available.",
       "close": 2794.1282,
       "change": 0.033082876,
       "session": "2026-10-08",
-      "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "state": "Verified daily close",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T16:30:16-04:00",
       "timezone": "America/New_York",
       "marketStatus": "Closed",
@@ -451,23 +468,23 @@
         "start": 1791466200.0,
         "end": 1791489600.0
       },
-      "analysis": null,
+      "analysis": "Rule-based observation (not AI): the verified close changed +0.03% and is below its 20-session average (2,843.22). Next trading session, watch the average and price confirmation; no reliable direction is asserted.",
       "source": "https://www.google.com/finance/quote/RUT:INDEXRUSSELL?hl=en",
       "provider": "Google Finance"
     },
     "000688.SS": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T08:00:00+00:00",
+      "analysisEligibleAt": "2026-10-09T10:00:00+00:00",
       "sessionClosedAt": "2026-10-09T15:00:00+08:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 1456.3239,
-      "change": -4.8157916,
+      "close": 1423.1621,
+      "change": -2.2770858,
       "session": "2026-10-09",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-09T05:33:38+08:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T10:04:45+08:00",
       "timezone": "Asia/Shanghai",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791509400.0,
         "end": 1791529200.0
@@ -481,14 +498,14 @@
       "analysisEligibleAt": "2026-10-09T07:00:00+00:00",
       "sessionClosedAt": "2026-10-09T15:00:00+09:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 69042.11,
-      "change": -1.418707,
+      "close": 68622.89,
+      "change": -0.6071929,
       "session": "2026-10-09",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-09T04:16:02+09:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T10:50:25+09:00",
       "timezone": "Asia/Tokyo",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791504000.0,
         "end": 1791525600.0
@@ -499,17 +516,17 @@
     },
     "399006.SZ": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T08:00:00+00:00",
+      "analysisEligibleAt": "2026-10-09T10:00:00+00:00",
       "sessionClosedAt": "2026-10-09T15:00:00+08:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 3036.6572,
-      "change": -3.1454763,
-      "session": "2026-10-08",
-      "state": "Verified daily close",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-08T16:29:19+08:00",
+      "close": 2973.0178,
+      "change": -2.095706,
+      "session": "2026-10-09",
+      "state": "Latest quote; closing finality unverified",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T10:05:49+08:00",
       "timezone": "Asia/Shanghai",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791509400.0,
         "end": 1791529200.0
@@ -523,14 +540,14 @@
       "analysisEligibleAt": "2026-10-09T07:00:00+00:00",
       "sessionClosedAt": "2026-10-09T15:00:00+09:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 4091.46,
-      "change": -1.5081426,
-      "session": "2026-10-08",
-      "state": "Verified daily close",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-08T15:30:02+09:00",
+      "close": 4086.2,
+      "change": -0.1285607,
+      "session": "2026-10-09",
+      "state": "Latest quote; closing finality unverified",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T10:51:00+09:00",
       "timezone": "Asia/Tokyo",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791504000.0,
         "end": 1791525600.0
@@ -541,14 +558,14 @@
     },
     "^NSEI": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T10:30:00+00:00",
+      "analysisEligibleAt": "2026-10-09T13:00:00+00:00",
       "sessionClosedAt": "2026-10-09T15:30:00+05:30",
       "analysisStatus": "This market has not closed yet.",
       "close": 22231.8,
       "change": -1.6424774,
       "session": "2026-10-08",
       "state": "Verified daily close",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T15:31:53+05:30",
       "timezone": "Asia/Kolkata",
       "marketStatus": "Not yet open",
@@ -562,14 +579,14 @@
     },
     "^NSEBANK": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T10:30:00+00:00",
+      "analysisEligibleAt": "2026-10-09T13:00:00+00:00",
       "sessionClosedAt": "2026-10-09T15:30:00+05:30",
       "analysisStatus": "This market has not closed yet.",
       "close": 54515.05,
       "change": -0.9817357,
       "session": "2026-10-08",
       "state": "Verified daily close",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T15:31:53+05:30",
       "timezone": "Asia/Kolkata",
       "marketStatus": "Not yet open",
@@ -583,14 +600,14 @@
     },
     "^BSESN": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T10:30:00+00:00",
+      "analysisEligibleAt": "2026-10-09T13:00:00+00:00",
       "sessionClosedAt": "2026-10-09T15:30:00+05:30",
       "analysisStatus": "This market has not closed yet.",
       "close": 71593.24,
       "change": -1.4392616,
       "session": "2026-10-08",
       "state": "Verified daily close",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T15:32:32+05:30",
       "timezone": "Asia/Kolkata",
       "marketStatus": "Not yet open",
@@ -604,17 +621,17 @@
     },
     "^HSI": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T09:00:00+00:00",
+      "analysisEligibleAt": "2026-10-09T10:00:00+00:00",
       "sessionClosedAt": "2026-10-09T16:00:00+08:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 23785.79,
-      "change": -1.428528,
+      "close": 24027.78,
+      "change": 1.0173732,
       "session": "2026-10-09",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-09T05:59:45+08:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T10:05:38+08:00",
       "timezone": "Asia/Hong_Kong",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791509400.0,
         "end": 1791532800.0
@@ -625,20 +642,20 @@
     },
     "^FTSE": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-08T16:00:00+00:00",
-      "sessionClosedAt": "2026-10-08T16:30:00+01:00",
-      "analysisStatus": "Awaiting a matching Google Finance daily close; analysis withheld.",
+      "analysisEligibleAt": "2026-10-09T16:00:00+00:00",
+      "sessionClosedAt": "2026-10-09T16:30:00+01:00",
+      "analysisStatus": "This market has not closed yet.",
       "close": 10441.6,
       "change": -0.16159478,
       "session": "2026-10-08",
-      "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "state": "Verified daily close",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T16:35:29+01:00",
       "timezone": "Europe/London",
-      "marketStatus": "Closed",
+      "marketStatus": "Not yet open",
       "regularSession": {
-        "start": 1791442800.0,
-        "end": 1791473400.0
+        "start": 1791529200.0,
+        "end": 1791559800.0
       },
       "analysis": null,
       "source": "https://www.google.com/finance/quote/UKX:INDEXFTSE?hl=en",
@@ -646,17 +663,17 @@
     },
     "^HSCE": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T09:00:00+00:00",
+      "analysisEligibleAt": "2026-10-09T10:00:00+00:00",
       "sessionClosedAt": "2026-10-09T16:00:00+08:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 8010.58,
-      "change": -0.8885953,
+      "close": 8081.13,
+      "change": 0.8807078,
       "session": "2026-10-09",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-09T05:59:45+08:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T10:05:22+08:00",
       "timezone": "Asia/Hong_Kong",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791509400.0,
         "end": 1791532800.0
@@ -672,10 +689,10 @@
       "analysisStatus": "This market has not closed yet.",
       "close": 7729.69,
       "change": -0.50867486,
-      "session": "2026-10-08",
+      "session": "2026-10-09",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-08T18:05:01+02:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T02:15:02+02:00",
       "timezone": "Europe/Paris",
       "marketStatus": "Not yet open",
       "regularSession": {
@@ -687,15 +704,15 @@
       "provider": "Google Finance"
     },
     "^GSPTSE": {
-      "analysisReady": false,
-      "analysisEligibleAt": "2026-10-08T21:00:00+00:00",
+      "analysisReady": true,
+      "analysisEligibleAt": "2026-10-08T22:00:00+00:00",
       "sessionClosedAt": "2026-10-08T16:00:00-04:00",
-      "analysisStatus": "Awaiting a matching Google Finance daily close; analysis withheld.",
+      "analysisStatus": "Closed-session technical observation available.",
       "close": 35145.38,
       "change": 0.29541677,
       "session": "2026-10-08",
-      "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "state": "Verified daily close",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T16:53:48-04:00",
       "timezone": "America/Toronto",
       "marketStatus": "Closed",
@@ -703,7 +720,7 @@
         "start": 1791466200.0,
         "end": 1791489600.0
       },
-      "analysis": null,
+      "analysis": "Rule-based observation (not AI): the verified close changed +0.30% and is below its 20-session average (35,597.84). Next trading session, watch the average and price confirmation; no reliable direction is asserted.",
       "source": "https://www.google.com/finance/quote/OSPTX:INDEXTSI?hl=en",
       "provider": "Google Finance"
     },
@@ -715,9 +732,9 @@
       "close": 24806.97,
       "change": -1.1846097,
       "session": "2026-10-08",
-      "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-08T22:18:11+02:00",
+      "state": "Verified daily close",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-08T23:45:19+02:00",
       "timezone": "Europe/Berlin",
       "marketStatus": "Not yet open",
       "regularSession": {
@@ -737,10 +754,10 @@
       "change": -2.6157017,
       "session": "2026-10-09",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-09T02:00:12+09:00",
       "timezone": "Asia/Seoul",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791504000.0,
         "end": 1791527400.0
@@ -751,17 +768,17 @@
     },
     "^AXJO": {
       "analysisReady": false,
-      "analysisEligibleAt": "2026-10-09T06:00:00+00:00",
+      "analysisEligibleAt": "2026-10-09T07:00:00+00:00",
       "sessionClosedAt": "2026-10-09T16:00:00+11:00",
       "analysisStatus": "This market has not closed yet.",
-      "close": 8660.9,
-      "change": -0.7653769,
+      "close": 8699.8,
+      "change": 0.44913822,
       "session": "2026-10-09",
       "state": "Latest quote; closing finality unverified",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
-      "quoteAt": "2026-10-09T05:22:33+11:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
+      "quoteAt": "2026-10-09T13:05:45+11:00",
       "timezone": "Australia/Sydney",
-      "marketStatus": "Not yet open",
+      "marketStatus": "Trading now",
       "regularSession": {
         "start": 1791500400.0,
         "end": 1791522000.0
@@ -779,7 +796,7 @@
       "change": -1.2414159,
       "session": "2026-10-08",
       "state": "Verified daily close",
-      "updated": "2026-10-08T22:02:00.947023+00:00",
+      "updated": "2026-10-09T02:05:50.203377+00:00",
       "quoteAt": "2026-10-08T17:30:32+02:00",
       "timezone": "Europe/Zurich",
       "marketStatus": "Not yet open",
@@ -968,225 +985,225 @@
   ],
   "status": {
     "IN": {
-      "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
-      "count": 0
+      "ok": true,
+      "checked": "2026-10-09T02:05:50.203377+00:00",
+      "count": 1
     },
     "US": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "count": 3
     },
     "CN": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "count": 2
     },
     "TW": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "count": 3
     },
     "JP": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
-      "count": 1
+      "checked": "2026-10-09T02:05:50.203377+00:00",
+      "count": 2
     },
     "DE": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "count": 2
     },
     "GB": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "count": 3
     },
     "FR": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "count": 3
     },
     "KR": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "count": 3
     },
     "CA": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "count": 3
     },
     "AI": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "count": 10
     },
     "^DJI": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^IXIC": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^GSPC": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^SOX": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "000001.SS": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^RUT": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "000300.SS": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "399001.SZ": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "000688.SS": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "399006.SZ": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^N225": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^TOPX": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^NSEI": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^BSESN": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^NSEBANK": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^HSI": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^HSCE": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "HSTECH.HK": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^GSPTSE": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "TX60.TS": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^FTSE": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^FTMC": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^FTAS": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^FCHI": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^SBF120": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^GDAXI": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^MDAXI": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^SDAXI": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^TECDAX": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^TWII": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "Google Finance quote unavailable or page schema changed"
     },
     "^TWOII": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^KS11": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^KQ11": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "Google Finance quote unavailable or page schema changed"
     },
     "^AXJO": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "^AORD": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^TASI.SR": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^SPI": {
       "ok": false,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "error": "No verified Google Finance symbol mapping available"
     },
     "^SSMI": {
       "ok": true,
-      "updated": "2026-10-08T22:02:00.947023+00:00"
+      "updated": "2026-10-09T02:05:50.203377+00:00"
     },
     "research": {
       "ok": true,
@@ -1195,13 +1212,13 @@
     },
     "english": {
       "ok": true,
-      "checked": "2026-10-08T22:02:00.947023+00:00",
+      "checked": "2026-10-09T02:05:50.203377+00:00",
       "updated": "2026-10-08T16:15:33.678066+00:00"
     }
   },
-  "marketUpdated": "2026-10-08T22:02:00.947023+00:00",
-  "checked": "2026-10-08T22:02:00.947023+00:00",
-  "newsUpdated": "2026-10-08T22:02:00.947023+00:00",
+  "marketUpdated": "2026-10-09T02:05:50.203377+00:00",
+  "checked": "2026-10-09T02:05:50.203377+00:00",
+  "newsUpdated": "2026-10-09T02:05:50.203377+00:00",
   "researchUpdated": "2026-10-08T14:07:57.320475+00:00",
   "daily": {
     "date": "2026-10-08",
