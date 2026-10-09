@@ -4,8 +4,8 @@ import {mkdtemp,readFile,writeFile,readdir,rm,mkdir} from 'node:fs/promises';
 import {tmpdir} from 'node:os';import {join,resolve} from 'node:path';
 import {randomBytes,createCipheriv,createDecipheriv,createHash} from 'node:crypto';
 import {pacificClock,plan} from './plan.mjs';
-// Await the user's new unique Essay group name; never select the remaining old namesake.
-const ESSAY_GROUP_NAME='';
+// User confirmed this exact destination after removing the duplicate name.
+const ESSAY_GROUP_NAME='Essay@Family';
 const pairing=process.argv.includes('--pair');const root=resolve(import.meta.dirname,'../..');
 const key=Buffer.from(process.env.WHATSAPP_STATE_KEY||'','base64');if(key.length!==32)throw Error('Private encryption key required');
 async function api(action,body){const r=await fetch(process.env.SUBSCRIPTION_ENDPOINT+'?action='+action,{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+process.env.MAILER_SECRET},body:JSON.stringify(body),signal:AbortSignal.timeout(25000)});if(!r.ok)throw Error('Private state request failed');return r.json()}
