@@ -452,22 +452,20 @@
         [
           "Our team was under the gun to organize a weekend event.",
           "We needed to streamline the booking process and grasp the practical constraints.",
-          "After we zeroed in on the main problem, we discussed what we would trade off: convenience or privacy.",
-          "A colleague warned that calling a thoughtful proposal merely adequate would damn it with faint praise."
+          "After we zeroed in on the main problem, we discussed what we would trade off: convenience or privacy."
         ],
         [
           "“Let’s leave some room for flexibility,” I suggested.",
           "Were it not for our backup plan, a change in the weather would force us to cancel.",
-          "When a friend asked, “Any plans you are looking forward to?”, I told her about the event.",
-          "Her advice was simple: “Give your next step more attention than your last stumble.”"
+          "When a friend asked about plans I was looking forward to, I explained how we had prepared for uncertainty."
         ],
         [
           "We can prepare carefully without expecting every detail to go perfectly."
         ]
       ],
-      "structure": "Introduce your idea → develop a problem → give an example and reflect → conclude. Paragraphs: 1–2 / 4–5 / 4–5 / 1–2 sentences.",
+      "structure": "Introduction → reason and example → another angle or reflection → conclusion. Use 1–2 / 2–3 / 2–3 / 1–2 sentences.",
       "exercise": "Your turn: Write four short paragraphs about a similar choice. Reuse two expressions and today’s grammar.",
-      "example": "Good planning balances clear priorities with room to adapt.\n\nOur team was under the gun to organize a weekend event. We needed to streamline the booking process and grasp the practical constraints. After we zeroed in on the main problem, we discussed what we would trade off: convenience or privacy. A colleague warned that calling a thoughtful proposal merely adequate would damn it with faint praise.\n\n“Let’s leave some room for flexibility,” I suggested. Were it not for our backup plan, a change in the weather would force us to cancel. When a friend asked, “Any plans you are looking forward to?”, I told her about the event. Her advice was simple: “Give your next step more attention than your last stumble.”\n\nWe can prepare carefully without expecting every detail to go perfectly.",
+      "example": "Good planning balances clear priorities with room to adapt.\n\nOur team was under the gun to organize a weekend event. We needed to streamline the booking process and grasp the practical constraints. After we zeroed in on the main problem, we discussed what we would trade off: convenience or privacy.\n\n“Let’s leave some room for flexibility,” I suggested. Were it not for our backup plan, a change in the weather would force us to cancel. When a friend asked about plans I was looking forward to, I explained how we had prepared for uncertainty.\n\nWe can prepare carefully without expecting every detail to go perfectly.",
       "notes": "Notice how each paragraph develops the same central idea.",
       "conversation": "",
       "connections": [
@@ -504,10 +502,6 @@
           "expression": "Were it not for: present hypothetical inversion"
         },
         {
-          "lessonId": "2026-10-10-9",
-          "expression": "Give your next step more attention than your last stumble."
-        },
-        {
           "lessonId": "2026-10-10-10",
           "expression": "Any plans you are looking forward to?"
         }
@@ -539,7 +533,7 @@
       "Original quote with no historical attribution"
     ]
   },
-  "revision": 7,
+  "revision": 8,
   "theme": "Planning flexibly under pressure",
   "curriculumVersion": 5
 }

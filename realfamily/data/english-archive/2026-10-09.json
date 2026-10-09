@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "version": 4,
-  "revision": 9,
+  "revision": 10,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -145,23 +145,21 @@
         ],
         [
           "Yesterday, an inadvertent change disrupted our community project.",
-          "We could not rule out a technical fault, and we had already put off the repair.",
-          "Once everyone was on the same page, we agreed not to cut corners.",
-          "When a colleague proposed a careful test, I said, “That works for me.”"
+          "We ruled out a connection problem before deciding what to repair.",
+          "Once everyone was on the same page, we agreed to test the system carefully rather than cut corners."
         ],
         [
-          "I would rather we fixed the problem calmly than rushed into another mistake.",
-          "After work, a friend asked, “What do you like to do to unwind?”",
-          "We took a walk and discussed what we had learned.",
-          "“Progress is easier to notice when we pause to look back,” I said."
+          "I would rather we checked each step than rushed into another mistake.",
+          "After work, a friend asked what I liked to do to unwind, so we took a walk.",
+          "The break helped me notice how much our teamwork had improved."
         ],
         [
-          "Thoughtful action and a little reflection can move us forward together."
+          "Careful action and time for reflection can make progress easier to recognize."
         ]
       ],
-      "structure": "Introduce your idea → develop a problem → give an example and reflect → conclude. Paragraphs: 1–2 / 4–5 / 4–5 / 1–2 sentences.",
+      "structure": "Introduction → reason and example → another angle or reflection → conclusion. Use 1–2 / 2–3 / 2–3 / 1–2 sentences.",
       "exercise": "Your turn: Write four short paragraphs about a similar choice. Reuse two expressions and today’s grammar.",
-      "example": "A pragmatic approach helps us solve problems while leaving time to unwind.\n\nYesterday, an inadvertent change disrupted our community project. We could not rule out a technical fault, and we had already put off the repair. Once everyone was on the same page, we agreed not to cut corners. When a colleague proposed a careful test, I said, “That works for me.”\n\nI would rather we fixed the problem calmly than rushed into another mistake. After work, a friend asked, “What do you like to do to unwind?” We took a walk and discussed what we had learned. “Progress is easier to notice when we pause to look back,” I said.\n\nThoughtful action and a little reflection can move us forward together.",
+      "example": "A pragmatic approach helps us solve problems while leaving time to unwind.\n\nYesterday, an inadvertent change disrupted our community project. We ruled out a connection problem before deciding what to repair. Once everyone was on the same page, we agreed to test the system carefully rather than cut corners.\n\nI would rather we checked each step than rushed into another mistake. After work, a friend asked what I liked to do to unwind, so we took a walk. The break helped me notice how much our teamwork had improved.\n\nCareful action and time for reflection can make progress easier to recognize.",
       "notes": "Notice how each paragraph develops the same central idea.",
       "conversation": "",
       "connections": [
@@ -174,14 +172,6 @@
           "expression": "inadvertent"
         },
         {
-          "lessonId": "2026-10-09-3",
-          "expression": "rule out"
-        },
-        {
-          "lessonId": "2026-10-09-4",
-          "expression": "put off"
-        },
-        {
           "lessonId": "2026-10-09-5",
           "expression": "on the same page"
         },
@@ -190,20 +180,16 @@
           "expression": "cut corners"
         },
         {
-          "lessonId": "2026-10-09-7",
-          "expression": "That works for me."
-        },
-        {
           "lessonId": "2026-10-09-8",
           "expression": "Would rather with another subject"
         },
         {
-          "lessonId": "2026-10-09-9",
-          "expression": "Progress is easier to notice when we pause to look back."
-        },
-        {
           "lessonId": "2026-10-09-10",
           "expression": "What do you like to do to unwind?"
+        },
+        {
+          "lessonId": "2026-10-09-3",
+          "expression": "rule out"
         }
       ],
       "filename": "Essay_2026-10-09_01.png"

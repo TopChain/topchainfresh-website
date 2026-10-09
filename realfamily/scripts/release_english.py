@@ -15,9 +15,11 @@ def validate(root,edition):
   if 'level' in l:assert l['level'] in {'B2','C1','C2'},'Invalid CEFR level'
   assert date<'2026-10-07' or re.fullmatch(re.escape(date)+r'-\d+',l['id'])
   if l['image']=='essay':
-   assert {c['lessonId'] for c in l['connections']}=={x['id'] for x in lessons if x['image']!='essay'}
+   assert {c['lessonId'] for c in l['connections']}<={x['id'] for x in lessons if x['image']!='essay'}
+   connected={c['lessonId'] for c in l['connections']}
+   assert {'vocabulary','phrasal','idiom','grammar'}<={x['image'] for x in lessons if x['id'] in connected}, 'Essay must apply the core language categories'
    png=root/'data/english-images'/date/l['filename'];header=png.read_bytes()[:24]
-   assert header[:8]==b'\x89PNG\r\n\x1a\n' and struct.unpack('>II',header[16:24])==(1434,900),'Missing landscape essay PNG'
+   assert header[:8]==b'\x89PNG\r\n\x1a\n' and struct.unpack('>II',header[16:24])==(1434,660),'Missing landscape essay PNG'
    continue
   for key in ['title','meaning','example','notes','conversation','exercise']:assert isinstance(l.get(key),str) and l[key].strip(),key
   title=''.join(c for c in l['title'].casefold() if c.isalnum());assert title not in seen;seen.add(title)

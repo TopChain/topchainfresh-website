@@ -4,9 +4,10 @@ def validate_lesson(lesson):
     if lesson['image']=='essay':
         paragraphs=lesson.get('paragraphs',[])
         assert len(paragraphs)==4, 'Essay needs four paragraphs'
-        for rows,low,high in zip(paragraphs,[1,4,4,1],[2,5,5,2]):
+        for rows,low,high in zip(paragraphs,[1,2,2,1],[2,3,3,2]):
             assert isinstance(rows,list) and low<=len(rows)<=high and all(isinstance(t,str) and t.strip() for t in rows), 'Wrong essay paragraph sentence counts'
-        assert len(lesson.get('connections',[]))==10, 'Essay must connect all ten preceding lessons'
+        assert 8<=sum(map(len,paragraphs))<=10, 'Essay needs 8-10 sentences'
+        assert 4<=len(lesson.get('connections',[]))<=10, 'Essay needs selected vocabulary, phrasal verb, idiom and grammar connections'
         assert lesson.get('structure') and lesson.get('exercise'), 'Essay needs structure guidance and practice'
         return True
     turns=lesson['conversation'].replace('\\n','\n').splitlines()
