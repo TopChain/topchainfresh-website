@@ -1,4 +1,13 @@
 let DAILY_HISTORY={health:[],recipes:[]},HEALTH_EDITION=null,KITCHEN_EDITION=null;
+let editionSelectionVersion=0;
+function resetToLatestEditions(){
+ editionSelectionVersion++;
+ SELECTED_EDITION=null;HEALTH_EDITION=null;KITCHEN_EDITION=null;
+ researchDate='All';cuisine='All';meal='All';lessonCategory='All';
+ const url=new URL(location.href);
+ for(const key of ['lesson-date','health-date','recipe-date'])url.searchParams.delete(key);
+ history.replaceState(null,'',url);
+}
 function archivePicker(topic){return dateBrowser(topic)}
 function editionDates(topic){return [...new Set(topic==='english'?ENGLISH_HISTORY.map(e=>e.date):(DAILY_HISTORY[topic]||[]))].sort()}
 function editionDate(topic){return topic==='english'?currentEdition()?.date:topic==='health'?HEALTH_EDITION?.date||(DATA.researchChecked?new Date(DATA.researchChecked).toLocaleDateString('en-CA',{timeZone:'America/Los_Angeles'}):null):KITCHEN_EDITION?.date||DATA.kitchen?.date||DATA.daily?.date}
@@ -17,12 +26,14 @@ document.addEventListener('change',event=>{
 document.addEventListener('click',async event=>{
  const button=event.target.closest('[data-edition-open],[data-edition-date]');if(!button)return;
  const group=button.closest('[data-edition-topic]'),topic=group.dataset.editionTopic,date=button.dataset.editionDate||[...group.querySelectorAll('[data-date-part]')].map(s=>s.value).join('-');
+ const selectionVersion=++editionSelectionVersion;
  try{
   button.disabled=true;group.querySelector('.date-browser-status').textContent='Loading edition…';let edition=null;
   if(date!=='latest'){if(!editionDates(topic).includes(date))throw Error();const response=await fetch('data/'+(topic==='english'?'english':topic)+'-archive/'+date+'.json');if(!response.ok)throw Error();edition=await response.json();if(edition.date!==date)throw Error()}
+  if(selectionVersion!==editionSelectionVersion)return;
   if(topic==='english')SELECTED_EDITION=edition;else if(topic==='health'){HEALTH_EDITION=edition;researchDate='All'}else {KITCHEN_EDITION=edition;cuisine='All';meal='All'}
   const url=new URL(location.href),key=topic==='english'?'lesson-date':topic==='health'?'health-date':'recipe-date';if(edition)url.searchParams.set(key,date);else url.searchParams.delete(key);history.replaceState(null,'',url);render();if(date==='latest')await refresh();
  }catch{button.disabled=false;group.querySelector('.date-browser-status').textContent='This edition could not be loaded. Please try again.'}
 });
 function healthResearch(){return HEALTH_EDITION?.research||DATA.research||[]}
-async function loadDailyHistory(){const old=JSON.stringify(DAILY_HISTORY);try{const response=await fetch('data/daily-history.json',{cache:'no-cache'});if(response.ok)DAILY_HISTORY=await response.json();const params=new URLSearchParams(location.search);for(const topic of ['health','recipes']){const date=params.get(topic==='health'?'health-date':'recipe-date');const selected=topic==='health'?HEALTH_EDITION:KITCHEN_EDITION;if(!selected&&date&&DAILY_HISTORY[topic]?.includes(date)){const response=await fetch('data/'+topic+'-archive/'+date+'.json');if(response.ok){const edition=await response.json();if(topic==='health')HEALTH_EDITION=edition;else KITCHEN_EDITION=edition}}}}catch{}return old!==JSON.stringify(DAILY_HISTORY)}
+async function loadDailyHistory(){const old=JSON.stringify(DAILY_HISTORY);try{const response=await fetch('data/daily-history.json?check='+Date.now(),{cache:'no-store'});if(response.ok)DAILY_HISTORY=await response.json()}catch{}return old!==JSON.stringify(DAILY_HISTORY)}
