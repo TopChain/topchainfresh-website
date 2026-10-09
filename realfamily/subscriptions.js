@@ -10,11 +10,25 @@ document.addEventListener('submit',async event=>{
  if(!form.reportValidity())return;
  const endpoint=window.REAL_FAMILY_SUBSCRIPTIONS?.endpoint;
  if(!endpoint){status.textContent='Email subscriptions are not available yet.';return}
- button.disabled=true;status.textContent='Requesting your confirmation email…';
+ button.disabled=true;form.dataset.submitting='true';status.textContent='Requesting your confirmation email…';
  try{
   const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:fields.get('email'),topics,consent:fields.get('consent')==='on',website:fields.get('website')})});
   if(!response.ok)throw Error(response.status===429?'Please wait before requesting another confirmation.':'Your request could not be saved. Please try again.');
-  status.textContent='Request received. Your confirmation email is queued. Messages are processed hourly; delivery may be delayed. Check your inbox and spam folder. Your subscription starts only after confirmation.';
- }catch(error){status.textContent=error.message==='Failed to fetch'?'We could not connect. Please try again shortly.':error.message}
- finally{button.disabled=false}
+  (document.querySelector('#subscription-status')||status).textContent='Request received. Your confirmation email is queued. Messages are processed hourly; delivery may be delayed. Check your inbox and spam folder. Your subscription starts only after confirmation.';
+ }catch(error){(document.querySelector('#subscription-status')||status).textContent=error.message==='Failed to fetch'?'We could not connect. Please try again shortly.':error.message}
+ finally{const active=document.querySelector('#subscription-form');if(active){active.dataset.submitting='false';active.querySelector('button[type=submit]').disabled=false}}
 });
+
+function captureSubscriptionDraft(){
+ const form=document.querySelector('#subscription-form');if(!form)return null;
+ return {route:document.querySelector('main').dataset.route,email:form.elements.email.value,topics:[...form.querySelectorAll('[name=topics]:checked')].map(e=>e.value),consent:form.elements.consent.checked,focused:form.contains(document.activeElement)?document.activeElement.name:null,submitting:form.dataset.submitting==='true',status:form.querySelector('#subscription-status').textContent};
+}
+function restoreSubscriptionDraft(draft,route){
+ if(!draft||draft.route!==route)return;
+ const form=document.querySelector('#subscription-form');if(!form)return;
+ form.elements.email.value=draft.email;form.elements.consent.checked=draft.consent;
+ form.querySelectorAll('[name=topics]').forEach(input=>{input.checked=draft.topics.includes(input.value)});
+ form.dataset.submitting=String(draft.submitting);if(draft.submitting)form.querySelector('button[type=submit]').disabled=true;
+ form.querySelector('#subscription-status').textContent=draft.status;
+ if(draft.focused){const control=form.querySelector('[name="'+draft.focused+'"]');if(control)control.focus({preventScroll:true})}
+}
