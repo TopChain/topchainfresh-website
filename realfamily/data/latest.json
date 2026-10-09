@@ -1235,7 +1235,7 @@
   "english": {
     "date": "2026-10-08",
     "version": 4,
-    "revision": 2,
+    "revision": 3,
     "cardSize": {
       "width": 660,
       "height": 1434
@@ -1362,7 +1362,8 @@
         "filename": "Small talk_2026-10-08_01.png"
       }
     ],
-    "published": "2026-10-08T16:15:33.678066+00:00"
+    "published": "2026-10-08T16:15:33.678066+00:00",
+    "cardFooterVersion": 2
   },
   "marketCaps": {
     "year": 2025,

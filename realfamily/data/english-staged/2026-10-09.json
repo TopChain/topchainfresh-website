@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "version": 4,
-  "revision": 2,
+  "revision": 3,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -128,5 +128,6 @@
       "filename": "Small talk_2026-10-09_01.png"
     }
   ],
-  "preparedAt": "2026-10-08T16:26:35.075375+00:00"
+  "preparedAt": "2026-10-08T16:26:35.075375+00:00",
+  "cardFooterVersion": 2
 }
