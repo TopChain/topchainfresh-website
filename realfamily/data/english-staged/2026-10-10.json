@@ -47,7 +47,10 @@
       },
       "id": "2026-10-10-1",
       "illustration": "assets/english/2026-10-10/01.png",
-      "filename": "Vocabulary_2026-10-10_01.png"
+      "filename": "Vocabulary_2026-10-10_01.png",
+      "ipa": "/ˈstriːm.laɪn/",
+      "ipaAccent": "en-US",
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/streamline"
     },
     {
       "image": "vocabulary",
@@ -83,7 +86,10 @@
       },
       "id": "2026-10-10-2",
       "illustration": "assets/english/2026-10-10/02.png",
-      "filename": "Vocabulary_2026-10-10_02.png"
+      "filename": "Vocabulary_2026-10-10_02.png",
+      "ipa": "/ɡræsp/",
+      "ipaAccent": "en-US",
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/grasp"
     },
     {
       "image": "phrasal",
@@ -458,5 +464,5 @@
       "Original quote with no historical attribution"
     ]
   },
-  "revision": 5
+  "revision": 6
 }

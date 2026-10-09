@@ -13,7 +13,10 @@
       "exercise": "Describe a decision you feel both positive and negative about. Explain each side.",
       "id": "2026-10-07-1",
       "illustration": "assets/english/2026-10-07/1.png",
-      "filename": "Vocabulary_2026-10-07_01.png"
+      "filename": "Vocabulary_2026-10-07_01.png",
+      "ipa": "/æmˈbɪv.ə.lənt/",
+      "ipaAccent": "en-US",
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/ambivalent"
     },
     {
       "image": "vocabulary",
@@ -25,7 +28,10 @@
       "exercise": "Describe how a discerning shopper would compare two similar products.",
       "id": "2026-10-07-2",
       "illustration": "assets/english/2026-10-07/2.png",
-      "filename": "Vocabulary_2026-10-07_02.png"
+      "filename": "Vocabulary_2026-10-07_02.png",
+      "ipa": "/dɪˈsɝː.nɪŋ/",
+      "ipaAccent": "en-US",
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/discerning"
     },
     {
       "image": "phrasal",
@@ -126,7 +132,7 @@
   ],
   "version": 4,
   "published": "2026-10-07T07:28:55.761806+00:00",
-  "revision": 9,
+  "revision": 10,
   "cardSize": {
     "width": 660,
     "height": 1434

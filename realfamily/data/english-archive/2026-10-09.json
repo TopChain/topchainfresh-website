@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "version": 4,
-  "revision": 7,
+  "revision": 8,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -17,7 +17,10 @@
       "exercise": "Describe a pragmatic choice and the practical constraint behind it.",
       "id": "2026-10-09-1",
       "illustration": "assets/english/2026-10-09/1.png",
-      "filename": "Vocabulary_2026-10-09_01.png"
+      "filename": "Vocabulary_2026-10-09_01.png",
+      "ipa": "/præɡˈmæt̬.ɪk/",
+      "ipaAccent": "en-US",
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/pragmatic"
     },
     {
       "image": "vocabulary",
@@ -29,7 +32,10 @@
       "exercise": "Use inadvertently to describe a small accidental mistake and how you corrected it.",
       "id": "2026-10-09-2",
       "illustration": "assets/english/2026-10-09/2.png",
-      "filename": "Vocabulary_2026-10-09_02.png"
+      "filename": "Vocabulary_2026-10-09_02.png",
+      "ipa": "/ˌɪn.ədˈvɝː.t̬ənt/",
+      "ipaAccent": "en-US",
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/inadvertent"
     },
     {
       "image": "phrasal",

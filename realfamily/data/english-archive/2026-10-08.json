@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "version": 4,
-  "revision": 7,
+  "revision": 8,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -17,7 +17,10 @@
       "exercise": "Describe a resilient person or group. Explain what they did after a setback.",
       "id": "2026-10-08-1",
       "illustration": "assets/english/2026-10-08/1.png",
-      "filename": "Vocabulary_2026-10-08_01.png"
+      "filename": "Vocabulary_2026-10-08_01.png",
+      "ipa": "/rɪˈzɪl.jənt/",
+      "ipaAccent": "en-US",
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/resilient"
     },
     {
       "image": "vocabulary",
@@ -29,7 +32,10 @@
       "exercise": "Describe a resourceful solution to a small everyday problem.",
       "id": "2026-10-08-2",
       "illustration": "assets/english/2026-10-08/2.png",
-      "filename": "Vocabulary_2026-10-08_02.png"
+      "filename": "Vocabulary_2026-10-08_02.png",
+      "ipa": "/rɪˈsɔːr.sfəl/",
+      "ipaAccent": "en-US",
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/resourceful"
     },
     {
       "image": "phrasal",

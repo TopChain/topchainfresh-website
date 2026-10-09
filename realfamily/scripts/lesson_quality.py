@@ -8,6 +8,9 @@ def validate_lesson(lesson):
     for field in ('meaning','example','notes','exercise'):
         assert isinstance(lesson.get(field),str) and lesson[field].strip(), 'Missing '+field
         assert not any(template.casefold() in lesson[field].casefold() for template in GENERIC), 'Generic teaching template in '+field
+    if lesson['image']=='vocabulary':
+        assert isinstance(lesson.get('ipa'),str) and lesson['ipa'].startswith('/') and lesson['ipa'].endswith('/') and len(lesson['ipa'])>2, 'Vocabulary needs American IPA'
+        assert lesson.get('ipaAccent')=='en-US', 'Use American pronunciation only'
     if lesson['image']=='quote':
         assert 'real family' not in lesson['notes'].casefold(), 'Brand mention in Quote usage note'
         assert lesson['title'] in lesson['example'] and lesson['title'] in lesson['conversation'], 'Quote must appear in example and conversation'

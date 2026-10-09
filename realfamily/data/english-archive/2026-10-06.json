@@ -10,7 +10,10 @@
       "example": "There is a subtle difference in tone between those replies.",
       "notes": "Use subtle for a difference or effect that is hard to notice, not one that is unimportant. Subtly is the adverb: Her tone changed subtly.",
       "conversation": "A: Do those replies sound the same to you?\nB: There is a subtle difference in tone.\nA: What do you notice?\nB: The second sounds slightly warmer, though the wording barely changes.",
-      "exercise": "Describe a subtle difference between two messages and explain its effect. Model: Adding “when you have time” makes the request subtly less urgent."
+      "exercise": "Describe a subtle difference between two messages and explain its effect. Model: Adding “when you have time” makes the request subtly less urgent.",
+      "ipa": "/ˈsʌt̬.əl/",
+      "ipaAccent": "en-US",
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/subtle"
     },
     {
       "id": "vocabulary-11",
@@ -20,7 +23,10 @@
       "example": "We found a discrepancy between the invoice and the payment.",
       "notes": "Use a discrepancy between two figures or records that should agree. The word identifies a mismatch without assuming dishonesty.",
       "conversation": "A: Does the invoice match the payment?\nB: No. There is a discrepancy of twenty dollars.\nA: Could that be a delivery charge?\nB: Possibly. Let us check before calling it an error.",
-      "exercise": "Describe two records that disagree without assigning blame. Model: There is a discrepancy between the invoice total and the amount received."
+      "exercise": "Describe two records that disagree without assigning blame. Model: There is a discrepancy between the invoice total and the amount received.",
+      "ipa": "/dɪˈskrep.ən.si/",
+      "ipaAccent": "en-US",
+      "ipaSource": "https://dictionary.cambridge.org/us/pronunciation/english/discrepancy"
     },
     {
       "id": "phrasal-10",
@@ -106,5 +112,5 @@
   "version": 4,
   "mode": "New daily lessons with permanent archive",
   "published": "2026-10-07T06:59:48.834242+00:00",
-  "revision": 3
+  "revision": 4
 }
