@@ -1,8 +1,11 @@
 """Private Gmail relay helper. Never publish its environment or queue output."""
-import json,pathlib,sys,urllib.request
+import json,os,pathlib,sys,urllib.request
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def request(action,payload=None,admin=True):
-    config=dict(line.split('=',1) for line in (ROOT/'.env.subscriptions').read_text().splitlines() if '=' in line)
+    config={}
+    private=ROOT/'.env.subscriptions'
+    if private.exists():config=dict(line.split('=',1) for line in private.read_text().splitlines() if '=' in line)
+    config.update({key:os.environ[key] for key in ('MAILER_SECRET','SUBSCRIPTION_ENDPOINT') if os.environ.get(key)})
     headers={'Content-Type':'application/json'}
     if admin:headers['Authorization']='Bearer '+config['MAILER_SECRET']
     else:headers['Origin']='https://www.topchainfresh.com'
