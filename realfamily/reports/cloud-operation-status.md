@@ -44,3 +44,15 @@ The user accepted the nonofficial linked-device approach. AES-256-GCM encrypts s
 GitHub verification run 37884379896 restored the cloud session and verified all seven selected groups with zero cards sent. WHATSAPP_CLOUD_ENABLED is true. Schedules cover both Pacific UTC offsets; the program gates sends until 7:30 AM PT and prevents duplicate lesson IDs. The startup validates all ten PNG files before claiming deliveries. Previous verified desktop lesson IDs are reserved without inventing WhatsApp server message IDs. An ambiguous attempt is blocked from blind retry. GitHub schedules are best effort; the relay is not an exact-time guarantee. Continuous lesson generation is configured separately with verified free-tier text and program-drawn comics; the first new scheduled edition remains to be observed.
 
 Full cloud workflow run 37884482229 also completed successfully after enabling the relay; today’s ten reserved lesson IDs were skipped. No duplicate cards were sent during cutover.
+
+## Bedtime audit — 2026-10-08 PT
+
+Completed cloud checks: source refresh 37889910191, published-site refresh 37889913274, Gmail relay 37889907623, WhatsApp connection verification 37889904807. All four completed successfully. Gmail verified its sender and private queue; there were zero jobs confirmed and zero unresolved jobs in this run. WhatsApp restored the encrypted cloud session and verified all seven destinations; verification sent zero cards.
+
+The October 9 staged English edition contains all ten valid 660×1434 PNG cards; the staged kitchen edition contains twenty new six-serving recipes, one main and one snack per theme, with licensed illustrative photos. Midnight release and immutable archive preservation passed tests using the real kitchen edition in an isolated directory. Twelve Python checks and thirteen Node checks passed. The first unattended midnight release and next morning actual delivery still need to be observed; successful verification is not evidence that tomorrow’s messages have already been delivered. The first completely new cloud-authored English edition also remains to be observed.
+
+Everyday English now offers one ZIP download of all ten original PNG cards for the selected date. Two historical ZIPs were independently checked for ten files, correct UTF-8 filenames, valid CRCs and byte-for-byte original images. The live October 8 download completed its browser preparation successfully. Category filters do not reduce the ten-card bundle.
+
+Known data limitation: several secondary market indices remain unavailable from public Google Finance pages or lack a verified mapping. Missing quotes stay explicitly unavailable; an otherwise successful scheduler cannot create missing provider data. AI financial analysis is not enabled; existing verified observations are clearly labeled rule-based.
+
+Cloud schedules continue without this computer: feeds every three-hour PT slot; daily health, kitchen and English release near midnight PT; confirmed subscriber digests and WhatsApp scheduled at 7:30 AM PT. GitHub scheduling can run late. Fixed ten-card mailbox delivery remains canceled; no paid Gemini fallback is enabled.
