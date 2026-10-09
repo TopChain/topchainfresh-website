@@ -87,6 +87,10 @@
         {
           "image": "small-talk",
           "title": "How are you settling in?"
+        },
+        {
+          "image": "essay",
+          "title": "Helping a new team member find their voice"
         }
       ]
     },
@@ -132,6 +136,10 @@
         {
           "image": "small-talk",
           "title": "Have you come across anything worth watching lately?"
+        },
+        {
+          "image": "essay",
+          "title": "Turning a setback into a shared opportunity"
         }
       ]
     },

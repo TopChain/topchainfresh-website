@@ -15,6 +15,8 @@ def validate(root,edition):
   if 'level' in l:assert l['level'] in {'B2','C1','C2'},'Invalid CEFR level'
   assert date<'2026-10-07' or re.fullmatch(re.escape(date)+r'-\d+',l['id'])
   if l['image']=='essay':
+   if edition.get('essayIllustrationVersion',0)>=1:
+    assert l.get('illustration','').startswith('assets/english/'+date+'/') and (root/l['illustration']).is_file(), 'Missing Essay theme illustration'
    assert {c['lessonId'] for c in l['connections']}<={x['id'] for x in lessons if x['image']!='essay'}
    connected={c['lessonId'] for c in l['connections']}
    assert {'vocabulary','phrasal','idiom','grammar'}<={x['image'] for x in lessons if x['id'] in connected}, 'Essay must apply the core language categories'

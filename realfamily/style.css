@@ -43,3 +43,5 @@
 .lesson.black{background:#e3e1df;color:#353331}
 .lesson.essay-card{background:#f1eadc;color:#37322b}
 .lesson .listen{background:#ffffff55;border-color:currentColor}.lesson-body .eyebrow{color:inherit;opacity:.5}.lesson-body details{border-color:#00000022}
+
+.file-actions{grid-template-columns:repeat(4,minmax(0,1fr))}.file-actions .listen{font-size:12px;padding:8px 3px}.file-actions .print-ink{white-space:normal;line-height:1.25}

@@ -18,11 +18,13 @@ function layout(l,scale,leading=1.3){let y=930,parts=[],bounds=[];const put=(tex
 function fit(l){let best=null;for(let scale=.73;scale<=1.801;scale+=.01){const body=layout(l,scale);if(body.y<=2790&&body.bounds[0].y-body.bounds[0].size>=800)best={...body,scale}}if(!best)throw Error('Lesson is too long for a readable screen card: '+l.title);for(let leading=1.31;leading<=1.421;leading+=.01){const roomier=layout(l,best.scale,leading);if(roomier.y<=2790)best={...roomier,scale:best.scale}}if(best.bounds[0].y-best.bounds[0].size<800)throw Error('Title overlaps illustration: '+l.title);if(best.bounds.some(b=>b.width>textWidth))throw Error('Text exceeds card width: '+l.title);return best}
 async function exportEssay(l){
  const width=1434,height=660,textArea=1350;
- function compose(bodySize){const parts=[];
- const put=(text,y,size,bold=false)=>{measure.font=`${bold?'bold ':''}${size}px ${fontFamily}`;let line='',rows=[];for(const word of text.split(/\s+/)){const next=(line+' '+word).trim();if(measure.measureText(next).width>textArea&&line){rows.push(line);line=word}else line=next}if(line)rows.push(line);for(const row of rows){parts.push(`<text x="42" y="${y}" fill="${ink}" font-family="${fontFamily}" font-size="${size}" ${bold?'font-weight="bold"':''}>${escape(row)}</text>`);y+=size*1.2}return y;};
+ if(!l.illustration)throw Error('Missing Essay topic illustration: '+l.title);
+ const art=await sharp(path.join(root,l.illustration)).resize(520,268,{fit:'contain',background:palette.essay.fill}).png().toBuffer();
+ function compose(bodySize){const parts=[`<image x="42" y="70" width="260" height="134" href="data:image/png;base64,${art.toString('base64')}"/>`];
+ const put=(text,y,size,bold=false,x=42,area=textArea)=>{measure.font=`${bold?'bold ':''}${size}px ${fontFamily}`;let line='',rows=[];for(const word of text.split(/\s+/)){const next=(line+' '+word).trim();if(measure.measureText(next).width>area&&line){rows.push(line);line=word}else line=next}if(line)rows.push(line);for(const row of rows){parts.push(`<text x="${x}" y="${y}" fill="${ink}" font-family="${fontFamily}" font-size="${size}" ${bold?'font-weight="bold"':''}>${escape(row)}</text>`);y+=size*1.2}return y;};
  parts.push(`<text x="42" y="42" fill="${ink}" font-family="${fontFamily}" font-size="22" font-weight="bold">Everyday English - Essay</text>`,`<text x="1392" y="42" text-anchor="end" fill="${ink}" font-family="${fontFamily}" font-size="18">${date} · PT</text>`);
- let y=put(l.title,90,32,true)+10;const labels=['1 · INTRODUCTION','2 · DEVELOP THE IDEA','3 · EXAMPLE & REFLECTION','4 · CONCLUSION'];
- for(let i=0;i<4;i++){y=put(labels[i],y,17,true)+bodySize-17+4;y=put(l.paragraphs[i].join(' '),y,bodySize)+10;}
+ let y=put(l.title,90,32,true,324,1068)+10;const labels=['1 · INTRODUCTION','2 · DEVELOP THE IDEA','3 · EXAMPLE & REFLECTION','4 · CONCLUSION'];
+ for(let i=0;i<4;i++){y=put(labels[i],y,17,true,i===0?324:42,i===0?1068:textArea)+bodySize-17+4;y=put(l.paragraphs[i].join(' '),y,bodySize,false,i===0?324:42,i===0?1068:textArea)+10;}
  y=put('BUILD YOUR OWN · '+l.structure,y+4,18)+4;y=put(l.exercise,y,19);
  return {parts,y};}
  let best=null,chosen=0;for(let size=24;size<=40;size++){const trial=compose(size);if(trial.y<=646){best=trial;chosen=size;}}

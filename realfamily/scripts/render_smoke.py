@@ -9,7 +9,7 @@ def check():
         (work/'data/english-staged').mkdir(parents=True)
         (work/'data/english-staged'/f'{date}.json').write_text(json.dumps(edition))
         for lesson in edition['lessons']:
-            if lesson['image']=='essay':continue
+            if not lesson.get('illustration'):continue
             target=work/lesson['illustration'];target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(ROOT/lesson['illustration'],target)
         subprocess.run(['node',str(work/'scripts/export_cards.cjs'),date],check=True)
         cards=list((work/'data/english-images'/date).glob('*.png'));assert len(cards)==len(edition['lessons'])

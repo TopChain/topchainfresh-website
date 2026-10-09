@@ -1289,7 +1289,7 @@
   "english": {
     "date": "2026-10-09",
     "version": 4,
-    "revision": 12,
+    "revision": 13,
     "cardSize": {
       "width": 660,
       "height": 1434
@@ -1480,7 +1480,52 @@
             "expression": "rule out"
           }
         ],
-        "filename": "Essay_2026-10-09_01.png"
+        "filename": "Essay_2026-10-09_01.png",
+        "illustration": "assets/english/2026-10-09/essay.png",
+        "scene": {
+          "background": "#eee7d8",
+          "description": "Two teammates balance careful project planning with a relaxing break.",
+          "characters": [
+            {
+              "x": 180,
+              "y": 115,
+              "scale": 1,
+              "face": "curious",
+              "pose": "think",
+              "shirt": "#9ab6c2",
+              "flip": false
+            },
+            {
+              "x": 450,
+              "y": 120,
+              "scale": 1,
+              "face": "happy",
+              "pose": "point",
+              "shirt": "#c5b3cc",
+              "flip": true
+            }
+          ],
+          "props": [
+            {
+              "kind": "balance",
+              "x": 280,
+              "y": 110,
+              "scale": 0.7
+            },
+            {
+              "kind": "clipboard",
+              "x": 60,
+              "y": 190,
+              "scale": 0.7
+            },
+            {
+              "kind": "plant",
+              "x": 480,
+              "y": 220,
+              "scale": 0.7
+            }
+          ]
+        }
       }
     ],
     "preparedAt": "2026-10-08T16:26:35.075375+00:00",
@@ -1489,7 +1534,8 @@
     "theme": "Making thoughtful choices and finding balance",
     "curriculumVersion": 5,
     "essayFontVersion": 2,
-    "cardStyleVersion": 6
+    "cardStyleVersion": 6,
+    "essayIllustrationVersion": 1
   },
   "marketCaps": {
     "year": 2025,

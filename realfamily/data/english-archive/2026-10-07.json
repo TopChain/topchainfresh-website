@@ -128,11 +128,117 @@
       "id": "2026-10-07-10",
       "illustration": "assets/english/2026-10-07/10.png",
       "filename": "Small talk_2026-10-07_01.png"
+    },
+    {
+      "id": "2026-10-07-11",
+      "image": "essay",
+      "level": "C1",
+      "title": "Helping a new team member find their voice",
+      "meaning": "A short model essay develops one situation using the day’s vocabulary, expressions and grammar.",
+      "paragraphs": [
+        [
+          "Joining a new team can leave someone ambivalent about speaking up, so a welcoming atmosphere matters."
+        ],
+        [
+          "When our newest colleague arrived, we asked how she was settling in instead of assuming she felt comfortable.",
+          "She seemed unsure about the next project, and a discerning question helped us understand her concern.",
+          "We invited her to flesh out an idea before trying to iron out the practical details."
+        ],
+        [
+          "At first, the room was quiet, so I tried to read the room rather than demand an immediate answer.",
+          "A smaller discussion might give everyone more confidence.",
+          "When she said, “I could use a hand with this,” two colleagues offered specific help."
+        ],
+        [
+          "Patient questions and practical support can move the needle toward trust."
+        ]
+      ],
+      "structure": "Introduction → develop the situation → example and reflection → conclusion. Use 1–2 / 2–3 / 2–3 / 1–2 sentences.",
+      "exercise": "Your turn: Write four short paragraphs about supporting others. Reuse two expressions and today’s grammar.",
+      "example": "Joining a new team can leave someone ambivalent about speaking up, so a welcoming atmosphere matters.\n\nWhen our newest colleague arrived, we asked how she was settling in instead of assuming she felt comfortable. She seemed unsure about the next project, and a discerning question helped us understand her concern. We invited her to flesh out an idea before trying to iron out the practical details.\n\nAt first, the room was quiet, so I tried to read the room rather than demand an immediate answer. A smaller discussion might give everyone more confidence. When she said, “I could use a hand with this,” two colleagues offered specific help.\n\nPatient questions and practical support can move the needle toward trust.",
+      "notes": "Notice how each paragraph develops the same central idea.",
+      "conversation": "",
+      "connections": [
+        {
+          "lessonId": "2026-10-07-1",
+          "expression": "ambivalent"
+        },
+        {
+          "lessonId": "2026-10-07-2",
+          "expression": "discerning"
+        },
+        {
+          "lessonId": "2026-10-07-3",
+          "expression": "iron out"
+        },
+        {
+          "lessonId": "2026-10-07-4",
+          "expression": "flesh out"
+        },
+        {
+          "lessonId": "2026-10-07-5",
+          "expression": "read the room"
+        },
+        {
+          "lessonId": "2026-10-07-6",
+          "expression": "move the needle"
+        },
+        {
+          "lessonId": "2026-10-07-8",
+          "expression": "Hedging with might, seems and tends to"
+        }
+      ],
+      "filename": "Essay_2026-10-07_01.png",
+      "illustration": "assets/english/2026-10-07/essay.png",
+      "scene": {
+        "background": "#eee7d8",
+        "description": "Two colleagues welcome a hesitant new teammate and plan a project together.",
+        "characters": [
+          {
+            "x": 180,
+            "y": 115,
+            "scale": 1,
+            "face": "curious",
+            "pose": "think",
+            "shirt": "#9ab6c2",
+            "flip": false
+          },
+          {
+            "x": 450,
+            "y": 120,
+            "scale": 1,
+            "face": "happy",
+            "pose": "point",
+            "shirt": "#c5b3cc",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "kind": "speech",
+            "x": 280,
+            "y": 110,
+            "scale": 0.7
+          },
+          {
+            "kind": "clipboard",
+            "x": 60,
+            "y": 190,
+            "scale": 0.7
+          },
+          {
+            "kind": "bridge",
+            "x": 480,
+            "y": 220,
+            "scale": 0.7
+          }
+        ]
+      }
     }
   ],
   "version": 4,
   "published": "2026-10-07T07:28:55.761806+00:00",
-  "revision": 12,
+  "revision": 13,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -140,5 +246,9 @@
   "illustrationStyle": "Simple flat comic",
   "firstPublished": "2026-10-07T07:03:47.714708+00:00",
   "cardFooterVersion": 2,
-  "cardStyleVersion": 6
+  "cardStyleVersion": 6,
+  "theme": "Helping a new team member find their voice",
+  "curriculumVersion": 5,
+  "historicalEssayAddedOn": "2026-10-09",
+  "essayIllustrationVersion": 1
 }

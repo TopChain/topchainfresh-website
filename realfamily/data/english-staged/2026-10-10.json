@@ -506,7 +506,52 @@
           "expression": "Any plans you are looking forward to?"
         }
       ],
-      "filename": "Essay_2026-10-10_01.png"
+      "filename": "Essay_2026-10-10_01.png",
+      "illustration": "assets/english/2026-10-10/essay.png",
+      "scene": {
+        "background": "#eee7d8",
+        "description": "Two teammates simplify a flexible plan while watching an approaching deadline.",
+        "characters": [
+          {
+            "x": 180,
+            "y": 115,
+            "scale": 1,
+            "face": "curious",
+            "pose": "think",
+            "shirt": "#9ab6c2",
+            "flip": false
+          },
+          {
+            "x": 450,
+            "y": 120,
+            "scale": 1,
+            "face": "happy",
+            "pose": "point",
+            "shirt": "#c5b3cc",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "kind": "clock",
+            "x": 280,
+            "y": 110,
+            "scale": 0.7
+          },
+          {
+            "kind": "fork",
+            "x": 60,
+            "y": 190,
+            "scale": 0.7
+          },
+          {
+            "kind": "check",
+            "x": 480,
+            "y": 220,
+            "scale": 0.7
+          }
+        ]
+      }
     }
   ],
   "version": 4,
@@ -533,9 +578,10 @@
       "Original quote with no historical attribution"
     ]
   },
-  "revision": 10,
+  "revision": 11,
   "theme": "Planning flexibly under pressure",
   "curriculumVersion": 5,
   "essayFontVersion": 2,
-  "cardStyleVersion": 6
+  "cardStyleVersion": 6,
+  "essayIllustrationVersion": 1
 }

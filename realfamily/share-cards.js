@@ -42,26 +42,27 @@ function preloadCardExports(){for(const lesson of activeLessons())makeCardFile(l
 
 // Printing uses separate white-paper vector files; screen/share PNGs remain unchanged.
 async function printLessonCards(button,all=false){
+ const inkSaving=button.dataset.printMode==='ink';
  const edition=currentEdition(),lessons=all?activeLessons():activeLessons().filter(l=>l.id===button.dataset.value),label=button.textContent,status=document.querySelector(all?'#bulk-card-status':'#card-status');
  if(!edition?.date||!lessons.length)return;
  const popup=window.open('','_blank');if(!popup){if(status)status.textContent='Allow the print window in your browser, then try again.';return;}
  button.disabled=true;button.textContent='Preparing print…';
  const safe=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const imageURL=l=>new URL(`data/english-print/${edition.date}/${encodeURIComponent(cardFilename(l).replace(/\.png$/,'.svg'))}?revision=${edition.revision||1}&print=1`,location.href).href;
+ const imageURL=l=>new URL(`data/${inkSaving?'english-print':'english-images'}/${edition.date}/${encodeURIComponent(inkSaving?cardFilename(l).replace(/\.png$/,'.svg'):cardFilename(l))}?revision=${edition.revision||1}&print=1`,location.href).href;
  const regular=lessons.filter(l=>l.image!=='essay'),essay=lessons.filter(l=>l.image==='essay'),pages=[];
- const card=l=>`<img src="${safe(imageURL(l))}" alt="${safe(l.title)} — ink-saving print card">`;
+ const card=l=>`<img src="${safe(imageURL(l))}" alt="${safe(l.title)} — ${inkSaving?'ink-saving':'color'} print card">`;
  for(let i=0;i<regular.length;i+=2)pages.push(`<section class="sheet ${all?'pair':'single'}">${regular.slice(i,i+2).map(card).join('')}</section>`);
  for(const l of essay)pages.push(`<section class="sheet essay">${card(l)}</section>`);
  popup.document.write(`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Everyday English · ${safe(edition.date)} · Print</title><style>
  @page{size:Letter portrait;margin:0.35in}@page essay{size:Letter landscape;margin:0.35in}
  *{box-sizing:border-box}body{margin:0;background:#eee;color:#292929;font:16px/1.5 Arial,sans-serif}.toolbar{position:sticky;top:0;background:#f6f1e8;padding:16px 24px;border-bottom:1px solid #ccc}.toolbar button{padding:8px 16px;margin-right:10px;background:white;border:1px solid #777;border-radius:5px;color:#292929;cursor:pointer}.toolbar p{margin:8px 0 0}main{padding:20px}.sheet{background:white;margin:0 auto 24px;padding:12px;max-width:780px;display:flex;align-items:center;justify-content:center;gap:12px}.sheet img{display:block;width:calc(50% - 6px);height:auto}.single img{width:60%}.essay{max-width:1100px}.essay img{width:100%}
  @media print{body,main{margin:0;padding:0;background:white}.toolbar{display:none}.sheet{margin:0;padding:0;max-width:none;height:10.28in;gap:0.18in;break-inside:avoid;break-after:page}.sheet:last-child{break-after:auto}.pair img{width:3.81in;height:auto;max-height:10.28in;object-fit:contain}.single img{height:10.28in;width:auto;max-width:100%;object-fit:contain}.essay{page:essay;height:7.78in}.essay img{width:10.28in;height:auto;max-height:7.78in;object-fit:contain}}
- </style></head><body><div class="toolbar"><button id="print-now" disabled>Print / Save as PDF</button><button id="close-print">Close</button><p id="print-status" role="status">Loading ${lessons.length} ink-saving cards…</p><p>Letter paper · ${all?'Two portrait cards per page; Essay alone on the last landscape page.':'One card on one page.'} White interiors and thin category borders. Choose Letter paper and disable browser headers and footers.</p></div><main>${pages.join('')}</main></body></html>`);popup.document.close();
+ </style></head><body><div class="toolbar"><button id="print-now" disabled>Print / Save as PDF</button><button id="close-print">Close</button><p id="print-status" role="status">Loading ${lessons.length} ${inkSaving?'ink-saving':'color'} cards…</p><p>Letter paper · ${all?'Two portrait cards per page; Essay alone on the last landscape page.':'One card on one page.'} ${inkSaving?'White interiors and thin category borders.':'Original muted pastel colors, matching the downloaded cards.'} Choose Letter paper and disable browser headers and footers.</p></div><main>${pages.join('')}</main></body></html>`);popup.document.close();
  popup.document.querySelector('#close-print').onclick=()=>popup.close();const printButton=popup.document.querySelector('#print-now');printButton.onclick=()=>{popup.focus();popup.print()};
  try{
-  await Promise.all([...popup.document.images].map(img=>new Promise((resolve,reject)=>{if(img.complete)return img.naturalWidth?resolve():reject(Error('Missing print file'));img.onload=resolve;img.onerror=reject})));
-  printButton.disabled=false;popup.document.querySelector('#print-status').textContent=`Ready: ${lessons.length} complete ink-saving card${lessons.length===1?'':'s'}.`;
-  if(status)status.textContent='Ink-saving print layout opened. Use Print / Save as PDF in the new window.';
+  await Promise.all([...popup.document.images].map(async img=>{await img.decode();if(!img.naturalWidth)throw Error('Missing print file')}));
+  printButton.disabled=false;popup.document.querySelector('#print-status').textContent=`Ready: ${lessons.length} complete ${inkSaving?'ink-saving':'color'} card${lessons.length===1?'':'s'}.`;
+  if(status)status.textContent=(inkSaving?'Ink-saving':'Color')+' print layout opened. Use Print / Save as PDF in the new window.';
   popup.focus();popup.print();
  }catch{if(!popup.closed)popup.document.querySelector('#print-status').textContent='Some print cards could not load. Close this window and try again; no partial set will be printed.';if(status)status.textContent='Print cards could not load. Please try again.';}
  finally{button.disabled=false;button.textContent=label}

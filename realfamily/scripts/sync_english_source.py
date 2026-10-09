@@ -30,7 +30,7 @@ def sync():
             for lesson in edition['lessons']:
                 assert lesson['image']=='essay' or lesson['illustration'].startswith('assets/english/'+date+'/')
                 assert '/' not in lesson['filename'] and '\\' not in lesson['filename']
-                if lesson['image']!='essay':download(lesson['illustration'])
+                if lesson.get('illustration'):download(lesson['illustration'])
                 download('data/english-images/'+date+'/'+lesson['filename'])
                 download('data/english-print/'+date+'/'+lesson['filename'].replace('.png','.svg'))
                 download('data/english-print/'+date+'/'+lesson['filename'])
@@ -47,7 +47,7 @@ def sync():
             validate(source,edition)
             # Copy assets first and expose a dated edition only when all ten are available.
             for lesson in edition['lessons']:
-                for rel in ([lesson['illustration']] if lesson['image']!='essay' else [])+['data/english-images/'+date+'/'+lesson['filename'],'data/english-print/'+date+'/'+lesson['filename'].replace('.png','.svg'),'data/english-print/'+date+'/'+lesson['filename']]:
+                for rel in ([lesson['illustration']] if lesson.get('illustration') else [])+['data/english-images/'+date+'/'+lesson['filename'],'data/english-print/'+date+'/'+lesson['filename'].replace('.png','.svg'),'data/english-print/'+date+'/'+lesson['filename']]:
                     destination=ROOT/rel;destination.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source/rel,destination)
             target_staged.parent.mkdir(parents=True,exist_ok=True)
             target_staged.write_text(json.dumps(edition,ensure_ascii=False,indent=2)+'\n')

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "version": 4,
-  "revision": 10,
+  "revision": 11,
   "cardSize": {
     "width": 660,
     "height": 1434
@@ -132,9 +132,119 @@
       "id": "2026-10-08-10",
       "illustration": "assets/english/2026-10-08/10.png",
       "filename": "Small talk_2026-10-08_01.png"
+    },
+    {
+      "id": "2026-10-08-11",
+      "image": "essay",
+      "level": "C1",
+      "title": "Turning a setback into a shared opportunity",
+      "meaning": "A short model essay develops one situation using the day’s vocabulary, expressions and grammar.",
+      "paragraphs": [
+        [
+          "A resilient group can turn an unexpected problem into an opportunity by being resourceful together."
+        ],
+        [
+          "Our community film night lost its usual venue, so we had to draw on our local contacts.",
+          "I brought up the problem at a meeting and asked whether anyone had come across something worth watching.",
+          "Not only did a neighbour suggest a suitable film, but she also offered her garden as a screening space."
+        ],
+        [
+          "When she asked about equipment, I said, “Let me get back to you on that.”",
+          "The ball was in my court, so I checked what we could borrow before promising anything.",
+          "The venue change proved a blessing in disguise: the smaller setting encouraged conversation."
+        ],
+        [
+          "Naming what matters and responding carefully can make a setback useful."
+        ]
+      ],
+      "structure": "Introduction → develop the situation → example and reflection → conclusion. Use 1–2 / 2–3 / 2–3 / 1–2 sentences.",
+      "exercise": "Your turn: Write four short paragraphs about supporting others. Reuse two expressions and today’s grammar.",
+      "example": "A resilient group can turn an unexpected problem into an opportunity by being resourceful together.\n\nOur community film night lost its usual venue, so we had to draw on our local contacts. I brought up the problem at a meeting and asked whether anyone had come across something worth watching. Not only did a neighbour suggest a suitable film, but she also offered her garden as a screening space.\n\nWhen she asked about equipment, I said, “Let me get back to you on that.” The ball was in my court, so I checked what we could borrow before promising anything. The venue change proved a blessing in disguise: the smaller setting encouraged conversation.\n\nNaming what matters and responding carefully can make a setback useful.",
+      "notes": "Notice how each paragraph develops the same central idea.",
+      "conversation": "",
+      "connections": [
+        {
+          "lessonId": "2026-10-08-1",
+          "expression": "resilient"
+        },
+        {
+          "lessonId": "2026-10-08-2",
+          "expression": "resourceful"
+        },
+        {
+          "lessonId": "2026-10-08-3",
+          "expression": "bring up"
+        },
+        {
+          "lessonId": "2026-10-08-4",
+          "expression": "draw on"
+        },
+        {
+          "lessonId": "2026-10-08-5",
+          "expression": "the ball is in your court"
+        },
+        {
+          "lessonId": "2026-10-08-6",
+          "expression": "a blessing in disguise"
+        },
+        {
+          "lessonId": "2026-10-08-8",
+          "expression": "Inversion after Not only"
+        }
+      ],
+      "filename": "Essay_2026-10-08_01.png",
+      "illustration": "assets/english/2026-10-08/essay.png",
+      "scene": {
+        "background": "#eee7d8",
+        "description": "Resourceful neighbours turn a cancelled film night into a friendly garden gathering.",
+        "characters": [
+          {
+            "x": 180,
+            "y": 115,
+            "scale": 1,
+            "face": "curious",
+            "pose": "think",
+            "shirt": "#9ab6c2",
+            "flip": false
+          },
+          {
+            "x": 450,
+            "y": 120,
+            "scale": 1,
+            "face": "happy",
+            "pose": "point",
+            "shirt": "#c5b3cc",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "kind": "phone",
+            "x": 280,
+            "y": 110,
+            "scale": 0.7
+          },
+          {
+            "kind": "lightbulb",
+            "x": 60,
+            "y": 190,
+            "scale": 0.7
+          },
+          {
+            "kind": "bench",
+            "x": 480,
+            "y": 220,
+            "scale": 0.7
+          }
+        ]
+      }
     }
   ],
   "published": "2026-10-08T16:15:33.678066+00:00",
   "cardFooterVersion": 2,
-  "cardStyleVersion": 6
+  "cardStyleVersion": 6,
+  "theme": "Turning a setback into a shared opportunity",
+  "curriculumVersion": 5,
+  "historicalEssayAddedOn": "2026-10-09",
+  "essayIllustrationVersion": 1
 }
