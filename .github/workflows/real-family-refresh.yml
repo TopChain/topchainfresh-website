@@ -24,10 +24,14 @@ jobs:
         run: python realfamily/scripts/sync_kitchen_source.py
       - name: Refresh three-hour feeds and Pacific midnight editions
         run: python realfamily/scripts/refresh.py
+      - name: Export one-page Letter recipes
+        run: |
+          pip install reportlab==4.4.3
+          python realfamily/scripts/export_recipes.py
       - name: Publish source update
         run: |
           git config user.name 'Real Family updater'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add realfamily/data/latest.json realfamily/data/research-archive.json realfamily/data/english-history.json realfamily/data/english-archive realfamily/data/english-staged realfamily/data/daily-history.json realfamily/data/health-archive realfamily/data/recipes-archive realfamily/data/recipes-staged realfamily/data/english-images realfamily/data/english-print realfamily/assets/english
+          git add realfamily/data/recipe-pdfs realfamily/data/latest.json realfamily/data/research-archive.json realfamily/data/english-history.json realfamily/data/english-archive realfamily/data/english-staged realfamily/data/daily-history.json realfamily/data/health-archive realfamily/data/recipes-archive realfamily/data/recipes-staged realfamily/data/english-images realfamily/data/english-print realfamily/assets/english
           git diff --cached --quiet || git commit -m 'Refresh Real Family news, markets and research'
           git push

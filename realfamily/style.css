@@ -45,3 +45,5 @@
 .lesson .listen{background:#ffffff55;border-color:currentColor}.lesson-body .eyebrow{color:inherit;opacity:.5}.lesson-body details{border-color:#00000022}
 
 .file-actions{grid-template-columns:repeat(4,minmax(0,1fr))}.file-actions .listen{font-size:12px;padding:8px 3px}.file-actions .print-ink{white-space:normal;line-height:1.25}
+
+.kitchen-tools{padding:24px;background:#edf2ea;border:1px solid var(--line);border-radius:9px;margin:24px 0}.kitchen-tools h2{margin:0 0 18px}.kitchen-search{display:flex;gap:20px;flex-wrap:wrap}.kitchen-search label{flex:1;min-width:220px;font-size:14px;font-weight:600}.kitchen-search input,.kitchen-search select{display:block;width:100%;margin-top:7px;padding:12px;border:1px solid #b8c6b5;border-radius:5px;background:#fff;color:#28352c;font:inherit}.kitchen-toggles{display:flex;gap:22px;flex-wrap:wrap;margin-top:18px;font-size:15px}.kitchen-toggles input{accent-color:#425d43}.recipe-actions{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.recipe-actions .listen{background:#f4f6ef;color:#354b39;border:1px solid #bccbb7;text-decoration:none;margin:0;padding:7px 12px}.recipe-actions [aria-pressed=true]{background:#dce6d8}
