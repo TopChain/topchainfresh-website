@@ -21,7 +21,7 @@ async function makeCardArchive(files,date){
   parts.push(local,name,bytes);directory.push(central,name);offset+=local.length+name.length+bytes.length;directorySize+=central.length+name.length;
  }
  const end=new Uint8Array(22),e=new DataView(end.buffer);e.setUint32(0,0x06054b50,true);e.setUint16(8,files.length,true);e.setUint16(10,files.length,true);e.setUint32(12,directorySize,true);e.setUint32(16,offset,true);
- return new File([...parts,...directory,end],`Real Family_${date}.zip`,{type:'application/zip'});
+ return new File([...parts,...directory,end],`Everyday English_${date}.zip`,{type:'application/zip'});
 }
 async function downloadAllCards(button){
  const edition=currentEdition(),label=button.textContent,status=document.querySelector('#bulk-card-status');button.disabled=true;button.textContent=`Preparing ${edition.lessons.length} cards…`;
