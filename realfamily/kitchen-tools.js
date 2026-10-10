@@ -9,6 +9,19 @@ async function loadKitchenLibrary(){if(kitchenLoading)return;kitchenLoading=true
 function recipePdf(r){return `data/recipe-pdfs/${r._date}/${encodeURIComponent('Family Kitchen_'+r._date+'_'+String(r._index).padStart(2,'0')+'.pdf')}`}
 function recipeActions(r){if(!r._date)return '';const name='Family Kitchen_'+r._date+'_'+String(r._index).padStart(2,'0')+'.pdf';return `<div class="recipe-actions"><a class="listen" href="${recipePdf(r)}" download="${escapeHTML(name)}">↓ Download PDF</a><a class="listen" href="${recipePdf(r)}" target="_blank" rel="noopener" aria-label="Open ${escapeHTML(r.title)} as Letter PDF to print">▧ Print</a><button class="listen" data-kitchen-save="${escapeHTML(kitchenKey(r))}" aria-pressed="${kitchenFavorites.has(kitchenKey(r))}">${kitchenFavorites.has(kitchenKey(r))?'♥ Saved':'♡ Save recipe'}</button></div>`}
 let kitchenTyping;
-document.addEventListener('input',event=>{if(event.target.id!=='kitchen-query')return;kitchenQuery=event.target.value;clearTimeout(kitchenTyping);kitchenTyping=setTimeout(()=>{if(location.hash!=='#recipes')return;render();const input=document.querySelector('#kitchen-query');input?.focus()},250)});
+// Update results without replacing the input, its caret or an IME composition.
+function updateKitchenSearch(){
+ if(location.hash!=='#recipes')return;
+ const grid=document.querySelector('.recipe-grid');if(!grid)return;
+ const template=document.createElement('template');template.innerHTML=recipes();
+ const next=template.content.querySelector('.recipe-grid');
+ grid.previousElementSibling.textContent=next.previousElementSibling.textContent;
+ grid.replaceWith(next);
+ if(typeof currentLanguage!=='undefined'&&currentLanguage!=='en')translatePage();
+}
+function queueKitchenSearch(){clearTimeout(kitchenTyping);kitchenTyping=setTimeout(updateKitchenSearch,250)}
+document.addEventListener('input',event=>{if(event.target.id!=='kitchen-query')return;kitchenQuery=event.target.value;clearTimeout(kitchenTyping);if(!event.isComposing)queueKitchenSearch()});
+document.addEventListener('compositionstart',event=>{if(event.target.id==='kitchen-query')clearTimeout(kitchenTyping)});
+document.addEventListener('compositionend',event=>{if(event.target.id!=='kitchen-query')return;kitchenQuery=event.target.value;queueKitchenSearch()});
 document.addEventListener('change',event=>{const id=event.target.id;if(id==='kitchen-scope'){kitchenScope=event.target.value;if(kitchenScope==='library'&&!kitchenLibrary.length){loadKitchenLibrary();return}}else if(id==='kitchen-quick')kitchenQuick=event.target.checked;else if(id==='kitchen-saved')kitchenSavedOnly=event.target.checked;else return;render()});
 document.addEventListener('click',event=>{const save=event.target.closest('[data-kitchen-save]');if(save){const key=save.dataset.kitchenSave;kitchenFavorites.has(key)?kitchenFavorites.delete(key):kitchenFavorites.add(key);localStorage.setItem('real-kitchen-favorites',JSON.stringify([...kitchenFavorites]));render()}if(event.target.closest('[data-kitchen-retry]'))loadKitchenLibrary()});
