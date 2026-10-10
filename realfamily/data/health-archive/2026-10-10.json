@@ -1,0 +1,450 @@
+{
+  "date": "2026-10-10",
+  "published": "2026-10-10T08:26:03.320212+00:00",
+  "profiles": [
+    {
+      "stage": "Babies",
+      "sex": "Female",
+      "age": "0–11 months",
+      "focus": "Use the girls’ growth chart to follow weight and length over time. Feeding and vitamin requirements at this age are not different solely because of sex.",
+      "food": [
+        "Feed breast milk or iron-fortified infant formula responsively; hunger and fullness cues guide quantity. Do not dilute formula.",
+        "Around 6 months, when developmentally ready, introduce soft iron-rich foods such as puréed meat, lentils or iron-fortified cereal. Offer varied textures safely; no honey before 12 months."
+      ],
+      "supplements": [
+        "Breastfed or partly breastfed infants: vitamin D 400 IU (10 mcg) daily from the first days of life. Ask about drops if formula intake is insufficient to provide this amount.",
+        "Iron supplements require pediatric guidance, especially for prematurity or exclusive breastfeeding. Do not use adult multivitamins or guess an iron dose."
+      ],
+      "move": [
+        "Provide supervised floor play several times daily. Before independent mobility, aim for at least 30 minutes of tummy time daily, divided into short awake sessions.",
+        "Encourage reaching and crawling as development allows. Always place babies on their backs for sleep; no sex-specific exercise quota is supported."
+      ]
+    },
+    {
+      "stage": "Babies",
+      "sex": "Male",
+      "age": "0–11 months",
+      "focus": "Use the boys’ growth chart to follow weight and length over time. Feeding and vitamin requirements at this age are not different solely because of sex.",
+      "food": [
+        "Feed breast milk or iron-fortified infant formula responsively; hunger and fullness cues guide quantity. Do not dilute formula.",
+        "Around 6 months, when developmentally ready, introduce soft iron-rich foods such as puréed meat, lentils or iron-fortified cereal. Offer varied textures safely; no honey before 12 months."
+      ],
+      "supplements": [
+        "Breastfed or partly breastfed infants: vitamin D 400 IU (10 mcg) daily from the first days of life. Ask about drops if formula intake is insufficient to provide this amount.",
+        "Iron supplements require pediatric guidance, especially for prematurity or exclusive breastfeeding. Do not use adult multivitamins or guess an iron dose."
+      ],
+      "move": [
+        "Provide supervised floor play several times daily. Before independent mobility, aim for at least 30 minutes of tummy time daily, divided into short awake sessions.",
+        "Encourage reaching and crawling as development allows. Always place babies on their backs for sleep; no sex-specific exercise quota is supported."
+      ]
+    },
+    {
+      "stage": "Children",
+      "sex": "Female",
+      "age": "1–9 years",
+      "focus": "Follow an age- and sex-specific growth chart for girls; avoid comparing portions with another child. Before puberty, nutrient and activity targets are generally shared.",
+      "food": [
+        "Offer regular meals with vegetables, fruit, whole grains, beans, eggs, fish or other proteins. Water replaces sugary drinks; adults choose the food and children respond to appetite.",
+        "Calcium-rich choices include milk, yogurt and calcium-fortified alternatives. Daily calcium targets: 700 mg at 1–3, 1,000 mg at 4–8 and 1,300 mg at age 9."
+      ],
+      "supplements": [
+        "Vitamin D target: 600 IU (15 mcg) daily from food and supplements combined. Consider a child-appropriate supplement if fortified foods do not meet needs.",
+        "Restricted or vegan diets need assessment for B12 and other gaps. Use iron only for an assessed need; keep all iron products out of children’s reach."
+      ],
+      "move": [
+        "Ages 1–2: at least 180 minutes of varied movement daily. Ages 3–4: 180 minutes, including at least 60 minutes of energetic play.",
+        "Ages 5–9: average 60 minutes daily of moderate-to-vigorous activity across the week. Running, jumping and climbing can strengthen muscle and bone on at least 3 days weekly."
+      ]
+    },
+    {
+      "stage": "Children",
+      "sex": "Male",
+      "age": "1–9 years",
+      "focus": "Follow an age- and sex-specific growth chart for boys; avoid comparing portions with another child. Before puberty, nutrient and activity targets are generally shared.",
+      "food": [
+        "Offer regular meals with vegetables, fruit, whole grains, beans, eggs, fish or other proteins. Water replaces sugary drinks; adults choose the food and children respond to appetite.",
+        "Calcium-rich choices include milk, yogurt and calcium-fortified alternatives. Daily calcium targets: 700 mg at 1–3, 1,000 mg at 4–8 and 1,300 mg at age 9."
+      ],
+      "supplements": [
+        "Vitamin D target: 600 IU (15 mcg) daily from food and supplements combined. Consider a child-appropriate supplement if fortified foods do not meet needs.",
+        "Restricted or vegan diets need assessment for B12 and other gaps. Use iron only for an assessed need; keep all iron products out of children’s reach."
+      ],
+      "move": [
+        "Ages 1–2: at least 180 minutes of varied movement daily. Ages 3–4: 180 minutes, including at least 60 minutes of energetic play.",
+        "Ages 5–9: average 60 minutes daily of moderate-to-vigorous activity across the week. Running, jumping and climbing can strengthen muscle and bone on at least 3 days weekly."
+      ]
+    },
+    {
+      "stage": "Teens",
+      "sex": "Female",
+      "age": "10–17 years",
+      "focus": "Menstruation and rapid growth can increase iron needs. Heavy periods, persistent fatigue or missed periods during intense training deserve clinical review.",
+      "food": [
+        "Eat enough to support growth and sport; include meals rather than skipping them. Pair beans or lentils with vitamin-C-rich fruit or vegetables.",
+        "Iron targets: 8 mg/day at 10–13 and 15 mg/day at 14–17. Calcium: 1,300 mg/day. These are total dietary targets, not supplement doses."
+      ],
+      "supplements": [
+        "Vitamin D: 600 IU/day total. Use a supplement for dietary shortfalls; an iron supplement should follow assessment of iron status and menstrual losses.",
+        "For a vegan diet, obtain B12 reliably from fortified foods or supplements. If pregnancy is possible, discuss folic acid and reproductive-health needs with a clinician."
+      ],
+      "move": [
+        "Average at least 60 minutes daily of moderate-to-vigorous activity. Include vigorous exercise plus muscle- and bone-strengthening activity on at least 3 days weekly.",
+        "Try brisk walking, cycling, dance or sport plus supervised strength work. Avoid training through pain or compensating for food with exercise."
+      ]
+    },
+    {
+      "stage": "Teens",
+      "sex": "Male",
+      "age": "10–17 years",
+      "focus": "Rapid growth and demanding sport can increase energy needs. Build strength with food, recovery and supervised training rather than bodybuilding products.",
+      "food": [
+        "Include a protein food at meals and enough grains, potatoes or other carbohydrates for training. Match extra portions to appetite and activity, not a fixed “male” serving.",
+        "Iron targets: 8 mg/day at 10–13 and 11 mg/day at 14–17. Calcium: 1,300 mg/day. Avoid restrictive cutting diets during growth."
+      ],
+      "supplements": [
+        "Vitamin D: 600 IU/day total; consider supplementation for a dietary gap. B12 needs a reliable fortified-food or supplement source in vegan diets.",
+        "Do not take iron without assessment. Muscle-building supplements are not a replacement for meals; review any product with a qualified clinician."
+      ],
+      "move": [
+        "Average at least 60 minutes daily of moderate-to-vigorous activity. Vigorous, muscle- and bone-strengthening activity belongs on at least 3 days weekly.",
+        "Choose enjoyable sport, swimming or cycling, with supervised resistance training and jumping. Technique and gradual progression matter more than maximal loads."
+      ]
+    },
+    {
+      "stage": "Adults",
+      "sex": "Female",
+      "age": "18–64 years",
+      "focus": "Menstruation, pregnancy, breastfeeding and menopause require different nutrition plans; use the branch that applies to you.",
+      "food": [
+        "Build meals around vegetables, whole grains, legumes and varied proteins. Include calcium-rich foods; age 18 needs 1,300 mg/day, ages 19–50 need 1,000 mg and 51–64 need 1,200 mg.",
+        "Iron: 15 mg/day at age 18, 18 mg at 19–50 and 8 mg at 51+. Pregnancy raises the target to 27 mg; heavy menstrual loss warrants assessment."
+      ],
+      "supplements": [
+        "If pregnancy is possible, obtain 400 mcg/day folic acid from supplements, fortified foods or both, in addition to dietary folate. Prenatal needs require a separate clinical plan.",
+        "Vitamin D: 600 IU/day total. Supplement calcium only to cover a shortfall. Vegans need a reliable B12 source; avoid stacking overlapping multivitamins."
+      ],
+      "move": [
+        "Weekly: 150–300 minutes of moderate aerobic activity or 75–150 vigorous minutes, plus major-muscle strengthening at least 2 days.",
+        "Practical start: brisk walk 30 minutes on 5 days, plus 2 strength sessions. During uncomplicated pregnancy, aim for at least 150 moderate minutes weekly with obstetric guidance; adapt postpartum recovery individually."
+      ]
+    },
+    {
+      "stage": "Adults",
+      "sex": "Male",
+      "age": "18–64 years",
+      "focus": "Focus on cardiovascular fitness, sustainable strength and adequate nutrition. Routine extra iron or testosterone-boosting supplements are not established necessities.",
+      "food": [
+        "Choose vegetables, legumes, whole grains and varied proteins. Reduce salty processed foods; portions depend on body size and activity.",
+        "Iron: 11 mg/day at age 18 and 8 mg at 19+. Calcium: 1,300 mg at age 18, then 1,000 mg through age 64. A protein food at each meal can support strength training."
+      ],
+      "supplements": [
+        "Vitamin D: 600 IU/day total. Supplement identified dietary gaps; obtain B12 reliably if vegan.",
+        "Avoid routine iron unless deficiency is established. Discuss supplement interactions and kidney disease before using concentrated products; a multivitamin does not replace a balanced diet."
+      ],
+      "move": [
+        "Weekly: 150–300 moderate aerobic minutes or 75–150 vigorous minutes, plus strength for major muscle groups at least 2 days.",
+        "Example: brisk walk or cycle 30 minutes on 5 days, plus 2 strength sessions. Start gradually, vary intensity and break up prolonged sitting."
+      ]
+    },
+    {
+      "stage": "Older adults",
+      "sex": "Female",
+      "age": "65+ years",
+      "focus": "After menopause, prioritize bone health, muscle maintenance and fall prevention; nutrition supplements do not replace osteoporosis evaluation.",
+      "food": [
+        "Include protein at meals, fiber-rich plants and regular fluids. Unintentional weight loss or swallowing difficulties need review.",
+        "Calcium target: 1,200 mg/day. Iron: 8 mg/day. Combine food and fortified options before adding a calcium supplement."
+      ],
+      "supplements": [
+        "Vitamin D: 600 IU/day at 65–70, 800 IU at 71+. A supplement can fill a dietary gap; osteoporosis treatment and dosing are individualized.",
+        "B12 absorption can decline with age: fortified foods or supplements may help. Review medication interactions and avoid assuming all anemia is iron deficiency."
+      ],
+      "move": [
+        "As ability allows: 150–300 moderate aerobic minutes weekly and strength on at least 2 days. Shorter sessions count; some activity is better than none.",
+        "Balance and functional strength on at least 3 days weekly: supported single-leg stands, sit-to-stand practice or tai chi. A sample week is five 30-minute walks, two strength sessions and three short balance sessions."
+      ]
+    },
+    {
+      "stage": "Older adults",
+      "sex": "Male",
+      "age": "65+ years",
+      "focus": "Maintain strength and balance; bone loss also affects men. Calcium needs change again after age 70.",
+      "food": [
+        "Include protein at each meal, vegetables, beans and whole grains. Adapt texture and hydration to swallowing, dental and medical needs.",
+        "Calcium: 1,000 mg/day at 65–70 and 1,200 mg at 71+. Iron: 8 mg/day. Investigate unexplained weight loss or anemia rather than self-treating."
+      ],
+      "supplements": [
+        "Vitamin D: 600 IU/day at 65–70, 800 IU at 71+. Consider calcium only for the portion missing from the diet.",
+        "Review B12 intake and absorption, especially with a restricted diet. Supplements require medication review; routine iron is not recommended without an established need."
+      ],
+      "move": [
+        "As ability allows: 150–300 moderate aerobic minutes weekly, strength at least 2 days and balance/functional strength at least 3 days.",
+        "Try walking or stationary cycling, resistance bands, chair rises and supported balance practice. Build from short sessions; seek an adapted program if falls or mobility problems are present."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "title": "Sustained Viral Suppression and its association with Psychiatric Morbidity and Sleep Quality among Older Adults with Human Immunodeficiency Virus: Evidence from a Retrospective Cohort in Ibadan, Nigeria.",
+      "url": "https://europepmc.org/article/PPR/PPR1338064",
+      "journal": "Journal",
+      "date": "2026-10-09",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Purpose: Older adults with HIV are at risk of psychiatric disorders and poor sleep quality, but evidence from sub-Saharan Africa is limited, particularly regarding sustained …",
+      "discoveredDate": "2026-10-10",
+      "discoveredAt": "2026-10-10T08:26:03.320212+00:00"
+    },
+    {
+      "title": "Poor Health Habit Factors in Sabon Gari Secondary Schools",
+      "url": "https://europepmc.org/article/PPR/PPR1337635",
+      "journal": "Journal",
+      "date": "2026-10-09",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Abstract This study assessed common poor health habits and the reported influence of peer pressure, family context, and media and technology among students in selected …",
+      "discoveredDate": "2026-10-10",
+      "discoveredAt": "2026-10-10T08:26:03.320212+00:00"
+    },
+    {
+      "title": "Sex-Specific Associations Between Pubertal Stage and Objectively Measured Physical Activity in Early Adolescence: Evidence from the ABCD Study",
+      "url": "https://europepmc.org/article/PPR/PPR1337500",
+      "journal": "Journal",
+      "date": "2026-10-09",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Abstract Physical activity declines during adolescence, but sex-specific patterns across pubertal stages remain incompletely understood. We analysed 21-day Fitbit data from 4,794 adolescents (47.8% female; …",
+      "discoveredDate": "2026-10-10",
+      "discoveredAt": "2026-10-10T08:26:03.320212+00:00"
+    },
+    {
+      "title": "A double-edged sword: unpacking the functional heterogeneity of mobile social media use and its differential associations with exercise identity and social-media-specific sedentary time among older adults",
+      "url": "https://europepmc.org/article/PMC/PMC13642746",
+      "journal": "Frontiers in public health",
+      "date": "2026-10-08",
+      "type": "research-article, Journal Article",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T08:53:57.015218+00:00"
+    },
+    {
+      "title": "Why fixed-gain correction insulin fails when endogenous insulin secretion is intact: a closed-loop analysis",
+      "url": "https://europepmc.org/article/PPR/PPR1336802",
+      "journal": "Journal",
+      "date": "2026-10-08",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Abstract Background . Sliding-scale correction insulin is the standard hospital response to high blood glucose. Its constants were derived in people who secrete no insulin, …",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T08:53:57.015218+00:00"
+    },
+    {
+      "title": "The Association of Resilience with Psychiatric Morbidity, Sleep Quality and Antiretroviral Therapy Adherence among Older Adults Living with HIV in Nigeria",
+      "url": "https://europepmc.org/article/PPR/PPR1336761",
+      "journal": "Journal",
+      "date": "2026-10-08",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Abstract Advances in antiretroviral therapy (ART) have increased survival among people living with HIV, resulting in a growing population of older adults who often face …",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T08:53:57.015218+00:00"
+    },
+    {
+      "title": "Targeted Free Swimming for Women, Girls, and Older Adults in Tower Hamlets: A RE-AIM Evaluation Study Protocol",
+      "url": "https://europepmc.org/article/PPR/PPR1337164",
+      "journal": "Journal",
+      "date": "2026-10-07",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Across the UK, older adults in deprived areas like Barnsley are spending more of their lives in poor health. Alongside increased loneliness, this creates barriers …",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T08:53:57.015218+00:00"
+    },
+    {
+      "title": "Machine Learning Models Using Electronic Health Record Data to Predict Obstructive Sleep Apnea",
+      "url": "https://europepmc.org/article/PPR/PPR1337152",
+      "journal": "Journal",
+      "date": "2026-10-07",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Rationale: Obstructive sleep apnea (OSA) is highly prevalent yet largely under-diagnosed. Current screening strategies rely on effortful questionnaires with modest accuracy, and prior machine learning …",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T08:53:57.015218+00:00"
+    },
+    {
+      "title": "An inflammation-nutrition-surgery-based INSEP model and a web-based clinical decision support system for predicting early postoperative infection in elderly patients with hepatocellular carcinoma: a multicenter retrospective study",
+      "url": "https://europepmc.org/article/PMC/PMC13638509",
+      "journal": "Frontiers in nutrition",
+      "date": "2026-10-07",
+      "type": "research-article, Journal Article",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T14:07:57.320475+00:00"
+    },
+    {
+      "title": "Malnutrition and Adapted Physical Activity in Older Adults: Impact of a Brief Training Program on General Practitioners’ Knowledge and Practices: A Randomized Controlled Trial",
+      "url": "https://europepmc.org/article/PPR/PPR1335881",
+      "journal": "Journal",
+      "date": "2026-10-07",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Abstract Background Life expectancy continues to increase in France, along with the number of older adults at risk of frailty and loss of independence. Promoting …",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T14:07:57.320475+00:00"
+    },
+    {
+      "title": "The Non-High-Density Lipoprotein Cholesterol to High-Density Lipoprotein Cholesterol Ratio (NHHR) as a Prognostic Factor for Stroke in Chinese Adults: A Study of Two National Cohorts",
+      "url": "https://europepmc.org/article/PPR/PPR1335880",
+      "journal": "Journal",
+      "date": "2026-10-07",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Abstract Objective The association between the ratio of non-high-density lipoprotein (NHDL) cholesterol to high-density lipoprotein cholesterol (HDL-C)—referred to as the NHHR—and stroke has yet to …",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T14:07:57.320475+00:00"
+    },
+    {
+      "title": "Effects of Acute Cognitively Engaging Physical Activity on Executive Function Development in Children Aged 4–12 Years: A Systematic Review and Meta-analysis",
+      "url": "https://europepmc.org/article/PPR/PPR1335867",
+      "journal": "Journal",
+      "date": "2026-10-07",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Abstract Background Acute cognitively engaging physical activity (CEPA) has been proposed as an intervention for improving executive function, but its effects in children remain uncertain. …",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T14:07:57.320475+00:00"
+    },
+    {
+      "title": "Deficit accumulation, plantar pressure-time loading and contact timing in community-dwelling older adults with type 2 diabetes: a cross-sectional study with exploratory foot-risk stratification",
+      "url": "https://europepmc.org/article/PPR/PPR1335619",
+      "journal": "Journal",
+      "date": "2026-10-07",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Abstract Background Frailty is associated with impaired mobility in older adults, but whether greater deficit accumulation is reflected in plantar pressure-time loading and contact timing …",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T14:07:57.320475+00:00"
+    },
+    {
+      "title": "Effects of multicomponent exercise on global cognitive function, executive function, and brain-derived neurotrophic factors in older adults with mild cognitive impairment: a systematic review and three-level meta-analysis",
+      "url": "https://europepmc.org/article/PMC/PMC13635199",
+      "journal": "Frontiers in aging neuroscience",
+      "date": "2026-10-06",
+      "type": "systematic-review, Review",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T14:07:57.320475+00:00"
+    },
+    {
+      "title": "Perceived community exercise environment and loneliness among middle-aged and older adults in China: psychosocial-behavioral associations, latent profiles, and network analysis",
+      "url": "https://europepmc.org/article/PMC/PMC13634969",
+      "journal": "Frontiers in public health",
+      "date": "2026-10-06",
+      "type": "research-article, Journal Article",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T14:07:57.320475+00:00"
+    },
+    {
+      "title": "Childhood trauma and non-suicidal self-injury among Chinese adolescents: emotional impulsiveness, internet addiction and physical activity",
+      "url": "https://europepmc.org/article/PPR/PPR1334837",
+      "journal": "Journal",
+      "date": "2026-10-06",
+      "type": "Preprint",
+      "population": "Population and study limitations require full-text review",
+      "abstractExcerpt": "Abstract Childhood trauma is associated with adolescent non-suicidal self-injury (NSSI), but the emotional and behavioral factors underlying this association and the potential role of physical …",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T14:07:57.320475+00:00"
+    },
+    {
+      "title": "Associations between internet addiction and academic stress among college students: a sequential mediation model involving social anxiety and self-control",
+      "url": "https://europepmc.org/article/PMC/PMC13635109",
+      "journal": "Frontiers in psychology",
+      "date": "2026-10-06",
+      "type": "research-article, Journal Article",
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
+    },
+    {
+      "title": "Evaluating sports nutrition advice provided by general-purpose large language models for recreational female marathon runners: a multidimensional descriptive audit",
+      "url": "https://europepmc.org/article/PMC/PMC13635112",
+      "journal": "Frontiers in nutrition",
+      "date": "2026-10-06",
+      "type": "research-article, Journal Article",
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
+    },
+    {
+      "title": "Fisetin as a nutritional senotherapeutic: mechanisms, translational promise, and lessons from chronic kidney disease",
+      "url": "https://europepmc.org/article/PMC/PMC13636053",
+      "journal": "Frontiers in nutrition",
+      "date": "2026-10-06",
+      "type": "review-article, Review",
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
+    },
+    {
+      "title": "The impact of digital and E-health literacy on college students’ mental health: the chain mediation effect of internet addiction and sleep quality",
+      "url": "https://europepmc.org/article/PMC/PMC13635335",
+      "journal": "Frontiers in public health",
+      "date": "2026-10-06",
+      "type": "research-article, Journal Article",
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
+    },
+    {
+      "title": "Platform-specific digital media use and psychological distress among Turkish adults: evidence from a nationally representative, cross-sectional survey",
+      "url": "https://europepmc.org/article/PMC/PMC13635173",
+      "journal": "Frontiers in public health",
+      "date": "2026-10-06",
+      "type": "research-article, Journal Article",
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
+    },
+    {
+      "title": "Human CD1c-autoreactive T-cells recognise Mycobacterium tuberculosis-infected antigen-presenting cells and display cytotoxic effector programmes",
+      "url": "https://europepmc.org/article/PMC/PMC13638199",
+      "journal": "eLife",
+      "date": "2026-10-06",
+      "type": "research-article, Journal Article",
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00",
+      "visible": false,
+      "reviewNote": "Archived search result outside the everyday nutrition, activity and sleep scope."
+    },
+    {
+      "title": "Precision-cut tumor slices: a biomimetic tool for accelerating oncological development from basic research to clinical translation",
+      "url": "https://europepmc.org/article/PMC/PMC13635880",
+      "journal": "Frontiers in physiology",
+      "date": "2026-10-06",
+      "type": "review-article, Review",
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00",
+      "visible": false,
+      "reviewNote": "Archived search result outside the everyday nutrition, activity and sleep scope."
+    },
+    {
+      "title": "Does getting online help low-income adults eat better? Digital access and BMI-based nutritional imbalance in China",
+      "url": "https://europepmc.org/article/PMC/PMC13635890",
+      "journal": "Frontiers in nutrition",
+      "date": "2026-10-06",
+      "type": "research-article, Journal Article",
+      "population": "Population and study limitations require full-text review",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T06:30:25.614894+00:00"
+    }
+  ],
+  "researchChecked": "2026-10-10T08:26:03.320212+00:00",
+  "researchUpdated": "2026-10-10T08:26:03.320212+00:00"
+}
